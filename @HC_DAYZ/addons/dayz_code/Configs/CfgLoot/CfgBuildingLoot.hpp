@@ -292,15 +292,15 @@ class CfgBuildingLoot {
 			{"Skin_Pilot_EP1_DZ","magazine",0.03},
 		//weapons
 			{"FN_FAL","weapon",0.04},
-<<<<<<< HEAD
+
 			{"Mk_48_DZ","weapon",0.03},
 			{"M249_DZ","weapon",0.04},
-=======
+
 			{"FN_FAL_ANPVS4","weapon",0.01},
 			{"RH_Mk48mod1","weapon",0.03},
 			{"RH_M249","weapon",0.04},
 			{"RH_PDW_EOTECH","weapon",0.04},
->>>>>>> CLIENT: loot update
+
 			{"BAF_L85A2_RIS_Holo","weapon",0.03},
 			{"G36C","weapon",0.03},
 			{"G36C_camo","weapon",0.03},
@@ -599,8 +599,6 @@ class CfgBuildingLoot {
 			{"ACE_SPAS12","weapon",0.07},
 			{"Remington870_lamp","weapon",0.06},
 			//556
-			{"","weapon",0.01},
-			{"","weapon",0.01},
 			{"RH_M4aim_wdl","weapon",0.03},
 			{"RH_M4gleotech_wdl","weapon",0.01},
 			{"RH_m16a2","weapon",0.04},
@@ -609,9 +607,6 @@ class CfgBuildingLoot {
 			{"DMR_DZ","weapon",0.02},
 			{"RH_m4","weapon",0.04},
 			{"ACE_M14_ACOG","weapon",0.03},
-			{"G36_C_SD_camo","weapon",0.01},
-			{"ACE_SOC_M4A1_Aim","weapon",0.02},
-			{"ACE_SOC_M4A1_Eotech","weapon",0.02},
 			{"RH_m4sbreotech","weapon",0.03},
 			//762
 			//SNIPER
