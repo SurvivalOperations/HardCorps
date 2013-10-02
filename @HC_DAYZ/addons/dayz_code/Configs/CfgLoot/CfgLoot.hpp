@@ -8,7 +8,6 @@ class CfgLoot {
 	#include "BuildingLoot\militaryEASTcrash.hpp"
 	#include "BuildingLoot\militaryWESTcrash.hpp"
 	#include "BuildingLoot\Hospital.hpp"
-	//#include "BuildingLoot\Military.hpp"
 	#include "BuildingLoot\Hunter.hpp"
 	
 	//Zed Loot
@@ -176,6 +175,7 @@ class CfgLoot {
 		{"HandChemGreen",0.04},
 		{"HandChemBlue",0.04},
 		{"HandChemRed",0.04},
+		{"RH_30Rnd_6x35_PDW",0.02},
 	//drinks
 		{"ItemSodaEmpty",0.06},
 		{"ItemSodaCoke",0.01},
@@ -248,6 +248,7 @@ class CfgLoot {
 		{"HandChemGreen",0.04},
 		{"HandChemBlue",0.04},
 		{"HandChemRed",0.04},
+		{"RH_30Rnd_6x35_PDW",0.02},
 	//drinks
 		{"ItemSodaEmpty",0.06},
 		{"ItemSodaCoke",0.01},

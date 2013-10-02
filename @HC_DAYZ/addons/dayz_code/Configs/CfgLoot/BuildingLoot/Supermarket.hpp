@@ -17,6 +17,7 @@ Supermarket[] = {
 	{"HandChemBlue",0.04},
 	{"HandChemRed",0.04},
 	{"HandRoadFlare",0.05},
+	{"RH_20Rnd_762x51_AR10",0.01},
 //drinks
 	{"ItemWaterbottleUnfilled",0.04},
 	{"ItemWaterbottle",0.01},

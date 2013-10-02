@@ -185,6 +185,7 @@ class CfgBuildingLoot {
 			{"ACE_Earplugs","weapon",0.03},
 		//weapons
 			{"RH_mk2","weapon",0.02},
+			{"RH_ar10","weapon",0.01},
 			{"RH_mk22","weapons",0.02},
 			{"LeeEnfield","weapon",0.01},
 			{"RH_python","weapon",0.01},
@@ -202,8 +203,8 @@ class CfgBuildingLoot {
 		//multiple spawns		
 			{"","food",0.05},
 			{"","Supermarket",0.50},
-			{"","trash",0.30},
-			{"","generic",0.80}
+			{"","trash",1},
+			{"","generic",0.50}
 		};
 	};	
 	class Office: Residential {
@@ -224,8 +225,8 @@ class CfgBuildingLoot {
 			{"ItemPainkiller","magazine",0.04},
 		//bags
 		//multiple spawns
-			{"","trash",0.30},
-			{"","generic",0.80}
+			{"","trash",0.80},
+			{"","generic",0.60}
 		};
 	};
 	class InfectedCamps: Default { //5
@@ -273,7 +274,7 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
 		//multiple spawns
 			{"","medical",0.10},
-			{"","trash",0.30},
+			{"","trash",0.80},
 			{"","generic",0.80}
 		};
 	};
@@ -291,8 +292,15 @@ class CfgBuildingLoot {
 			{"Skin_Pilot_EP1_DZ","magazine",0.03},
 		//weapons
 			{"FN_FAL","weapon",0.04},
+<<<<<<< HEAD
 			{"Mk_48_DZ","weapon",0.03},
 			{"M249_DZ","weapon",0.04},
+=======
+			{"FN_FAL_ANPVS4","weapon",0.01},
+			{"RH_Mk48mod1","weapon",0.03},
+			{"RH_M249","weapon",0.04},
+			{"RH_PDW_EOTECH","weapon",0.04},
+>>>>>>> CLIENT: loot update
 			{"BAF_L85A2_RIS_Holo","weapon",0.03},
 			{"G36C","weapon",0.03},
 			{"G36C_camo","weapon",0.03},
@@ -336,7 +344,7 @@ class CfgBuildingLoot {
 		//weapons
 			{"RH_tt33","weapon",0.04},
 			{"RH_vz61","weapon",0.03},
-			{"RH_akm","weapon",0.03}, 
+			{"RH_akm","weapon",0.03},
 			{"RH_aks47","weapon",0.03}, 
 			{"M14_EP1","weapon",0.02},
 			{"RH_bizonsdk","weapon",0.04},
@@ -375,7 +383,7 @@ class CfgBuildingLoot {
 		//mags special
 		//bags
 		//multiple spawns
-			{"","trash",0.30},
+			{"","trash",0.50},
 			{"","hospital",0.60}
 		};
 	};
@@ -400,7 +408,7 @@ class CfgBuildingLoot {
 			
 		//weapons
 			//PISTOL
-			{"UZI_EP1","weapon",0.05},
+			{"RH_PDW","weapon",0.05},
 			{"RH_mk22sd","weapon",0.01},
 			{"RH_aps","weapon",0.03},
 			//SHOTGUN
@@ -430,8 +438,8 @@ class CfgBuildingLoot {
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
 		//multiple spawns
 			{"","militaryEast",0.60},
-			{"","trash",0.30},
-			{"","generic",0.50}
+			{"","trash",0.90},
+			{"","generic",0.40}
 		};
 	};
 	class MilitaryWest: Default {
@@ -456,26 +464,33 @@ class CfgBuildingLoot {
 		//weapons
 			//PISTOL
 			{"RH_g17","weapon",0.08},
-			{"UZI_EP1","weapon",0.05},
-			{"M9SD","weapon",0.01},
+			{"RH_PDW","weapon",0.05},
+			{"RH_m9sd","weapon",0.01},
 			{"RH_m1911old","weapon",0.05},
-			{"M9","weapon",0.05},			
+			{"RH_m9","weapon",0.05},			
 			//SHOTGUN
 			{"Remington870_lamp","weapon",0.05},
 			{"M1014","weapon",0.06},
 			//556
-			{"M16A2","weapon",0.05},
-			{"M16A2GL","weapon",0.02},
-			{"M4A1_Aim","weapon",0.03},
-			{"ACE_M4","weapon",0.04},
-			{"M4A3_CCO_EP1","weapon",0.02},
+			{"RH_m4acog","weapon",0.02},
+			{"RH_m4r","weapon",0.02},
+			{"RH_m16a2s","weapon",0.01},
+			{"RH_m16a4acog","weapon",0.02},
+			{"RH_m16a4","weapon",0.04},
+			{"RH_m16a2","weapon",0.04},
+			{"RH_m16a2gl","weapon",0.03},
+			{"RH_m4aim","weapon",0.02},
+			{"RH_m4","weapon",0.04},
+			{"RH_m4gl","weapon",0.03},
 			//762
 			//SMG
 			{"MP5A5","weapon",0.04},
 			{"MP5SD","weapon",0.01},
 			//MG
+			{"RH_M249","weapon",0.01},
 			//SNIPER
-			{"M14_EP1","weapon",0.03},		
+			{"RH_mk12","weapon",0.03},
+					
 		//special
 		//mags special
 			{"ItemSandbag","magazine",0.04},
@@ -484,8 +499,8 @@ class CfgBuildingLoot {
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
 		//multiple spawns
 			{"","militaryWest",0.60},
-			{"","trash",0.30},
-			{"","generic",0.50}
+			{"","trash",0.90},
+			{"","generic",0.40}
 		};
 	};
 	class MilitarySpecialEast: Default {
@@ -511,7 +526,7 @@ class CfgBuildingLoot {
 			{"ACE_GlassesBalaklava","weapon",0.03},
 		//Pistol
 			{"RH_mk22sd","weapon",0.02},
-			{"UZI_EP1","weapon",0.08},
+			{"RH_PDW","weapon",0.08},
 
 		//weapons
 			//shotgun
@@ -545,8 +560,8 @@ class CfgBuildingLoot {
 			{"HC_Ruck_BLK","object",0.01}, // 24
 
 		//multiple spawns
-			{"","militaryEast",0.70},
-			{"","trash",0.70}
+			{"","militaryEast",0.60},
+			{"","trash",1.10}
 			//{"","generic",0.50}
 		};
 	};
@@ -575,8 +590,8 @@ class CfgBuildingLoot {
 		//Pistol
 			{"RH_usp","weapon",0.04}, 
 			{"RH_g18","weapon",0.03},	
-			{"M9SD","weapon",0.02},
-			{"UZI_EP1","weapon",0.08},
+			{"RH_m9sd","weapon",0.02},
+			{"RH_PDW","weapon",0.08},
 			{"RH_g17","weapon",0.07},
 
 		//weapons
@@ -584,24 +599,29 @@ class CfgBuildingLoot {
 			{"ACE_SPAS12","weapon",0.07},
 			{"Remington870_lamp","weapon",0.06},
 			//556
-			{"M249_DZ","weapon",0.01},
-			{"M16A2","weapon",0.05},
-			{"M16A2GL","weapon",0.05},
-			{"M4A1_Aim","weapon",0.02},
+			{"","weapon",0.01},
+			{"","weapon",0.01},
+			{"RH_M4aim_wdl","weapon",0.03},
+			{"RH_M4gleotech_wdl","weapon",0.01},
+			{"RH_m16a2","weapon",0.04},
+			{"RH_m16a2gl","weapon",0.04},
+			{"RH_m4aim","weapon",0.02},
 			{"DMR_DZ","weapon",0.02},
-			{"ACE_M4","weapon",0.05},
+			{"RH_m4","weapon",0.04},
 			{"ACE_M14_ACOG","weapon",0.03},
 			{"G36_C_SD_camo","weapon",0.01},
 			{"ACE_SOC_M4A1_Aim","weapon",0.02},
 			{"ACE_SOC_M4A1_Eotech","weapon",0.02},
-			{"M4A3_CCO_EP1","weapon",0.03},
+			{"RH_m4sbreotech","weapon",0.03},
 			//762
 			//SNIPER
-			{"M24","weapon",0.01},
-			{"M40A3","weapon",0.02},
+			{"RH_mk12mod1","weapon",0.02},
+			{"M24","weapon",0.02},
+			{"M40A3","weapon",0.01},
 			//Machine Gun
+			{"RH_M249","weapon",0.02},
 			{"M240_DZ","weapon",0.01},
-			{"Mk_48_DZ","weapon",0.01},
+			{"RH_Mk48mod1","weapon",0.01},
 		//special
 			{"AmmoBoxSmall_556","object",0.04},
 			{"WeaponHolder_ItemCamoNet","object",0.03},
@@ -615,8 +635,8 @@ class CfgBuildingLoot {
 			{"HC_Ruck_WDL","object",0.01},	
 
 		//multiple spawns
-			{"","militaryWest",0.70},
-			{"","trash",0.70}
+			{"","militaryWest",0.60},
+			{"","trash",1.10}
 			//{"","generic",0.50}
 		};
 	};

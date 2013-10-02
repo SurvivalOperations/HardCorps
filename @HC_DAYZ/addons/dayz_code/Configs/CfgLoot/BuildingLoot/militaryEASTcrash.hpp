@@ -11,7 +11,7 @@ militaryEASTcrash[] = {
 	{"30Rnd_545x39_AK",0.04},
 	{"8Rnd_B_Beneli_74Slug",0.08},
 	{"ItemHeatPack",0.02},
-	{"30Rnd_9x19_UZI",0.02},
+	{"RH_30Rnd_6x35_PDW",0.02},
 	{"SmokeShell",0.02},
 	{"SmokeShellRed",0.02},
 	{"SmokeShellGreen",0.02},
