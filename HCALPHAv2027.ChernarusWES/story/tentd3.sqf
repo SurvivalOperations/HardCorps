@@ -1,2 +1,0 @@
-TitleText["MAR 16 2016: I only wish i could see my wife. It pains me to know i might never see her again. What happened, where did it all go wrong...and where did it start. Chernogorsk...Surely it will have answers...","PLAIN DOWN"];
-sleep 45
