@@ -1,4 +1,55 @@
-[MAC]
+[MAC] 2.0.4
 
 :code:
 + Added missing scripts and publicEH handlers for 'Chloroform'.
++ Added Custom Skin to player_wearClothes.sqf.
++ Added the ability to remove other players ears, to keep as a trophy.
+
+:gear:
++ Added ItemTrophyEar to dayz_equip.
++ Added ItemChloroform to dayz_equip.
+- Lowered the item counts to Medical Box. 
++ Added ItemChloroform to Medical Box.
+
+:loot table:
++ Added a trash table to every building.
++ Increased the generic table for every building.
+- Removed revolver_EP1.
+- Removed LeeEnfield.
+- Removed 7Rnd_45ACP_1911.
+- Removed 6Rnd_45ACP.
+- Removed Colt1911.
+- Remvoed glock17_EP1.
+- Removed ACE_USP.
+- Removed 17Rnd_9x19_glock17.
+- Removed ACE_Glock18.
+- Removed Makarov.
+- Removed MakarovSD.
+- Removed 8Rnd_9x18_Makarov.
+- Removed 8Rnd_9x18_MakarovSD.
++ Added RH_m1911.
++ Added RH_python.
++ Added RH_8Rnd_45cal_m1911.
++ Added RH_6Rnd_357_Mag.
++ Added RH_m1911old.
++ Added RH_8Rnd_9x19_Mk.
++ Added RH_mk22.
++ Added RH_g17.
++ Added RH_usp.
++ Added RH_17Rnd_9x19_g17.
++ Added RH_mk2.
++ Added RH_10Rnd_22LR_mk2.
++ Added RH_mk22sd.
++ Added RH_8Rnd_9x19_Mksd.
+
+:skins:
++ Added Doctor Skin.
++ Added Police Skin.
++ Added Pilot Skin.
++ Added Press Skin.
++ Added Suit Skin.
++ Changed Camo Skin.
+
+
+
+

@@ -58,53 +58,6 @@ progressLoadingScreen 1.0;
 	};
 };
 
-// -----------------------------------------------//
-// Hard Corps Modifications // additional scripts //
-// -----------------------------------------------//
-
-BTK = execVM "\z\addons\dayz_code\system\mission\BTK\Start.sqf";
-
-// --- //
-// ACE //
-// --- //
-
-if (isServer) then {
-ace_sys_tracking_markers_enabled = false;
-publicVariable "ace_sys_tracking_markers_enabled"
-}; 
-
-if (isServer) then {
-ace_sys_eject_fnc_weaponcheck = false;
-publicVariable "ace_sys_eject_fnc_weaponcheck"
-}; 
-
-ace_sys_eject_fnc_weaponcheck = {};
-
-if (isServer) then {
-ACE_NO_RECOGNIZE = true; 
-publicVariable "ACE_NO_RECOGNIZE"
-};
-
-player setVariable ["ACE_SYS_STAMINA_MULTI", 0.001];
-
-// --------- //
-// COMPLEXES //
-// --------- //
-
-if (player distance c2 > 500) then {skipTime -1};
-
-_handleLoop = []execVM "\z\addons\dayz_code\system\mission\Complexes\loop.sqf";
-
-if (isServer) then {
-null=[] execVM "\z\addons\dayz_code\system\mission\Complexes\randommilbases.sqf";
-null = [] execVM "\z\addons\dayz_code\system\mission\Complexes\radiospawnercamp.sqf";
-};
-
-
-// --------------------------------//
-// Hard Corps Modifications // END //
-// --------------------------------//
-
 if ((!isServer) && (isNull player) ) then
 {
 	waitUntil {!isNull player};

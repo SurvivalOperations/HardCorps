@@ -217,15 +217,42 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		s_player_siphonfuel = -1;
 	};
 
-	//Harvested
-	if (!alive _cursorTarget and _isAnimal and _hasKnife and !_isHarvested and _canDo) then {
+	// logic vars for addactions
+	_player_butcher = false;
+	_player_studybody = false;
+
+	// CURSOR TARGET NOT ALIVE
+	if (!_isAlive) then {
+
+		// Gut animal/zed
+		if((_isAnimal or _isZombie) and _hasKnife) then {
+			_isHarvested = _cursorTarget getVariable["meatHarvested",false];
+			if (!_isHarvested) then {
+				_player_butcher = true;
+			};
+		};
+
+		// Study body
+		if (_isMan and !_isZombie) then {
+			_player_studybody = true;
+		}
+	};
+
+
+	// Human Gut animal or zombie
+	if (_player_butcher) then {
 		if (s_player_butcher < 0) then {
-			s_player_butcher = player addAction [localize "str_actions_self_04", "\z\addons\dayz_code\actions\gather_meat.sqf",_cursorTarget, 3, true, true, "", ""];
+			if(_isZombie) then {
+				s_player_butcher = player addAction ["Cut off this persons ear!", "\z\addons\dayz_code\actions\gather_hparts.sqf",_cursorTarget, 3, true, true, "", ""];
+			} else {
+				s_player_butcher = player addAction [localize "str_actions_self_04", "\z\addons\dayz_code\actions\gather_meat.sqf",_cursorTarget, 3, true, true, "", ""];
+			};
 		};
 	} else {
 		player removeAction s_player_butcher;
 		s_player_butcher = -1;
 	};
+
 
 	//Fireplace Actions check
 	if (inflamed _cursorTarget and _hasRawMeat and _canDo and !a_player_cooking) then {
@@ -289,16 +316,6 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		};
 	};
 	
-	/*
-	if (_isMan and !_isAlive) then {
-		if (s_player_dragbody < 0) then {
-			s_player_dragbody = player addAction [localize "str_action_studybody", "\z\addons\dayz_code\actions\drag_body.sqf",_cursorTarget, 0, false, true, "",""];
-		};
-		} else {
-		player removeAction s_player_dragbody;
-		s_player_dragbody = -1;
-	};
-	*/
 	if (_isMan and !_isAlive and !_isZombie) then {
 		if (s_player_studybody < 0) then {
 			s_player_studybody = player addAction [localize "str_action_studybody", "\z\addons\dayz_code\actions\study_body.sqf",_cursorTarget, 0, false, true, "",""];
@@ -307,6 +324,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		player removeAction s_player_studybody;
 		s_player_studybody = -1;
 	};
+
 } else {
 	//Engineering
 	{dayz_myCursorTarget removeAction _x} forEach s_player_repairActions;s_player_repairActions = [];

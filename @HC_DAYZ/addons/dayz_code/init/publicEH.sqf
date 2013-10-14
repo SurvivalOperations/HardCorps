@@ -9,12 +9,14 @@
 "PVDZ_veh_SF"		addPublicVariableEventHandler {(_this select 1) call fnc_veh_handleRepair}; // repair a part from a vehicle
 "PVCDZ_obj_HideBody"		addPublicVariableEventHandler {hideBody (_this select 1)};
 "PVCDZ_obj_GutBody"		addPublicVariableEventHandler {(_this select 1) spawn local_gutObject};
+"dayzGutBodyH"		addPublicVariableEventHandler {(_this select 1) spawn local_gutObjectH};
 //Moved from isserver
 "PVCDZ_veh_SetFuel"		addPublicVariableEventHandler {(_this select 1) spawn local_setFuel};
 //"dayzDelLocal"		addPublicVariableEventHandler {(_this select 1) call object_delLocal};
 //"dayzVehicleInit"	addPublicVariableEventHandler {(_this select 1) call fnc_vehicleEventHandler};
 //"dayz_serverObjectMonitor"		addPublicVariableEventHandler {dayz_serverObjectMonitor = dayz_safety};
 "dayzInfectedCamps"		addPublicVariableEventHandler {(_this select 1) spawn infectedcamps};
+"dayz_chloroform"	addPublicVariableEventHandler {nul=(_this select 1) spawn player_chloroformed};	
 
 	"PVDZ_Server_changeOwner" addPublicVariableEventHandler {
 		//["agent","reciever"]

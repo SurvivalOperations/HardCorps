@@ -31,11 +31,12 @@ class CfgBuildingLoot {
 		//special
 		//mags special
 			{"ItemBookBible","magazine",0.03},
-			//{"8Rnd_9x18_Makarov","magazine",0.03}, //this is church! no weapons allowed :)
+			//{"8Rnd_9x18_RH_mk2","magazine",0.03}, //this is church! no weapons allowed :)
 		//bags
 		//multiple spawns	
 			{"","Church",0.50},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.60}
 		};
 	};
 	class Castle: Default {
@@ -59,7 +60,8 @@ class CfgBuildingLoot {
 			{"DZ_Patrol_Pack_EP1","object",0.01},
 		//Multiple spawns	
 			{"","Residential",0.60},
-			{"","generic",0.40}
+			{"","trash",0.30},
+			{"","generic",0.50}
 		};
 	};	
 	class Residential: Default {
@@ -73,12 +75,14 @@ class CfgBuildingLoot {
 		//tools
 			{"ItemWatch","generic",0.03},
 			{"ItemFlashlight","generic",0.05},
+			{"Skin_Functionary1_EP1_DZ","magazine",0.03},
 			//{"ItemFishingPole","generic",0.04}, //move it to boats and boatstations
 		//weapons
-			{"Makarov","weapon",0.02},
-			{"revolver_EP1","weapon",0.01},
+			{"RH_mk2","weapon",0.02},
+			{"RH_mk22","weapons",0.02},
+			{"RH_python","weapon",0.01},
 			{"MR43","weapon",0.02},
-			{"LeeEnfield","weapon",0.01},
+			{"RH_m1911","weapon",0.01},
 			{"MeleeBaseBallBat","weapon",0.02},
 		//special
 			{"WeaponHolder_ItemFuelcan","object",0.03},
@@ -90,7 +94,8 @@ class CfgBuildingLoot {
 			{"DZ_Assault_Pack_EP1","object",0.04},
 		//multiple spawns	
 			{"","Residential",0.50},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.70}
 		};
 	};
 	class Industrial: Default { //254
@@ -124,7 +129,8 @@ class CfgBuildingLoot {
 		//bags
 		//multiple spawns	
 			{"","Industrial",0.50},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.60}
 		};
 	};
 	class Farm: Default {
@@ -156,6 +162,7 @@ class CfgBuildingLoot {
 		//bags
 		//multiple spawns		
 			{"","Farm",0.50},
+			{"","trash",0.30},
 			{"","generic",0.50}
 		};
 	};
@@ -177,10 +184,10 @@ class CfgBuildingLoot {
 			{"Binocular","weapon",0.03},
 			{"ACE_Earplugs","weapon",0.03},
 		//weapons
-			{"Makarov","weapon",0.02},
-			//{"Colt1911","weapon",0.02}, //mil/police
+			{"RH_mk2","weapon",0.02},
+			{"RH_mk22","weapons",0.02},
 			{"LeeEnfield","weapon",0.01},
-			{"revolver_EP1","weapon",0.01},
+			{"RH_python","weapon",0.01},
 			{"Winchester1866","weapon",0.03},
 			{"Crossbow_DZ","weapon",0.01},
 			{"MR43","weapon", 0.01},			
@@ -194,8 +201,9 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
 		//multiple spawns		
 			{"","food",0.05},
-			{"","Supermarket",0.60},
-			{"","generic",0.50}
+			{"","Supermarket",0.50},
+			{"","trash",0.30},
+			{"","generic",0.80}
 		};
 	};	
 	class Office: Residential {
@@ -206,7 +214,9 @@ class CfgBuildingLoot {
 		//one spawn
 		//tools
 			{"ItemWatch","weapon",0.08},
-			{"ItemMap","weapon",0.06}, 
+			{"ItemMap","weapon",0.06},
+			{"Skin_RU_Policeman_DZ","magazine",0.03},
+			{"Skin_Haris_Press_EP1_DZ","magazine",0.03},
 		//weapons
 		//special
 		//mags special
@@ -214,6 +224,7 @@ class CfgBuildingLoot {
 			{"ItemPainkiller","magazine",0.04},
 		//bags
 		//multiple spawns
+			{"","trash",0.30},
 			{"","generic",0.80}
 		};
 	};
@@ -229,10 +240,11 @@ class CfgBuildingLoot {
 			{"ItemMatchbox","generic",0.06},
 			{"Binocular","weapon",0.06},
 		//weapons
-			{"Makarov","weapon",0.04},
-			//{"Colt1911","weapon",0.04}, //mil/police
+			{"RH_mk2","weapon",0.04},
+			{"RH_mk22","weapons",0.02},
+			//{"RH_m1911old","weapon",0.04}, //mil/police
 			{"LeeEnfield","weapon",0.03},
-			{"revolver_EP1","weapon",0.04},
+			{"RH_python","weapon",0.04},
 			{"Winchester1866","weapon",0.03},
 			{"Crossbow_DZ","weapon",0.01},
 			{"MR43","weapon",0.03},
@@ -261,7 +273,8 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
 		//multiple spawns
 			{"","medical",0.10},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.80}
 		};
 	};
 	class HeliCrashWEST: Default {
@@ -276,6 +289,7 @@ class CfgBuildingLoot {
 			{"NVGoggles","weapon",0.01},
 			{"ACE_Battery_Rangefinder","magazine",0.03}, 
 			{"ACE_Kestrel4500","weapon",0.01},
+			{"Skin_Pilot_EP1_DZ","magazine",0.03},
 		//weapons
 			{"FN_FAL","weapon",0.04},
 			{"FN_FAL_ANPVS4","weapon",0.01},
@@ -325,7 +339,7 @@ class CfgBuildingLoot {
 			{"RH_bizonsdk","weapon",0.04},
 			{"DMR_DZ","weapon",0.04},
 			{"RH_rpk74","weapon",0.02},
-			{"MakarovSD","weapon",0.02},
+			{"RH_mk2SD","weapon",0.02},
 		//special
 			{"MedBox0","object",0.05},
 			{"AmmoBoxSmall_762","object",0.3},
@@ -354,9 +368,11 @@ class CfgBuildingLoot {
 		//special
 			{"MedBox0","object",0.05},
 			{"MedBox1","object",0.02},
+			{"Skin_Doctor_DZ","magazine",0.05},
 		//mags special
 		//bags
 		//multiple spawns
+			{"","trash",0.30},
 			{"","hospital",0.60}
 		};
 	};
@@ -382,11 +398,11 @@ class CfgBuildingLoot {
 			
 		//weapons
 			//PISTOL
-			{"glock17_EP1","weapon",0.08},
+			{"RH_g17","weapon",0.08},
 			{"UZI_EP1","weapon",0.05},
 			{"M9SD","weapon",0.01},
-			{"MakarovSD","weapon",0.01},
-			{"Colt1911","weapon",0.05},
+			{"RH_mk22sd","weapon",0.01},
+			{"RH_m1911old","weapon",0.05},
 			{"M9","weapon",0.05},			
 			//SHOTGUN
 			{"Remington870_lamp","weapon",0.05},
@@ -418,7 +434,8 @@ class CfgBuildingLoot {
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
 		//multiple spawns
 			{"","military",0.60},
-			{"","generic",0.20}
+			{"","trash",0.30},
+			{"","generic",0.50}
 		};
 	};
 	class MilitarySpecial: Default {
@@ -444,12 +461,12 @@ class CfgBuildingLoot {
 			{"ACE_Kestrel4500","weapon",0.01},
 			{"ACE_GlassesBalaklavaGray","weapon",0.03},
 		//Pistol
-			{"ACE_USP","weapon",0.04}, 
-			{"ACE_Glock18","weapon",0.03},	
+			{"RH_usp","weapon",0.04}, 
+			{"RH_g18","weapon",0.03},	
 			{"M9SD","weapon",0.02},
-			{"MakarovSD","weapon",0.02},
+			{"RH_mk22sd","weapon",0.02},
 			{"UZI_EP1","weapon",0.08},
-			{"glock17_EP1","weapon",0.07},
+			{"RH_g17","weapon",0.07},
 
 		//weapons
 			//shotgun
@@ -502,7 +519,8 @@ class CfgBuildingLoot {
 
 		//multiple spawns
 			{"","military",0.70},
-			{"","generic",0.20}
+			{"","trash",0.30},
+			{"","generic",0.50}
 		};
 	};
 	class Hunting: Default {
@@ -533,6 +551,7 @@ class CfgBuildingLoot {
 		//bags
 		//multiple spawns
 			{"","hunter",0.10},
+			{"","trash",0.30},
 			{"","generic",0.50}
 		};
 	};

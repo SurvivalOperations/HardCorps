@@ -21,13 +21,13 @@ class CfgPatches {
 
 class CfgMods {
 	class DayZ {
-		dir = "DayZ";
-		name = "DayZ";
+		dir = "@HC_DAYZ";
+		name = "DayZ: Hard Corps";
 		picture = "z\addons\dayz_code\gui\mod.paa";
 		hidePicture = 0;
 		hideName = 0;
-		action = "http://www.dayzmod.com";
-		version = "2.0.3";
+		action = "http://www.survivaloperations.net";
+		version = "2.0.4";
 		hiveVersion = 0.96;
 		requiredAddons[] = {"Chernarus"};
 	};

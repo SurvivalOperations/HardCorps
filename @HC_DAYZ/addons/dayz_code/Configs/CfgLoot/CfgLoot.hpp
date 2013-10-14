@@ -16,8 +16,8 @@ class CfgLoot {
 	//med
 		{"ItemBandage",0.10},
 	//ammo
-		{"7Rnd_45ACP_1911",0.03},
-		{"6Rnd_45ACP",0.03},
+		{"RH_8Rnd_45cal_m1911",0.03},
+		{"RH_6Rnd_357_Mag",0.03},
 		{"15Rnd_W1866_Slug",0.03},
 		{"8Rnd_B_Beneli_74Slug",0.03},
 		{"HandRoadFlare",0.05},
@@ -32,9 +32,9 @@ class CfgLoot {
 		{"ItemBandage",0.06},
 		{"ItemPainkiller",0.03},
 	//ammo
-		{"8Rnd_9x18_Makarov",0.04},
-		//{"7Rnd_45ACP_1911",0.04}, //mil/police
-		{"6Rnd_45ACP",0.04},
+		{"RH_8Rnd_9x19_Mk",0.04},
+		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
+		{"RH_6Rnd_357_Mag",0.04},
 		//{"2Rnd_shotgun_74Slug",0.04}, //pellets preferred for m43
 		{"2Rnd_shotgun_74Pellets",0.08},
 	//drinks
@@ -50,9 +50,9 @@ class CfgLoot {
 	//med
 		{"ItemBandage",0.02},
 	//ammo
-		{"8Rnd_9x18_Makarov",0.04},
-		//{"7Rnd_45ACP_1911",0.04}, //mil/police
-		{"6Rnd_45ACP",0.04},
+		{"RH_8Rnd_9x19_Mk",0.04},
+		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
+		{"RH_6Rnd_357_Mag",0.04},
 		//{"2Rnd_shotgun_74Slug",0.04}, //pellets preferred for m43
 		{"2Rnd_shotgun_74Pellets",0.08},
 		//{"20Rnd_762x51_FNFAL",0.02}, //really (one of the best ammo)?
@@ -81,9 +81,10 @@ class CfgLoot {
 		{"ItemAntibacterialWipe",0.03},
 		{"ItemHeatPack",0.04},
 	//ammo
-		{"8Rnd_9x18_Makarov",0.09},
-		//{"7Rnd_45ACP_1911",0.04}, //mil/police
-		{"6Rnd_45ACP",0.04},
+		{"RH_8Rnd_9x19_Mk",0.09},
+		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
+		{"RH_6Rnd_357_Mag",0.04},
+		{"RH_8Rnd_9x19_Mk",0.04},
 		//{"2Rnd_shotgun_74Slug",0.04}, //pellets preferred for m43
 		{"2Rnd_shotgun_74Pellets",0.08},
 		{"5x_22_LR_17_HMR",0.01},
@@ -155,14 +156,14 @@ class CfgLoot {
 		{"ItemMorphine",0.01},
 		{"ItemHeatPack",0.04},
 	//ammo
-		{"7Rnd_45ACP_1911",0.04},
+		{"RH_8Rnd_45cal_m1911",0.04},
 		{"30Rnd_556x45_Stanag",0.02},
 		{"75Rnd_545x39_RPK",0.02},
 		{"20Rnd_762x51_DMR",0.02},
 		{"20Rnd_762x51_FNFAL",0.04},
-		{"17Rnd_9x19_glock17",0.05},
+		{"RH_17Rnd_9x19_g17",0.05},
 		{"15Rnd_9x19_M9SD",0.01},
-		{"8Rnd_9x18_MakarovSD",0.01},
+		{"RH_8Rnd_9x19_Mksd",0.01},
 		{"15Rnd_9x19_M9",0.03},
 		{"30Rnd_762x39_AK47",0.02},
 		{"30Rnd_545x39_AK",0.02},
@@ -231,6 +232,23 @@ class CfgLoot {
 	};
 	explosives[] = {
 		{"ItemCards",0.02}
+	};
+	trash[] = {
+		{"ItemSodaCokeEmpty",0.05},
+		{"ItemSodaPepsiEmpty",0.03},
+		{"FoodCanUnlabeledEmpty",0.05},
+		{"FoodCanRusUnlabeledEmpty",0.02},
+		{"FoodCanRusPorkEmpty",0.02},
+		{"FoodCanRusPeasEmpty",0.03},
+		{"FoodCanRusMilkEmpty",0.02},
+		{"FoodCanRusCornEmpty",0.05},
+		{"FoodCanRusStewEmpty",0.03},
+		{"TrashTinCan",0.05},
+		{"TrashJackDaniels",0.02},
+		{"ItemSodaEmpty",0.03},
+		{"ItemTrashToiletpaper",0.01},
+		{"ItemTrashRazor",0.01},
+		{"ItemCards",0.02}		
 	};
 
 };
