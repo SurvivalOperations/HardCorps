@@ -242,7 +242,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	// Human Gut Human
 	if (_player_butcher) then {
 		if (s_player_butcher < 0) then {
-			if(_isMan) then {
+			if(_isMan and !_isZombie) then {
 				s_player_butcher = player addAction ["Cut off this persons ear!", "\z\addons\dayz_code\actions\gather_hparts.sqf",_cursorTarget, 3, true, true, "", ""];
 			} else {
 				s_player_butcher = player addAction [localize "str_actions_self_04", "\z\addons\dayz_code\actions\gather_meat.sqf",_cursorTarget, 3, true, true, "", ""];

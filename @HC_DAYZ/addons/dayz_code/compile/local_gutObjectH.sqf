@@ -3,7 +3,7 @@ _humanbody = _this select 0;
 // _qty = _this select 1;
 
 if (local _humanbody) then {
-	_humanbosy addMagazine "ItemTrophyEar";
+	_humanbody addMagazine "ItemTrophyEar";
 	
 	[time, _humanbody] spawn { 
 		private ["_timer", "_body"]; 
