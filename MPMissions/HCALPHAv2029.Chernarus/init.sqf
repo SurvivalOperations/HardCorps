@@ -52,7 +52,6 @@ if (isserver) then {execVM "oldbases.sqf";};
  
 // Add any 3rd party init.sqf scripts here
  
-[] ExecVM "BTK\Gasmask\start.sqf";
 [] ExecVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
 
 if (player distance c2 > 500) then {skipTime -1};
@@ -72,7 +71,9 @@ waitUntil {player == player};
 null=[] execVM "randommilbases.sqf";
  
 nul = ["GuerillaCacheBox_EP1",["mkr1", "mkr2", "mkr3", "mkr4", "mkr5", "mkr6"]] execVM "rndmkr.sqf";
- 
+
+// ---- Start BTK Gasmask
+[] execVM "BTK\Gasmask\Start.sqf";
 //////////////////////////////////////////////////////////////////////////////////////
 //CRATES SECTION ONLY
 /////////////////////////////////////////////////////////////////////////////////////
@@ -88,7 +89,6 @@ nul = ["GuerillaCacheBox_EP1",["mkr1", "mkr2", "mkr3", "mkr4", "mkr5", "mkr6"]] 
 [campbox_2] execVM "crate\radio.sqf";
 [campbox_3] execVM "crate\radio.sqf";
 */
- 
 ////////////////////////////////////////////////////////////////////////////////////
  
 
