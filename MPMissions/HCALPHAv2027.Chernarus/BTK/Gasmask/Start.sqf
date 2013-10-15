@@ -68,7 +68,7 @@ BTK = execVM "BTK\Gasmask\Engine.sqf";
 		sleep 5;
 		waitUntil {(alive player)};
 		player setVariable ["BTK_GasmaskRadiation", false];
-		player setVariable ["BTK_GasmaskUnsafe", true];
+		player setVariable ["BTK_GasmaskUnsafe", false];
 		player setVariable ["BTK_GasmaskArea", false];
 		player setVariable ["ACE_Identity", "ACE_Original_Identity"];
 	};
