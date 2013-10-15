@@ -47,25 +47,17 @@ dayz_spawnInfectedSite_clutterCutter = 0; // Infected Base Settings / 0 =  loot 
 //Lights
 //[] execVM "custom\tower_lights.sqf";             //Tower lights
 //[] execVM "custom\change_streetlights.sqf";     //House lights
- 
-if (player distance c2 > 500) then {skipTime -1};
- 
-_handleLoop = []execVM "Complexes\loop.sqf";
- 
-//if (isserver) then {execVM "oldbases.sqf";};
+  
+if (isserver) then {execVM "oldbases.sqf";};
  
 // Add any 3rd party init.sqf scripts here
  
-// ---- Start BTK Gasmask 
-if (!(isServer) && !(isDedicated) && (player != player) || (isNull player)) then {
-  waitUntil {(player == player) && !(isNull player)};
-};
-BTK = execVM "BTK\Gasmask\start.sqf";
+[] ExecVM "BTK\Gasmask\start.sqf";
+[] ExecVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
 
+if (player distance c2 > 500) then {skipTime -1};
  
-[] execVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
- 
-};
+_handleLoop = []execVM "Complexes\loop.sqf";
 
 ///////////////STAMINA
 waitUntil {(!isNull player)};
