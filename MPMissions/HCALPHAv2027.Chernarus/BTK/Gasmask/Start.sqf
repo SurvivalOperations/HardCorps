@@ -33,7 +33,7 @@ BTK_Gasmask_HintUnProtectedBnd = "Press <t color='#eaeaea'>(Right application ke
 
 
 // ---- SETTINGS (Conterminated areas)
-BTK_Gasmask_Area1 = cont1;      // - Object (if not used, set to objNull)
+BTK_Gasmask_Area1 = Cont1Area1;      // - Object (if not used, set to objNull)
 BTK_Gasmask_Area1Radius = 400;       // - Radiation area around the object (in meter)
 BTK_Gasmask_Area2 = objNull;        // - Object (if not used, set to objNull)
 BTK_Gasmask_Area2Radius = 1;        // - Radiation area around the object (in meter)
