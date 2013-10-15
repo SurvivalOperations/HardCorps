@@ -1,3 +1,12 @@
+[MAC] 2.0.5
+
+:code:
+[fixed] the remove ear function to work as intended. On players, not zombies.
+
+:loot:
+[removed]
+[added]
+
 [MAC] 2.0.4
 
 :code:
