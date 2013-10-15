@@ -1222,6 +1222,7 @@ class Mission
 				class Item0
 				{
 					position[]={2946.3259,237.31767,5638.5928};
+					azimut=110.31055;
 					id=1302;
 					side="LOGIC";
 					vehicle="Logic";
