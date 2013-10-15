@@ -1,4 +1,4 @@
-militaryWEST[] = {
+militaryWESTcrash[] = {
 //med
 	{"ItemBandage",0.06},
 	{"ItemPainkiller",0.06},
@@ -6,8 +6,8 @@ militaryWEST[] = {
 	{"ItemHeatPack",0.02},
 //ammo
 	{"30Rnd_556x45_Stanag",0.04},
-	{"17Rnd_9x19_glock17",0.05},
-	{"7Rnd_45ACP_1911",0.05},
+	{"RH_17Rnd_9x19_g17",0.05},
+	{"RH_8Rnd_45cal_m1911",0.05},
 	{"15Rnd_9x19_M9",0.02},
 	{"8Rnd_B_Beneli_74Slug",0.04},
 	{"1Rnd_HE_M203",0.01},
@@ -23,6 +23,7 @@ militaryWEST[] = {
 	{"HandChemGreen",0.02},
 	{"HandChemBlue",0.02},
 	{"HandChemRed",0.02},
+	{"RH_6Rnd_44_Mag",0.02},
 //drinks
 	{"ItemWaterbottleUnfilled",0.02},
 //food

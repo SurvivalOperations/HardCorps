@@ -5,8 +5,8 @@ class CfgLoot {
 	#include "BuildingLoot\Industrial.hpp"
 	#include "BuildingLoot\Residential.hpp"
 	#include "BuildingLoot\Church.hpp"
-	#include "BuildingLoot\militaryEAST.hpp"
-	#include "BuildingLoot\militaryWEST.hpp"
+	#include "BuildingLoot\militaryEASTcrash.hpp"
+	#include "BuildingLoot\militaryWESTcrash.hpp"
 	#include "BuildingLoot\Hospital.hpp"
 	//#include "BuildingLoot\Military.hpp"
 	#include "BuildingLoot\Hunter.hpp"
@@ -84,7 +84,6 @@ class CfgLoot {
 		{"RH_8Rnd_9x19_Mk",0.09},
 		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
 		{"RH_6Rnd_357_Mag",0.04},
-		{"RH_8Rnd_9x19_Mk",0.04},
 		//{"2Rnd_shotgun_74Slug",0.04}, //pellets preferred for m43
 		{"2Rnd_shotgun_74Pellets",0.08},
 		{"5x_22_LR_17_HMR",0.01},
@@ -149,7 +148,74 @@ class CfgLoot {
 	//special
 	//trash
 	};
-	military[] = {
+	militaryEast[] = {
+	//med
+		{"ItemBandage",0.04},
+		{"ItemPainkiller",0.02},
+		{"ItemMorphine",0.01},
+		{"ItemHeatPack",0.04},
+	//ammo\
+		{"RH_20Rnd_9x39_SP6_mag",0.03},
+		{"RH_20Rnd_9x39_val_mag",0.01},
+		{"RH_20Rnd_9x18_aps",0.02},
+		{"RH_45Rnd_545x39_mag",0.02},
+		{"RH_75Rnd_762x39_mag",0.02},
+		{"64Rnd_9x19_Bizon",0.04},
+		{"20Rnd_762x51_FNFAL",0.04},
+		{"RH_8Rnd_9x19_Mksd",0.01},
+		{"30Rnd_762x39_AK47",0.02},
+		{"30Rnd_545x39_AK",0.02},
+		{"8Rnd_B_Beneli_74Slug",0.04},
+		{"HandGrenade_east",0.01},
+		{"SmokeShell",0.04},
+		{"SmokeShellRed",0.04},
+		{"SmokeShellGreen",0.04},
+		{"8Rnd_B_Beneli_Pellets",0.04},
+		{"30Rnd_9x19_MP5",0.02},
+		{"30Rnd_9x19_MP5SD",0.01},
+		{"HandChemGreen",0.04},
+		{"HandChemBlue",0.04},
+		{"HandChemRed",0.04},
+	//drinks
+		{"ItemSodaEmpty",0.06},
+		{"ItemSodaCoke",0.04},
+		{"ItemSodaPepsi",0.04},
+	//food
+		{"FoodCanBakedBeans",0.05},
+		{"FoodCanSardines",0.05},
+		{"FoodCanFrankBeans",0.05},
+		{"FoodCanPasta",0.05},
+		{"FoodCanUnlabeled",0.04},
+		{"FoodPistachio",0.03},
+		{"FoodNutmix",0.04},
+		{"FoodCanRusUnlabeled",0.05},
+		{"FoodCanRusStew",0.05},
+		{"FoodCanRusPork",0.05},
+		{"FoodCanRusPeas",0.05},
+		{"FoodCanRusMilk",0.04},
+		{"FoodCanRusCorn",0.05},
+		{"FoodMRE",0.03},
+	//special
+		{"ACE_RDG2",0.03},
+		{"ACE_ANM14",0.01},
+	//trash
+		{"ItemSodaCokeEmpty",0.05},
+		{"ItemSodaPepsiEmpty",0.03},
+		{"FoodCanUnlabeledEmpty",0.05},
+		{"FoodCanRusUnlabeledEmpty",0.02},
+		{"FoodCanRusPorkEmpty",0.02},
+		{"FoodCanRusPeasEmpty",0.03},
+		{"FoodCanRusMilkEmpty",0.02},
+		{"FoodCanRusCornEmpty",0.05},
+		{"FoodCanRusStewEmpty",0.03},
+		{"TrashTinCan",0.05},
+		{"TrashJackDaniels",0.02},
+		{"ItemSodaEmpty",0.03},
+		{"ItemTrashToiletpaper",0.01},
+		{"ItemTrashRazor",0.01},
+		{"ItemCards",0.02}
+	};
+	militaryWest[] = {
 	//med
 		{"ItemBandage",0.04},
 		{"ItemPainkiller",0.02},
@@ -158,15 +224,10 @@ class CfgLoot {
 	//ammo
 		{"RH_8Rnd_45cal_m1911",0.04},
 		{"30Rnd_556x45_Stanag",0.02},
-		{"75Rnd_545x39_RPK",0.02},
 		{"20Rnd_762x51_DMR",0.02},
-		{"20Rnd_762x51_FNFAL",0.04},
 		{"RH_17Rnd_9x19_g17",0.05},
 		{"15Rnd_9x19_M9SD",0.01},
-		{"RH_8Rnd_9x19_Mksd",0.01},
 		{"15Rnd_9x19_M9",0.03},
-		{"30Rnd_762x39_AK47",0.02},
-		{"30Rnd_545x39_AK",0.02},
 		{"5Rnd_762x51_M24",0.01},
 		{"8Rnd_B_Beneli_74Slug",0.04},
 		{"1Rnd_HE_M203",0.01},
@@ -175,7 +236,6 @@ class CfgLoot {
 		{"1Rnd_Smoke_M203",0.01},		
 		{"200Rnd_556x45_M249",0.01},
 		{"HandGrenade_west",0.01},
-		{"HandGrenade_east",0.01},
 		{"SmokeShell",0.04},
 		{"SmokeShellRed",0.04},
 		{"SmokeShellGreen",0.04},
@@ -207,6 +267,9 @@ class CfgLoot {
 		{"FoodCanRusCorn",0.05},
 		{"FoodMRE",0.03},
 	//special
+		{"ACE_M84",0.02},
+		{"ACE_ANM14",0.01},
+		{"ACE_TRIPFLARE_M",0.03},
 	//trash
 		{"ItemSodaCokeEmpty",0.05},
 		{"ItemSodaPepsiEmpty",0.03},
@@ -222,12 +285,6 @@ class CfgLoot {
 		{"ItemSodaEmpty",0.03},
 		{"ItemTrashToiletpaper",0.01},
 		{"ItemTrashRazor",0.01},
-		{"ItemCards",0.02}
-	};
-	nato_weapons[] = {
-		{"ItemCards",0.02}
-	};
-	ru_weapons[] = {
 		{"ItemCards",0.02}
 	};
 	explosives[] = {
@@ -252,31 +309,3 @@ class CfgLoot {
 	};
 
 };
-
-  //"ACE_TRIPFLARE_M", "ACE_M15"
-  //{"ItemSodaSmasht",0.01}, //4 this supermarket, residential, industrail
-  //{"FoodCanPowell",0.01}, //4 this, indy, res, super
-  //{"FoodChipsSulahoops",0.01}, //4 this, indy, super, church
-  
-  //{"ItemSodaClays",0.01}, //3 this, supermarket, chruch
-  //{"ItemSodaDrwaste",0.01}, //3 supermarket, industrail
-  //{"ItemSodaLemonade",0.01},  //3 supermarket, farm, this
-  //{"ItemSodaMzly",0.01},  //3 res ,super, church
-  //{"FoodCanCurgon",0.01}, //3 this, super, church
-  //{"FoodCanDemon",0.01}, //3 this, res,super
-  //{"FoodCanFraggleos",0.01}, //3 this, res, super.
-  //{"FoodCanDerpy",0.01}, //3 this, res, super
-  //{"FoodCanOrlok",0.01}, //3 this, res, super
-  //{"FoodCanTylers",0.01}, //3 this, res, super
-  //{"FoodCanHerpy",0.001}, //3 this, res, super.
-  
-  //{"ItemSodaR4z0r",0.01}, //2 this, supermarket
-  //{"ItemSodaLvg",0.01}, //2 this, supermarket
-  //{"ItemSodaRabbit",0.01}, //2 super, this
-  //{"FoodCanBadguy",0.01}, //2 this, super
-  //{"FoodCanBoneboy",0.01}, //2 this supper
-  //{"FoodCanCorn",0.01}, //2 this super
-  //{"FoodChipsMysticales",0.01}, //2 this, super
-  //{"FoodCandyAnders",0.01}, //2 this, super
-  //{"FoodCandyLegacys",0.01}, //2 this, super
-  //{"FoodCandyMintception",0.01}, //2 this, super

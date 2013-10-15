@@ -2,8 +2,8 @@ Residential[] = {
 //med
 	{"ItemAntibacterialWipe",0.04},
 //ammo
-	{"8Rnd_9x18_Makarov",0.09},
-	{"7Rnd_45ACP_1911",0.03},
+	{"RH_8Rnd_9x19_Mk",0.09},
+	{"RH_8Rnd_45cal_m1911",0.03},
 	{"10x_303",0.04},
 	{"HandRoadFlare",0.07},
 //drinks

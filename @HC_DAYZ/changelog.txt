@@ -1,11 +1,40 @@
+----------------------------------------------------------------------------------
+
 [MAC] 2.0.5
 
 :code:
 [fixed] the remove ear function to work as intended. On players, not zombies.
 
 :loot:
+[changed] Military Tents to have Western Weapons.
+[changed] Military Buildings to have Eastern Weapons.
+[updated] SuperMarket.hpp
+[updated] Residential.hpp
+[updated] Military.hpp
+[updated] militaryEAST.hpp
+[updated] militaryWEST.hpp
 [removed]
-[added]
+[added] ItemChloroform to 'pile: hospital'.
+[added] RH_tt33 & RH_8Rnd_762_tt33 to Crashed Choppers (EAST).
+[added] RH_vz61 & RH_20Rnd_32cal_vz61 to Crashed Choppers (EAST).
+[added] RH_g19t to Crashed Choppers (WEST).
+[added] RH_bull & RH_6Rnd_44_Mag to Crashed Choppers (WEST).
+[added] RH_20Rnd_9x39_SP6_mag & RH_oc14 to MilitaryEAST.
+[added] RH_oc14gl to MilitaryEAST.
+[added] RH_asval & RH_20Rnd_9x39_val_mag to MilitaryEAST.
+[added] RH_aps & RH_20Rnd_9x18_aps to MilitaryEAST.
+[added] RH_svdb & RH_svd to MilitarySpecialEast.
+[added] RH_gr1 to MilitarySpecialEast.
+[added] RH_rpk47 & RH_75Rnd_762x39_mag to MilitarySpecialEast.
+[added] RH_rpk74 & RH_45Rnd_545x39_mag to MilitaryEast & MilitarySpecialEast.
+[added] RH_bizon & 64Rnd_9x19_Bizon to MilitaryEast.
+[added] ACE_ANM14 to both Military spawn tables.
+[added] Explosives! MON50, Claymore, Bouncing Betty, IED, OSM4, M86PDM, M84, C4, and Pipe Bombs!
+
+:weapons:
+[removed] DayZ Native SVD's due to script errors. 
+
+----------------------------------------------------------------------------------
 
 [MAC] 2.0.4
 
@@ -59,6 +88,7 @@
 + Added Suit Skin.
 + Changed Camo Skin.
 
+----------------------------------------------------------------------------------
 
 
 
