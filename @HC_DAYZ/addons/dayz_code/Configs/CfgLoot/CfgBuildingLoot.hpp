@@ -286,13 +286,11 @@ class CfgBuildingLoot {
 		lootType[] = {
 		//one spawn
 		//tools
-			{"NVGoggles","weapon",0.01},
 			{"ACE_Battery_Rangefinder","magazine",0.03}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 			{"Skin_Pilot_EP1_DZ","magazine",0.03},
 		//weapons
 			{"FN_FAL","weapon",0.04},
-			{"FN_FAL_ANPVS4","weapon",0.01},
 			{"Mk_48_DZ","weapon",0.03},
 			{"M249_DZ","weapon",0.04},
 			{"BAF_L85A2_RIS_Holo","weapon",0.03},
@@ -304,6 +302,7 @@ class CfgBuildingLoot {
 			{"RH_m9sd","weapon",0.02},
 			{"RH_g19t","weapon",0.02},
 			{"RH_bull","weapon",0.01},
+			{"RH_Scarh_sd_gl_eotech","weapon",0.01},
 		//special
 			{"MedBox0","object",0.05},
 			{"AmmoBoxSmall_556","object",0.05},
@@ -352,7 +351,7 @@ class CfgBuildingLoot {
 		//mags special
 			{"100Rnd_762x54_PK","magazine",0.01},
 		//bags
-			{"HC_Ruck_MTC","object",0.01},
+			//{"HC_Ruck_MTC","object",0.01},
 		//multiple spawns
 			{"","medical",0.25},
 			{"","militaryEASTcrash",0.25}

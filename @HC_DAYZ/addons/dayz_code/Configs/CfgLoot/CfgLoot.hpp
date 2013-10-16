@@ -57,7 +57,7 @@ class CfgLoot {
 		{"2Rnd_shotgun_74Pellets",0.08},
 		//{"20Rnd_762x51_FNFAL",0.02}, //really (one of the best ammo)?
 	//drinks
-		{"ItemSodaPepsi",0.04},
+		{"ItemSodaPepsi",0.02},
 	//food
 		{"FoodCanFrankBeans",0.05},
 		{"FoodCanPasta",0.05},
@@ -97,10 +97,10 @@ class CfgLoot {
 		{"HandChemBlue",0.03},
 		{"HandChemRed",0.03},
 	//drinks
-		{"ItemWaterbottleUnfilled",0.01},
-		{"ItemWaterbottle",0.01},
-		{"ItemSodaCoke",0.05},
-		{"ItemSodaPepsi",0.05},	
+		{"ItemWaterbottleUnfilled",0.06},
+		{"ItemWaterbottle",0.02},
+		{"ItemSodaCoke",0.01},
+		{"ItemSodaPepsi",0.01},	
 	//food
 		{"FoodCanBakedBeans",0.05},
 		{"FoodCanSardines",0.05},
@@ -178,8 +178,8 @@ class CfgLoot {
 		{"HandChemRed",0.04},
 	//drinks
 		{"ItemSodaEmpty",0.06},
-		{"ItemSodaCoke",0.04},
-		{"ItemSodaPepsi",0.04},
+		{"ItemSodaCoke",0.01},
+		{"ItemSodaPepsi",0.01},
 	//food
 		{"FoodCanBakedBeans",0.05},
 		{"FoodCanSardines",0.05},
@@ -225,6 +225,7 @@ class CfgLoot {
 		{"RH_8Rnd_45cal_m1911",0.04},
 		{"30Rnd_556x45_Stanag",0.02},
 		{"20Rnd_762x51_DMR",0.02},
+		{"RH_20Rnd_762x51_SD_SCAR",0.02},
 		{"RH_17Rnd_9x19_g17",0.05},
 		{"15Rnd_9x19_M9SD",0.01},
 		{"15Rnd_9x19_M9",0.03},
@@ -249,8 +250,8 @@ class CfgLoot {
 		{"HandChemRed",0.04},
 	//drinks
 		{"ItemSodaEmpty",0.06},
-		{"ItemSodaCoke",0.04},
-		{"ItemSodaPepsi",0.04},
+		{"ItemSodaCoke",0.01},
+		{"ItemSodaPepsi",0.01},
 	//food
 		{"FoodCanBakedBeans",0.05},
 		{"FoodCanSardines",0.05},

@@ -9,7 +9,7 @@ Residential[] = {
 //drinks
 	{"ItemSodaSmasht",0.01},
 	{"ItemSodaMzly",0.01},
-	{"ItemSodaPepsi",0.05},
+	{"ItemSodaPepsi",0.01},
 	//{"ItemWaterbottleUnfilled",0.01}, //military/hunting/police
 //food
 	{"FoodCanDemon",0.01},
