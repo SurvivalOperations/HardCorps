@@ -56,6 +56,7 @@ if (_canPickLight and !dayz_hasLight) then {
 	s_player_removeflare = -1;
 };
 
+
 if (dayz_onBack != "" && !dayz_onBackActive && !_inVehicle && !_onLadder && !r_player_unconscious) then {
 	if (s_player_equip_carry < 0) then {
 		_text = getText (configFile >> "CfgWeapons" >> dayz_onBack >> "displayName");
@@ -225,7 +226,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	if (!_isAlive) then {
 
 		// Gut animal/zed
-		if((_isAnimal or _isMan) and _hasKnife) then {
+		if((_isAnimal or (_isMan and !_isZombie)) and _hasKnife) then {
 			_isHarvested = _cursorTarget getVariable["meatHarvested",false];
 			if (!_isHarvested) then {
 				_player_butcher = true;

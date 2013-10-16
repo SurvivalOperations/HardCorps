@@ -271,6 +271,8 @@ dayz_resetSelfActions = {
 	s_player_fishing = -1;
 	s_player_fishing_veh = -1;
 	s_player_gather = -1;
+	s_player_stamina_debug = -1;
+	//ACE_SYS_STAMINA_DEBUG = -1;
 };
 call dayz_resetSelfActions;
 
