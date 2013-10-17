@@ -1,2 +1,0 @@
-TitleText["We heard more fighting close to our camp. The traitors, the bandits...they are after us. Who knows how long we will last. If you find this equipment we found, use it...and be safe...","PLAIN DOWN"];
-sleep 45
