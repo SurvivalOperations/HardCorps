@@ -1,4 +1,4 @@
-if ( !isServer ) exit {};
+if (!isDedicated) exitWith {};
 private ["_smlBase","_smlChance","_medBase","_medChance","_highBase","_highChance","_mkrType","_mkrPos","_smlRates","_medRates","_highRates","_mkrRay"];
 /* 
 STEAM: Neon155
