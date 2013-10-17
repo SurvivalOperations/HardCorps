@@ -52,16 +52,6 @@ private["_display","_btnRespawn","_btnAbort","_timeOut","_timeMax","_isDead","_i
 					cutText [format[localize "str_abort_playerincombat",_text], "PLAIN DOWN"];					
 				};
 
-// ------------------------ MaC added for testing 131011 ----------------------------------------------------
-				
-				case (player getVariable["combattimeout", 0] == time) : {
-					_btnAbort ctrlEnable True;
-					//cutText ["Cannot Abort while in combat!", "PLAIN DOWN"];
-					//cutText [format[localize "str_abort_playerincombat",_text], "PLAIN DOWN"];					
-				};
-				
-//-----------------------------------------------------------------------------------------------------------
-
 				case (count (position player nearObjects ["Hanged", 100]) > 0) : {
 					_btnAbort ctrlEnable false;
 					cutText ["Logging out here is not allowed!", "PLAIN DOWN"];

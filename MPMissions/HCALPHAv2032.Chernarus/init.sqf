@@ -20,7 +20,7 @@ dayz_spawnInfectedSite_clutterCutter = 0; // Infected Base Settings / 0 =  loot 
 | BELOW THIS LINE IS FOR CUSOTM SCRIPTS, POLICE SCRIPT AND COMMENT ITS PURPOSE |
 ------------------------------------------------------------------------------*/
   
-if (isserver) then {execVM "oldbases.sqf";};
+if (isServer) then {execVM "oldbases.sqf";};
  
 [] ExecVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
 
