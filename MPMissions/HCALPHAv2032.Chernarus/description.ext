@@ -23,7 +23,7 @@ class Header
         maxPlayers = 100;                       //Max # of players the mission supports
 };
  
-#include "description.sqf"
+#include "\z\addons\dayz_code\system\mission\description.sqf"
  
 class CfgSounds
 {

@@ -18,7 +18,7 @@ item13[] = {"Parse_Login",2,250,-75.000000,500.000000,25.000000,550.000000,0.000
 item14[] = {"Hive_Bad",4,218,125.000000,500.000000,225.000000,550.000000,10.000000,"Hive" \n "Bad"};
 item15[] = {"ERROR__Wrong_HIVE",2,250,325.000000,500.000000,425.000000,550.000000,0.000000,"ERROR:" \n "Wrong HIVE" \n "Version"};
 item16[] = {"Hive_Ok",4,218,-175.000000,550.000000,-75.000000,600.000000,0.000000,"Hive" \n "Ok"};
-item17[] = {"Phase_One",2,4346,-75.000000,600.000000,25.000000,650.000000,0.000000,"Phase One"};
+item17[] = {"Phase_One",2,250,-75.000000,600.000000,25.000000,650.000000,0.000000,"Phase One"};
 item18[] = {"Response",4,218,-175.000000,650.000000,-75.000000,700.000000,0.000000,"Response"};
 item19[] = {"Phase_Two",2,250,-75.000000,700.000000,25.000000,750.000000,0.000000,"Phase Two"};
 item20[] = {"Dead_Player",4,218,125.000000,700.000000,225.000000,750.000000,0.000000,"Dead" \n "Player"};
@@ -58,18 +58,20 @@ item53[] = {"True",8,218,-75.000000,1375.000000,25.000000,1425.000000,0.000000,"
 item54[] = {"Server_Loading",2,250,-75.000000,250.000000,25.000000,300.000000,0.000000,"Server Loading"};
 item55[] = {"Too_Long",4,218,125.000000,250.000000,225.000000,300.000000,0.000000,"Too" \n "Long"};
 item56[] = {"Server_Ready",4,218,-75.000000,325.000000,25.000000,375.000000,0.000000,"Server Ready"};
-item57[] = {"ERROR__Date_Time",2,250,325.000000,900.000000,425.000000,950.000000,0.000000,"ERROR:" \n "Date/Time" \n "not synced!"};
-item58[] = {"sleep",4,218,525.000000,900.000000,625.000000,950.000000,0.000000,"sleep"};
-item59[] = {"get_ready_to_clo_1",2,250,325.000000,250.000000,425.000000,300.000000,0.000000,"get ready to close"};
-item60[] = {"sleep_",4,218,525.000000,250.000000,625.000000,300.000000,0.000000,"sleep" \n ""};
-item61[] = {"pbo_s__are_missi",4,218,125.000000,50.000000,225.000000,100.000000,2.000000,"pbo's " \n "are missing"};
-item62[] = {"",7,210,821.000000,521.000000,829.000000,529.000000,0.000000,""};
-item63[] = {"",7,210,821.000000,721.000000,829.000000,729.000000,0.000000,""};
-item64[] = {"",7,210,821.000000,921.000000,829.000000,929.000000,0.000000,""};
-item65[] = {"",7,210,821.000000,821.000000,829.000000,829.000000,0.000000,""};
-item66[] = {"",7,210,821.000000,71.000000,829.000000,79.000000,0.000000,""};
-item67[] = {"",7,210,821.000000,171.000000,829.000000,179.000000,0.000000,""};
-item68[] = {"",7,210,821.000000,271.000000,829.000000,279.000000,0.000000,""};
+item57[] = {"New_Character",4,4314,-225.000000,500.000000,-125.000000,550.000000,5.000000,"New" \n "Character"};
+item58[] = {"Process",2,250,-725.000000,500.000000,-625.000000,550.000000,0.000000,"Process"};
+item59[] = {"ERROR__Date_Time",2,250,325.000000,900.000000,425.000000,950.000000,0.000000,"ERROR:" \n "Date/Time" \n "not synced!"};
+item60[] = {"sleep",4,218,525.000000,900.000000,625.000000,950.000000,0.000000,"sleep"};
+item61[] = {"get_ready_to_clo_1",2,250,325.000000,250.000000,425.000000,300.000000,0.000000,"get ready to close"};
+item62[] = {"sleep_",4,218,525.000000,250.000000,625.000000,300.000000,0.000000,"sleep" \n ""};
+item63[] = {"pbo_s__are_missi",4,218,125.000000,50.000000,225.000000,100.000000,2.000000,"pbo's " \n "are missing"};
+item64[] = {"",7,210,821.000000,521.000000,829.000000,529.000000,0.000000,""};
+item65[] = {"",7,210,821.000000,721.000000,829.000000,729.000000,0.000000,""};
+item66[] = {"",7,210,821.000000,921.000000,829.000000,929.000000,0.000000,""};
+item67[] = {"",7,210,821.000000,821.000000,829.000000,829.000000,0.000000,""};
+item68[] = {"",7,210,821.000000,71.000000,829.000000,79.000000,0.000000,""};
+item69[] = {"",7,210,821.000000,171.000000,829.000000,179.000000,0.000000,""};
+item70[] = {"",7,210,821.000000,271.000000,829.000000,279.000000,0.000000,""};
 link0[] = {0,1};
 link1[] = {0,5};
 link2[] = {1,2};
@@ -88,67 +90,70 @@ link14[] = {11,45};
 link15[] = {12,13};
 link16[] = {13,14};
 link17[] = {13,16};
-link18[] = {14,15};
-link19[] = {15,35};
-link20[] = {16,17};
-link21[] = {17,18};
-link22[] = {18,19};
-link23[] = {19,20};
-link24[] = {19,22};
-link25[] = {20,21};
-link26[] = {21,36};
-link27[] = {22,23};
-link28[] = {23,24};
-link29[] = {23,26};
-link30[] = {24,52};
-link31[] = {25,28};
-link32[] = {26,27};
-link33[] = {27,37};
-link34[] = {28,29};
-link35[] = {29,30};
-link36[] = {30,31};
-link37[] = {31,53};
-link38[] = {33,57};
-link39[] = {34,67};
-link40[] = {35,62};
-link41[] = {36,63};
-link42[] = {37,65};
-link43[] = {38,6};
-link44[] = {38,61};
-link45[] = {39,38};
-link46[] = {40,41};
-link47[] = {41,66};
-link48[] = {42,43};
-link49[] = {43,25};
-link50[] = {44,11};
-link51[] = {45,46};
-link52[] = {46,44};
-link53[] = {46,47};
-link54[] = {47,48};
-link55[] = {48,49};
-link56[] = {49,50};
-link57[] = {51,42};
-link58[] = {52,33};
-link59[] = {52,51};
-link60[] = {53,32};
-link61[] = {54,55};
-link62[] = {54,56};
-link63[] = {55,59};
-link64[] = {56,11};
-link65[] = {57,58};
-link66[] = {58,64};
-link67[] = {59,60};
-link68[] = {60,68};
-link69[] = {61,40};
-link70[] = {62,50};
-link71[] = {63,62};
-link72[] = {64,65};
-link73[] = {65,63};
-link74[] = {66,67};
-link75[] = {67,68};
-link76[] = {68,50};
-globals[] = {25.000000,1,0,0,0,640,480,1,211,6316128,1,-402.178650,564.571960,1378.079224,589.021790,778,635,1};
-window[] = {0,-1,-1,-1,-1,905,125,1497,125,1,796};
+link18[] = {13,57};
+link19[] = {14,15};
+link20[] = {15,35};
+link21[] = {16,17};
+link22[] = {17,18};
+link23[] = {18,19};
+link24[] = {19,20};
+link25[] = {19,22};
+link26[] = {20,21};
+link27[] = {21,36};
+link28[] = {22,23};
+link29[] = {23,24};
+link30[] = {23,26};
+link31[] = {24,52};
+link32[] = {25,28};
+link33[] = {26,27};
+link34[] = {27,37};
+link35[] = {28,29};
+link36[] = {29,30};
+link37[] = {30,31};
+link38[] = {31,53};
+link39[] = {33,59};
+link40[] = {34,69};
+link41[] = {35,64};
+link42[] = {36,65};
+link43[] = {37,67};
+link44[] = {38,6};
+link45[] = {38,63};
+link46[] = {39,38};
+link47[] = {40,41};
+link48[] = {41,68};
+link49[] = {42,43};
+link50[] = {43,25};
+link51[] = {44,11};
+link52[] = {45,46};
+link53[] = {46,44};
+link54[] = {46,47};
+link55[] = {47,48};
+link56[] = {48,49};
+link57[] = {49,50};
+link58[] = {51,42};
+link59[] = {52,33};
+link60[] = {52,51};
+link61[] = {53,32};
+link62[] = {54,55};
+link63[] = {54,56};
+link64[] = {55,61};
+link65[] = {56,11};
+link66[] = {57,58};
+link67[] = {58,16};
+link68[] = {59,60};
+link69[] = {60,66};
+link70[] = {61,62};
+link71[] = {62,70};
+link72[] = {63,40};
+link73[] = {64,50};
+link74[] = {65,64};
+link75[] = {66,67};
+link76[] = {67,65};
+link77[] = {68,69};
+link78[] = {69,70};
+link79[] = {70,50};
+globals[] = {25.000000,1,0,0,0,640,480,1,209,6316128,1,-656.615173,127.245537,819.615356,172.139343,1115,921,1};
+window[] = {2,-1,-1,-1,-1,955,175,1547,175,3,1133};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -383,7 +388,7 @@ class FSM
        "//_state 		= _msg select 5;" \n
        "_version	= _msg select 5;" \n
        "_model		= _msg select 6;" \n
-       "_dmodel = _msg select 9;" \n
+       "_dmodel	= _msg select 9;" \n
        "" \n
        "_spawnSelection = 9;" \n
        "" \n
@@ -396,31 +401,6 @@ class FSM
        "	diag_log (""PLAYER RESULT: "" + str(_isHiveOk));" \n
        "};" \n
        "" \n
-       "diag_log (""DIXON MODEL CHECK: model : "" + str(_model));" \n
-       "diag_log (""DIXON MODEL CHECK: dmodel : "" + str(_dmodel));" \n
-       "" \n
-       "if (isNil ""_model"") then {" \n
-       "	_model = _dmodel;" \n
-       "	diag_log (""PLOGIN: Model was nil, loading as survivor"");" \n
-       "};" \n
-       "" \n
-       "if (_model == """") then {" \n
-       "	_model = _dmodel;" \n
-       "	diag_log (""PLOGIN: Model was empty, loading as survivor"");" \n
-       "};" \n
-       "" \n
-       "if (_model == ""Survivor1_DZ"") then {" \n
-       "	_model = _dmodel;" \n
-       "};" \n
-       "" \n
-       "_isHack = false;" \n
-       "if (_model == ""hacker"") then {" \n
-       "	_isHack = true;" \n
-       "};" \n
-       "" \n
-       "diag_log (""DIXON MODEL CHECK: model : "" + str(_model));" \n
-       "diag_log (""DIXON MODEL CHECK: dmodel : "" + str(_dmodel));" \n
-       "" \n
        "dayz_loadScreenMsg = (localize ""str_player_creating_character""); " \n
        "progressLoadingScreen 0.8;" \n
        "" \n
@@ -429,7 +409,25 @@ class FSM
        "};" \n
        "" \n
        "//Not Equal Failure" \n
-       ""/*%FSM</STATEINIT""">*/;
+       "" \n
+       "if (isNil ""_model"") then {" \n
+       "	_model = ""Survivor2_DZ"";" \n
+       "	diag_log (""PLOGIN: Model was nil, loading as survivor"");" \n
+       "};" \n
+       "" \n
+       "if (_model == """") then {" \n
+       "	_model = ""Survivor2_DZ"";" \n
+       "	diag_log (""PLOGIN: Model was empty, loading as survivor"");" \n
+       "};" \n
+       "" \n
+       "if (_model == ""Survivor1_DZ"") then {" \n
+       "	_model = ""Survivor2_DZ"";" \n
+       "};" \n
+       "" \n
+       "_isHack = false;" \n
+       "if (_model == ""hacker"") then {" \n
+       "	_isHack = true;" \n
+       "};"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
@@ -440,6 +438,16 @@ class FSM
           to="ERROR__Wrong_HIVE";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
           condition=/*%FSM<CONDITION""">*/"!_isHiveOk"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "New_Character">*/
+        class New_Character
+        {
+          priority = 5.000000;
+          to="Process";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_isNew"/*%FSM</CONDITION""">*/;
           action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
@@ -486,7 +494,6 @@ class FSM
       name = "Phase_One";
       init = /*%FSM<STATEINIT""">*/"dayz_playerName = name player;" \n
        "_model call player_switchModel;" \n
-       "removeAllItems player;" \n
        "" \n
        "player allowDamage false;" \n
        "_lastAte = _survival select 1;" \n
@@ -630,8 +637,6 @@ class FSM
        "dayz_myMagazines = 	magazines player;" \n
        "" \n
        "dayz_playerUID = _playerUID;" \n
-       "" \n
-       "" \n
        "" \n
        "if ((_isNew) OR (count _inventory == 0)) then {" \n
        "	//player is new, add initial loadout" \n
@@ -1426,6 +1431,27 @@ class FSM
           to="get_ready_to_clo_1";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
           condition=/*%FSM<CONDITION""">*/"(diag_tickTime - _myTime) > 120"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Process">*/
+    class Process
+    {
+      name = "Process";
+      init = /*%FSM<STATEINIT""">*/"_model = _dmodel;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Hive_Ok">*/
+        class Hive_Ok
+        {
+          priority = 0.000000;
+          to="Phase_One";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
           action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
