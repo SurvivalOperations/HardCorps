@@ -1,0 +1,12 @@
+private ["_uid","_value1","_value2","_value3","_value4"];
+	_uid = 0;
+	_uid = GetPlayerUID player;
+	_valuea = _uid/10000;
+	_valueb = _valuea - valuea*(0.00047);
+	_valuec = _valueb/2 + 96;
+	_valued = round _valuec;
+	[format["Pin: %1",_valued],"Fuck me"] spawn BIS_fnc_infoText;
+	cutText [format["Your pin is: %1",_valued], "PLAIN",20];
+	hint format["Your pin is: \n %1",_valued];
+	hint "";
+	[format["Pin: %1",_valued],"Fuck me"] spawn BIS_fnc_infoText;

@@ -1,0 +1,2 @@
+TitleText["We did it. We found this crate abandoned near a H.Q Humvee. We had to fight off a few traitors and bandits but apart from that we got it. A radio message came through as we were driving..last known grid...019,0","PLAIN DOWN"];
+sleep 45

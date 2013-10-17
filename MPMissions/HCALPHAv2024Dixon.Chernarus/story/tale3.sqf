@@ -1,0 +1,2 @@
+TitleText["We overheard our superiors talking about Underground Bunkers somewhere in Chernarus. They were activated by a radio signal, the ANPRC77 had the chip and we found one...bloody hell we found one...","PLAIN DOWN"];
+sleep 30
