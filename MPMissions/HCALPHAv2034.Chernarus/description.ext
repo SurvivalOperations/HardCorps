@@ -24,7 +24,7 @@ class Header
 };
  
 #include "description.sqf"
-#include "\ca\missions_EW\campaign\description_mission.hpp"
+
 class CfgSounds
 {
         sounds[] = {};
