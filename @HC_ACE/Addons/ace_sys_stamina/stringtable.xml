@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ArmA2_ACE2">
+<Package name="sys_stamina">
+<Container name="STR_ACE">
+<Key ID="STR_ACE_STAMINA">
+<English>(Æ) No Stamina</English>
+<German>(Æ) Ausdauersystem: ausschalten</German>
+<Russian>(Æ) Отключить усталость</Russian>
+<Polish>(Æ) Wyłącz efekty zmęczenia i plecaki</Polish>
+<Spanish>(Æ) No Stamina</Spanish>
+<French>(Æ) Pas de fatigue</French>
+<Czech>(Æ) Bez omezení výdrže</Czech>
+<Italian>(Æ) No Stamina</Italian>
+<Hungarian>(Æ) Állóképesség kikapcs</Hungarian>
+</Key>
+</Container>
+</Package>
+</Project>

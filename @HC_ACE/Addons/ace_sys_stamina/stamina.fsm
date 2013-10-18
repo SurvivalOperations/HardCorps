@@ -1,0 +1,920 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, staminaFX">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"velocity___10",4,218,50.000000,475.000000,150.000000,525.000000,1.000000,"velocity > 10"};
+item1[] = {"_",4,218,-325.000000,150.000000,-225.000000,200.000000,1.000000,""};
+item2[] = {"_",8,218,100.000000,500.000000,200.000000,550.000000,0.000000,""};
+item3[] = {"disabled",4,218,-325.000000,625.000000,-225.000000,675.000000,2.000000,"disabled"};
+item4[] = {"_",4,218,0.000000,500.000000,100.000000,550.000000,0.000000,""};
+item5[] = {"_",8,218,-375.000000,500.000000,-275.000000,550.000000,0.000000,""};
+item6[] = {"_",8,218,475.000000,500.000000,575.000000,550.000000,0.000000,""};
+item7[] = {"_",4,218,525.000000,425.000000,625.000000,475.000000,1.000000,""};
+item8[] = {"_",4,218,950.000000,500.000000,1050.000000,550.000000,1.000000,""};
+item9[] = {"_",4,218,750.000000,575.000000,850.000000,625.000000,1.000000,""};
+item10[] = {"__1",8,218,750.000000,500.000000,850.000000,550.000000,0.000000,""};
+item11[] = {"__1",8,218,750.000000,425.000000,850.000000,475.000000,0.000000,""};
+item12[] = {"__1",8,218,225.000000,275.000000,325.000000,325.000000,0.000000,""};
+item13[] = {"Spawn_FX",2,250,425.000000,500.000000,525.000000,550.000000,0.000000,"Spawn FX"};
+item14[] = {"ace_sys_stamina",0,250,-600.000000,500.000000,-500.000000,550.000000,0.000000,"ace_sys_stamina"};
+item15[] = {"height__10",4,218,50.000000,350.000000,150.000000,400.000000,1.000000,"height >10"};
+item16[] = {"calculate_values",3,250,700.000000,425.000000,800.000000,475.000000,0.000000,"calculate" \n "values"};
+item17[] = {"Panic__Collapse",2,250,700.000000,575.000000,800.000000,625.000000,0.000000,"Panic " \n "Collapse"};
+item18[] = {"Over_Fatigued",3,250,900.000000,500.000000,1000.000000,550.000000,0.000000,"Over-Fatigued"};
+item19[] = {"Process",3,250,700.000000,500.000000,800.000000,550.000000,0.000000,"Process"};
+item20[] = {"time2wait",3,250,50.000000,500.000000,150.000000,550.000000,0.000000,"time2wait"};
+item21[] = {"__1",4,218,300.000000,575.000000,400.000000,625.000000,1.000000,""};
+item22[] = {"DEBUG_Hint_Value",3,250,250.000000,575.000000,350.000000,625.000000,0.000000,"DEBUG" \n "Hint Values"};
+item23[] = {"While__Reset_State",2,4346,-325.000000,500.000000,-225.000000,550.000000,0.000000,"While" \n "(Reset State)"};
+item24[] = {"end",1,250,-325.000000,675.000000,-225.000000,725.000000,0.000000,"end"};
+item25[] = {"fall_over",3,250,475.000000,425.000000,575.000000,475.000000,0.000000,"fall over"};
+item26[] = {"in_vehicle_or_An",3,250,-325.000000,125.000000,-225.000000,175.000000,0.000000,"in vehicle or Animal"};
+item27[] = {"_",8,218,900.000000,125.000000,1000.000000,175.000000,0.000000,""};
+item28[] = {"skip",3,250,950.000000,125.000000,1050.000000,175.000000,0.000000,"skip"};
+item29[] = {"_",4,218,-325.000000,300.000000,-225.000000,350.000000,1.000000,""};
+item30[] = {"Valid_Player_Obj",2,250,-325.000000,275.000000,-225.000000,325.000000,0.000000,"Valid Player Object"};
+item31[] = {"_",4,218,300.000000,450.000000,400.000000,500.000000,2.000000,""};
+item32[] = {"Create_Heartbeat",2,250,250.000000,450.000000,350.000000,500.000000,0.000000,"Create Heartbeat" \n "Function"};
+item33[] = {"Player_Variable",-1,250,-675.000000,-100.000000,1175.000000,75.000000,0.000000,"Player Variable is _player !!!!!!!"};
+item34[] = {"TODO_Sleep",8,218,-150.000000,400.000000,-50.000000,450.000000,0.000000,"TODO Sleep"};
+item35[] = {"Infantry_calcs",2,250,275.000000,275.000000,375.000000,325.000000,0.000000,"Infantry calcs"};
+item36[] = {"_",8,218,900.000000,275.000000,1000.000000,325.000000,0.000000,""};
+item37[] = {"_",8,218,950.000000,250.000000,1050.000000,300.000000,0.000000,""};
+item38[] = {"Stamina_calc",2,250,950.000000,275.000000,1050.000000,325.000000,0.000000,"Stamina calc"};
+version=1;
+class LayoutItems
+{
+	class Item33
+	{
+		class ItemInfo
+		{
+			FontFace="Arial";
+			FontHeight=17;
+			lStyle=1;
+			Align=0;
+		};
+		BgColor=255;
+	};
+};
+link0[] = {0,20};
+link1[] = {1,26};
+link2[] = {2,20};
+link3[] = {3,24};
+link4[] = {4,23};
+link5[] = {5,23};
+link6[] = {6,13};
+link7[] = {7,25};
+link8[] = {8,18};
+link9[] = {9,17};
+link10[] = {10,19};
+link11[] = {11,16};
+link12[] = {12,35};
+link13[] = {13,2};
+link14[] = {13,21};
+link15[] = {13,31};
+link16[] = {14,5};
+link17[] = {15,20};
+link18[] = {16,6};
+link19[] = {16,7};
+link20[] = {17,6};
+link21[] = {18,9};
+link22[] = {18,10};
+link23[] = {19,6};
+link24[] = {20,4};
+link25[] = {21,22};
+link26[] = {22,2};
+link27[] = {23,3};
+link28[] = {23,29};
+link29[] = {23,34};
+link30[] = {25,6};
+link31[] = {26,27};
+link32[] = {27,28};
+link33[] = {28,37};
+link34[] = {29,30};
+link35[] = {30,1};
+link36[] = {30,12};
+link37[] = {31,32};
+link38[] = {32,2};
+link39[] = {34,23};
+link40[] = {35,0};
+link41[] = {35,15};
+link42[] = {35,36};
+link43[] = {36,38};
+link44[] = {37,38};
+link45[] = {38,8};
+link46[] = {38,11};
+globals[] = {25.000000,1,0,0,0,640,480,1,283,6316128,1,-861.897400,1209.112183,2469.897949,-227.318604,1856,1430,1};
+window[] = {2,-1,-1,-1,-1,1060,208,1836,208,3,1874};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "staminaFX";
+  class States
+  {
+    /*%FSM<STATE "Spawn_FX">*/
+    class Spawn_FX
+    {
+      name = "Spawn_FX";
+      init = /*%FSM<STATEINIT""">*/"// Keypress to mobilize final reservers if in a dangerous situation" \n
+       "if (_stam_panic) then {" \n
+       "	_ACE_Blackout = 0;" \n
+       "	_ACE_Breathing = 5;" \n
+       "	_stam_heartBeat = [8,130];" \n
+       "	_player setVariable [""ace_sys_stamina_heartBeat"", _stam_heartBeat];" \n
+       "};" \n
+       "" \n
+       "[_ACE_Blackout] spawn ace_sys_stamina_fnc_vision;" \n
+       "[_ACE_Breathing] spawn ace_sys_stamina_fnc_breathing;" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 2.000000;
+          to="Create_Heartbeat";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"isNil ""_fnc_heartBeat"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__1">*/
+        class __1
+        {
+          priority = 1.000000;
+          to="DEBUG_Hint_Value";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"ACE_SYS_STAMINA_DEBUG"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__2">*/
+        class __2
+        {
+          priority = 0.000000;
+          to="time2wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "ace_sys_stamina">*/
+    class ace_sys_stamina
+    {
+      name = "ace_sys_stamina";
+      init = /*%FSM<STATEINIT""">*/"private [" \n
+       "  ""_ACE_Sound"",""_ACE_Frequency"",""_ACE_Breathing"",""_ACE_Blackout"", " \n
+       "  ""_previous"", ""_player"", ""_dt"", ""_lastPos"", ""_curPos"", ""_fnc_heartBeat"", ""_collapse_ar""," \n
+       "  ""_multiplier"", ""_movMod"", ""_velocity"",  ""_type"", ""_cfg"", ""_seaMod"", ""_dates""," \n
+       "  ""_clsMod"", ""_clsMass"", ""_clsMax"", ""_anim_erc"", ""_anim_knl"", ""_anim_col"", ""_anim""," \n
+       "  ""_stance"", ""_wgtMod"", ""_mass"", ""_massInc"", ""_collapse"", ""_fatigue"", ""_momentum""," \n
+       "  ""_stam_concussion"", ""_stam_breathing"", ""_stam_fatigue"", ""_stam_wounds""," \n
+       "  ""_stam_panic"", ""_stam_eh_added"", ""_stam_heartBeat"", ""_stam_multi"", ""_fnc_getPlayerData""" \n
+       "];" \n
+       "" \n
+       "_fnc_getPlayerData = {" \n
+       "    _stam_concussion = [_this, ""ace_sys_stamina_concussion"", 0] call ace_fnc_def;" \n
+       "    _stam_breathing = [_this, ""ace_sys_stamina_breathing"", 0] call ace_fnc_def;" \n
+       "    _stam_fatigue = [_this, ""ace_sys_stamina_fatigue"", 0] call ace_fnc_def;" \n
+       "    _stam_heartBeat = [_this, ""ace_sys_stamina_heartBeat"", [0, 1]] call ace_fnc_def;" \n
+       "    _stam_wounds = [_this, ""ace_sys_stamina_wounds"", 0] call ace_fnc_def;" \n
+       "    _stam_panic = [_this, ""ace_sys_stamina_panic"", false] call ace_fnc_def;" \n
+       "    _stam_eh_added = [_this, ""ace_sys_stamina_eh_added"", false] call ace_fnc_def;" \n
+       "    _stam_eh = [_this, ""ace_sys_stamina_eh"", nil] call ace_fnc_def;" \n
+       "    _stam_multi = ([_this, ""ace_sys_stamina_multi"", 1] call ace_fnc_def) max 0.01;" \n
+       "};" \n
+       "" \n
+       "_collapse_ar = [""AmovPpneMstpSrasWrflDnon_healed"",  ""AmovPpneMstpSrasWpstDnon_healed"",  ""AmovPpneMstpSnonWnonDnon_healed""];" \n
+       "_dates = [12,1,2,6,7,8];" \n
+       "_dt = 1;" \n
+       "_player = objNull;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="While__Reset_State";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "calculate_values">*/
+    class calculate_values
+    {
+      name = "calculate_values";
+      init = /*%FSM<STATEINIT""">*/"// No divide by 0" \n
+       "_x = 1 max (_stam_FATIGUE * (350/_clsMax));" \n
+       "" \n
+       "// Following is the data from original data in StaminaFX by Rocko, summarised into a 9 equations." \n
+       "// They are presented in the format y = mx + c and the values are available in graphs_analysis.pdf" \n
+       "" \n
+       "// There are 8 sound files of different volume, suffixed with integers (1-8)" \n
+       "// Select sounds 1 to 8 from approx. 40% to 100% fatigue with this formula" \n
+       "_ACE_Sound = (0.25 + 0.000075 * _x^2) min 8;" \n
+       "" \n
+       "// Calculate variables via linear equations" \n
+       "_ACE_Frequency = 0.2 * _x + 50;" \n
+       "_ACE_Breathing = 0.009 * _x - 0.223;" \n
+       "_ACE_Blackout =  0.033 * _x - 9.018;" \n
+       "" \n
+       "// Floor the variables" \n
+       "_ACE_Sound = floor(_ACE_Sound);" \n
+       "_ACE_Frequency = floor(_ACE_Frequency);" \n
+       "_ACE_Breathing = floor(_ACE_Breathing);" \n
+       "_ACE_Blackout = floor(_ACE_Blackout);" \n
+       "" \n
+       "// Define the array needed for heartbeat" \n
+       "_stam_heartBeat = [_ACE_Sound, _ACE_Frequency];" \n
+       "_player setVariable [""ace_sys_stamina_heartBeat"", _stam_heartBeat];" \n
+       "" \n
+       "_collapse = random 1 * (_stam_FATIGUE/_clsMax);"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 1.000000;
+          to="fall_over";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(_velocity > 4.6) and (_collapse > 0.8)"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__1">*/
+        class __1
+        {
+          priority = 0.000000;
+          to="Spawn_FX";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Panic__Collapse">*/
+    class Panic__Collapse
+    {
+      name = "Panic__Collapse";
+      init = /*%FSM<STATEINIT""">*/"_stam_heartBeat = [8,130];" \n
+       "_player setVariable [""ace_sys_stamina_heartBeat"", _stam_heartBeat];" \n
+       "_ACE_Blackout = 5;" \n
+       "_ACE_Breathing = 5;" \n
+       "" \n
+       "_anim_col = [_player, _collapse_ar] call CBA_fnc_getAnimType;" \n
+       "if (animationState _player != _anim_col) then { _player playMove _anim_col };" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Spawn_FX";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Over_Fatigued">*/
+    class Over_Fatigued
+    {
+      name = "Over_Fatigued";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 1.000000;
+          to="Panic__Collapse";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"// Collapse from extensive panic movement" \n
+           "([_player, ""ace_sys_stamina_panic"", false] call ACE_fnc_def) && (_stam_Fatigue > (_clsmax * 0.76))"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__1">*/
+        class __1
+        {
+          priority = 0.000000;
+          to="Process";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Process">*/
+    class Process
+    {
+      name = "Process";
+      init = /*%FSM<STATEINIT""">*/"_stam_heartBeat = [8,130];" \n
+       "_player setVariable [""ace_sys_stamina_heartBeat"", _stam_heartBeat];" \n
+       "_ACE_Blackout = 5;" \n
+       "_ACE_Breathing = 5;" \n
+       "//_ACE_Blurry = 5;" \n
+       "" \n
+       "_type = -1; if ((currentWeapon _player) != """") then {" \n
+       "	_cfg = (configFile >> ""CfgWeapons"" >> (currentWeapon _player) >> ""type""); if (isNumber(_cfg)) then { _type = getNumber(_cfg) };" \n
+       "};" \n
+       "" \n
+       "switch (_type) do {" \n
+       "	case -1: { _anim_erc = ""amovpercmsprsnonwnondf_amovppnemstpsnonwnondnon""; _anim_knl = ""amovpknlmstpsnonwnondnon_amovppnemstpsnonwnondnon""; };" \n
+       "	case 2: { _anim_erc = ""amovpercmsprslowwpstdf_amovppnemstpsraswpstdnon""; _anim_knl = ""amovpknlmstpsraswpstdnon_amovppnemstpsraswpstdnon""; };" \n
+       "	case 4: { _anim_erc = ""amovpercmstpsraswlnrdnon_amovpknlmstpsraswlnrdnon""; _anim_knl = ""slx_launcherkneel_launcherprone""; };" \n
+       "	case 5: {_anim_erc = ""amovpercmstpsraswrfldnon_amovppnemstpsraswrfldnon""; _anim_knl = ""amovpknlmstpsraswrfldnon_amovppnemstpsraswrfldnon""; };" \n
+       "	case 1: {_anim_erc = ""amovpercmstpsraswrfldnon_amovppnemstpsraswrfldnon""; _anim_knl = ""amovpknlmstpsraswrfldnon_amovppnemstpsraswrfldnon""; };" \n
+       "	default {_anim_erc = ""amovpercmsprsnonwnondf_amovppnemstpsnonwnondnon""; _anim_knl = ""amovpknlmstpsnonwnondnon_amovppnemstpsnonwnondnon""; };" \n
+       "};" \n
+       "" \n
+       "_stance = (_player call CBA_fnc_getUnitAnim) select 0;" \n
+       "if (_stance != ""prone"") then {" \n
+       "	switch (_stance) do {" \n
+       "		case ""stand"": { _anim = _anim_erc; };" \n
+       "		case ""kneel"": { _anim = _anim_knl; };" \n
+       "	};" \n
+       "	_player playMove _anim;" \n
+       "};" \n
+       "" \n
+       "// TODO: This probably fails to add the eventhandler in case of respawn" \n
+       "// EH is only added when player is exhausted completely for the first time!" \n
+       "// EH should stay active while fatigue is at least 75%" \n
+       "// EH is then removed and again added if: a) cooldown time passed (panic once every 10 minutes) b) if exhausted again" \n
+       "if !(_stam_eh_added || [_player, ""ace_sys_stamina_panic"", false] call ACE_fnc_def) then {" \n
+       "	_stam_eh = _player addeventhandler [""animChanged"", ""_this call ace_sys_stamina_fnc_keypressed""];" \n
+       "	_stam_eh_added = true;" \n
+       "	_player setVariable [""ace_sys_stamina_eh_added"", _stam_eh_added];" \n
+       "	_player setVariable [""ace_sys_stamina_eh"", if (isNil ""_stam_eh"") then { nil } else { _stam_eh }];" \n
+       "};" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Spawn_FX";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "time2wait">*/
+    class time2wait
+    {
+      name = "time2wait";
+      init = /*%FSM<STATEINIT""">*/"_time2wait = time + 2;" \n
+       "_time = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="While__Reset_State";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _time2wait"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "DEBUG_Hint_Value">*/
+    class DEBUG_Hint_Value
+    {
+      name = "DEBUG_Hint_Value";
+      init = /*%FSM<STATEINIT""">*/"#define MSGADD(X)	_msg = _msg + ( ((X) + "": "" + str call compile (X)) + ""\n"")" \n
+       "#define MSGBRK	_msg = _msg + ""\n""" \n
+       "" \n
+       "// DEBUG" \n
+       "_msg = ""SYS_Stamina"";" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "MSGADD(""_clsmass"");" \n
+       "MSGADD(""_clsmax"");" \n
+       "MSGADD(""_clsmod"");" \n
+       "MSGADD(""_hgtmod"");" \n
+       "MSGADD(""_ovrmod"");" \n
+       "MSGADD(""_wgtmod"");" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "MSGADD(""overcast"");" \n
+       "MSGADD(""rain"");" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "//MSGADD(""_exp"");" \n
+       "MSGADD(""_mass"");" \n
+       "MSGADD(""_movmod"");" \n
+       "MSGADD(""_momentum"");" \n
+       "MSGADD(""_velocity"");" \n
+       "MSGADD(""_player"");" \n
+       "MSGADD(""vehicle _player"");" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "MSGADD(""_fatigue"");" \n
+       "MSGADD(""_multiplier"");" \n
+       "MSGADD(""_new"");" \n
+       "MSGADD(""_previous"");" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "MSGADD(""_stam_Fatigue"");" \n
+       "MSGADD(""_stam_Panic"");" \n
+       "MSGADD(""_stam_breathing"");" \n
+       "MSGADD(""_stam_concussion"");" \n
+       "MSGADD(""_stam_Wounds"");" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "MSGADD(""_ACE_Blackout"");" \n
+       "MSGADD(""_ACE_Breathing"");" \n
+       "MSGADD(""_stam_heartBeat"");" \n
+       "MSGADD(""_ACE_Sound"");" \n
+       "" \n
+       "MSGBRK;" \n
+       "" \n
+       "MSGADD(""_collapse"");" \n
+       "" \n
+       "hintSilent _msg;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="time2wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "While__Reset_State">*/
+    class While__Reset_State
+    {
+      name = "While__Reset_State";
+      init = /*%FSM<STATEINIT""">*/"// TODO: External influences might be overwritten in current configuration when applied between certain states" \n
+       "" \n
+       "if (player == _player) then {" \n
+       "   // Player hasn't changed" \n
+       "  _dT = (time - _time) max 1; // prevent _dt from becoming 0 or very small" \n
+       "" \n
+       "  _lastPos = _curPos;" \n
+       "  _curPos = getPosASL _player;" \n
+       "" \n
+       "    // Read player data from player object, refresh variables" \n
+       "    _player call _fnc_getPlayerData;" \n
+       "    //diag_log [diag_frameNo, diag_tickTime, time, ""Same player: "", _player, _stam_fatigue];" \n
+       "} else {" \n
+       "" \n
+       "   // Player has changed - Respawn and TeamSwitch compatible" \n
+       "   _player = player;" \n
+       "" \n
+       "   // Reset state" \n
+       "   if !(isNull _player) then {" \n
+       "     _multiplier = 1;" \n
+       "     _movMod = -1;" \n
+       "     _wgtMod = -0;" \n
+       "     _ovrMod = 0;" \n
+       "      _momentum = 0;" \n
+       "     _lastPos = getPosASL _player;" \n
+       "     _curPos = getPosASL _player;" \n
+       "     _velocity = 0;" \n
+       "" \n
+       "     // Class Fitness Level" \n
+       "     _type = typeOf _player; " \n
+       "     _t = _player getVariable 'ACE_STAMINA_CLASS'; " \n
+       "     if !(isNil '_t') then { if (typeName _t == 'STRING') then { if (_t isKindOf 'CAManBase') then { _type = _t } } };" \n
+       "    _cfg = configFile >> ""CfgVehicles"" >> _type >> ""ACE_Stamina"";" \n
+       "    _clsMod = if (isNumber _cfg) then { getNumber _cfg } else { 1 };" \n
+       "    " \n
+       "    _cfg = configFile >> ""CfgVehicles"" >> _type >> ""ACE_DefaultWeight"";" \n
+       "    _clsMass = if (isNumber _cfg) then { getNumber _cfg } else { 1 };" \n
+       "    _clsMax = 1000 / _clsMod;" \n
+       "" \n
+       "     // PostInit is usually to late to set it..." \n
+       "     [_player] call ace_sys_stamina_fnc_init;" \n
+       "" \n
+       "     // Read player data from player object, refresh variables" \n
+       "     _player call _fnc_getPlayerData;" \n
+       "     //diag_log [diag_frameNo, diag_tickTime, time, ""Other player: "", _player, _stam_fatigue];" \n
+       "  };" \n
+       "};" \n
+       "" \n
+       "// Dates change.." \n
+       "_seaMod = if ((date select 1) in _dates) then { 1.5 } else { 1 };" \n
+       "" \n
+       "_time = time;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "disabled">*/
+        class disabled
+        {
+          priority = 2.000000;
+          to="end";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"ACE_NoStaminaEffects"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 1.000000;
+          to="Valid_Player_Obj";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull _player // TODO: Shouldn't this be ""alive _player"" ?"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "TODO_Sleep">*/
+        class TODO_Sleep
+        {
+          priority = 0.000000;
+          to="While__Reset_State";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "end">*/
+    class end
+    {
+      name = "end";
+      init = /*%FSM<STATEINIT""">*/"ACE_SYS_STAMINA = false;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "fall_over">*/
+    class fall_over
+    {
+      name = "fall_over";
+      init = /*%FSM<STATEINIT""">*/"_player playmove ""ActsPercMrunSlowWrflDf_TumbleOver"";" \n
+       "_stam_Fatigue =  _stam_Fatigue + 12;" \n
+       "_player setVariable [""ace_sys_stamina_fatigue"", _stam_fatigue];" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Spawn_FX";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "in_vehicle_or_An">*/
+    class in_vehicle_or_An
+    {
+      name = "in_vehicle_or_An";
+      init = /*%FSM<STATEINIT""">*/"_vehicle = vehicle _player;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="skip";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "skip">*/
+    class skip
+    {
+      name = "skip";
+      init = /*%FSM<STATEINIT""">*/"// Default all footsoldier-specific values (e.g. carried mass, stance, velocity) so player regains fatigue" \n
+       "_wgtMod = _clsMass / 100;" \n
+       "" \n
+       "_velocity = 0; // you're not moving around" \n
+       "_movMod = -2; // regain stamina faster while sitting" \n
+       "_hgtMod = 1; // you're not moving around" \n
+       "" \n
+       "_lastPos = getPosASL (vehicle _player);" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Stamina_calc";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Valid_Player_Obj">*/
+    class Valid_Player_Obj
+    {
+      name = "Valid_Player_Obj";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 1.000000;
+          to="in_vehicle_or_An";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(_player != vehicle _player || _player isKindOf ""Animal"") && (time > 1)"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__1">*/
+        class __1
+        {
+          priority = 0.000000;
+          to="Infantry_calcs";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Create_Heartbeat">*/
+    class Create_Heartbeat
+    {
+      name = "Create_Heartbeat";
+      init = /*%FSM<STATEINIT""">*/"/*" \n
+       "This block spawns a heartbeat function when the FSM is run executed." \n
+       "The function simply runs continuously, playing heartbeats according to" \n
+       "the FSM's calculated beats-per-minute" \n
+       "" \n
+       "This is spawned in a separate code block to allow a varying-BPM." \n
+       "*/" \n
+       "" \n
+       "_fnc_heartBeat = true;" \n
+       "" \n
+       "[ ] spawn {" \n
+       "	while {(!ACE_NoStaminaEffects)} do {" \n
+       "            _unit = player;" \n
+       "            _heartBeat = ([_unit, ""ace_sys_stamina_heartBeat"", [0, 1]] call ACE_fnc_def);" \n
+       "		if (alive _unit) then { " \n
+       "              [_heartBeat] spawn ace_sys_stamina_fnc_heartbeat; " \n
+       "            };" \n
+       "		sleep (62/(_heartBeat select 1));" \n
+       "	};" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="time2wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Infantry_calcs">*/
+    class Infantry_calcs
+    {
+      name = "Infantry_calcs";
+      init = /*%FSM<STATEINIT""">*/"// Mass" \n
+       "_massInc = ([_player, ""ace_sys_stamina_mass"", 0] call ACE_fnc_def) max 0;" \n
+       "_mass = _clsmass +  (_player call ACE_SYS_RUCK_FNC_GEARWEIGHT) + _massInc;" \n
+       "" \n
+       "// weight impact is determined by a TAN curve, X variable is gear weight" \n
+       "// _clsmod*x can be altered to shift when the curve ""ramps up""" \n
+       "// x*tan can be altered to shift how steep the start of the curve is" \n
+       "// the ( ... ) min 89.9 is to prevent the tan function from going past 90, where it blows up" \n
+       "" \n
+       "//_mass = [_player, ""ace_sys_stamina_currentmass"", 0] call ACE_fnc_def;" \n
+       "// experimentally determined using a function grapher..." \n
+       "//_wgtMod = 1 + 1.1*tan( (_clsmod*1.6*_mass) min 89 ); // 23.41 kg -> 956m" \n
+       "_wgtMod = 1 + 1.1*tan( (_clsmod*1.1*_mass) min 89.9 );" \n
+       "" \n
+       "// _wgtMod will be infinity at tan(90), instead cap it at 25" \n
+       "if (_wgtMod > 25) then {_wgtMod = 25};" \n
+       "" \n
+       "" \n
+       "// Movement Effort" \n
+       "_cfg = configFile >> ""CfgMovesMaleSdr"" >> ""States"" >> animationState _player >> ""ACE_STAMINASTATE"";" \n
+       "_movMod = if (isNumber _cfg) then { getNumber _cfg } else { 1 };" \n
+       "" \n
+       "/*" \n
+       "The following is a fix for incorrect animation config values." \n
+       "To see what I mean, set up the _cfg value as debug output and just try out a few stances." \n
+       "" \n
+       "I wanted to change:" \n
+       "kneeling, gun down: from -1 to -1.5" \n
+       "kneeling, gup up: from +1 to -1" \n
+       "*/" \n
+       "" \n
+       "_unitAnim = _player call CBA_fnc_getUnitAnim;" \n
+       "if ((_unitAnim select 0) == ""kneel"" && (_unitAnim select 1) == ""stop"") then {" \n
+       "  _movMod = if (getNumber _cfg < 0) then { -1.5 } else { -1 };" \n
+       "};" \n
+       "" \n
+       "" \n
+       "// Influence of the weather" \n
+       "// Rain makes it harder" \n
+       "_wgtMod = _wgtMod * ((0.06 * rain)+1);" \n
+       "" \n
+       "" \n
+       "// Velocity" \n
+       "_velocity = (_curPos distance _lastPos) / _dT;" \n
+       "if (_velocity < 3) then { _movMod = _movMod - 1 };" \n
+       "" \n
+       "" \n
+       "// Height" \n
+       "_opp = (_curPos select 2) - (_lastPos select 2);" \n
+       "_hyp = (_curPos distance _lastPos) max 1;" \n
+       "" \n
+       "// Find the gradient" \n
+       "_hgtMod = ((_opp / _hyp)+1);" \n
+       "	" \n
+       "// Increase force" \n
+       "_wgtMod = _wgtMod * _hgtMod;" \n
+       "" \n
+       "" \n
+       "" \n
+       "// Increase effort to move when concussed" \n
+       "// Unused??" \n
+       "_wgtMod = _wgtMod * ((0.5 * (_stam_breathing min 1))+1);" \n
+       "" \n
+       "" \n
+       "// Increase effort to move when concussed" \n
+       "// Unused??" \n
+       "_wgtMod = _wgtMod * ((0.5 * (_stam_breathing min 1))+1);" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "height__10">*/
+        class height__10
+        {
+          priority = 1.000000;
+          to="time2wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"abs _opp > 10"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "velocity___10">*/
+        class velocity___10
+        {
+          priority = 1.000000;
+          to="time2wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"// I believe this is intended for any scenario where you're not moving under power" \n
+           "// of your own feet (e.g. falling, or ""being towed"", if that could ever happen)" \n
+           "_velocity > 10"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Stamina_calc";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Stamina_calc">*/
+    class Stamina_calc
+    {
+      name = "Stamina_calc";
+      init = /*%FSM<STATEINIT""">*/"_stam_fatigue = [_player, ""ACE_SYS_Stamina_Fatigue"", 0] call ACE_fnc_def;" \n
+       "" \n
+       "// Increase effort to move when injured" \n
+       "_wgtMod = _wgtMod * ((0.5 * (_stam_wounds min 1))+1);" \n
+       "" \n
+       "" \n
+       "// Panic modify" \n
+       "_ovrMod = if (_stam_panic) then { 0.8 } else { 0 };" \n
+       "" \n
+       "" \n
+       "// Calculate all modifiers" \n
+       "// Speed above which stamina will be used - basically a threshold allowing walking/slow jogging to regenerate health" \n
+       "//_fatigueSpeed = 4 / (_hgtMod max 1)^2;" \n
+       "" \n
+       "// Momentum" \n
+       "_momentum = 0;" \n
+       "if (_velocity > 1) then {" \n
+       "	_momentum = if (_velocity > 3) then { (0.25*(_velocity) + 1)^1.3 } else { 0.1 };" \n
+       "};" \n
+       "" \n
+       "_momentum = _momentum * (_stam_multi max 0.25 min 2);" \n
+       "//_fatigue = (_dT*((_momentum*_wgtMod *_clsmod) + _ovrmod + _movmod)) max 0;" \n
+       "_fatigue = (_dT*((_momentum*_wgtMod *_clsmod *_movmod) + _ovrmod)) max 0; // Gives better results" \n
+       "_previous = _stam_fatigue;" \n
+       "_multiplier = 0.986 max (0.00001 * _previous + (0.986 + (0.004 * _movMod))) min 0.999;" \n
+       "_new =  (_clsMax * 1.2) min ((_previous + _fatigue) * _multiplier) max 0;" \n
+       "_stam_Fatigue = _new;" \n
+       "_player setVariable [""ace_sys_stamina_fatigue"", _stam_fatigue];" \n
+       "" \n
+       "if (_stam_eh_added && !isNil ""_stam_eh"" && (_stam_Fatigue < _clsmax)) then {" \n
+       "	_player removeEventhandler [""animChanged"", _stam_eh];" \n
+       "      _stam_eh = nil;" \n
+       "      _player setVariable [""ace_sys_stamina_eh"", if (isNil ""_stam_eh"") then { nil } else { _stam_eh }];" \n
+       "      //_stam_eh_added = false;" \n
+       "      //_player setVariable [""ace_sys_stamina_eh_added"", _stam_eh_added];" \n
+       "};" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 1.000000;
+          to="Over_Fatigued";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(_stam_Fatigue > _clsmax)"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__1">*/
+        class __1
+        {
+          priority = 0.000000;
+          to="calculate_values";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="ace_sys_stamina";
+  finalStates[] =
+  {
+    "end",
+  };
+};
+/*%FSM</COMPILE>*/
