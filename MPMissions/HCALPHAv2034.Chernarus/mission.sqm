@@ -17005,7 +17005,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=13;
+		items=14;
 		class Item0
 		{
 			position[]={2477.3694,153.35954,3404.9019};
@@ -17168,6 +17168,21 @@ class Mission
 			class Effects
 			{
 				soundDet="Engine_factory3_EP1";
+			};
+		};	
+		class Item13
+		{
+			position[]={4791.603,339,9821.9639};
+			a=400;
+			b=400;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="!(player in thislist)";
+			expActiv="radi = execVM ""checking.sqf""";
+			class Effects
+			{
 			};
 		};
 	};
