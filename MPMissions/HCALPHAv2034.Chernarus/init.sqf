@@ -145,10 +145,6 @@ if (isserver) then {execVM "oldbases.sqf";};
  
 [] ExecVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
 
-if (player distance c2 > 500) then {skipTime -1};
- 
-_handleLoop = []execVM "Complexes\loop.sqf";
-
 waitUntil {player == player};
  
 null=[] execVM "randommilbases.sqf";
