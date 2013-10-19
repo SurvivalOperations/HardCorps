@@ -561,8 +561,8 @@ class CfgBuildingLoot {
 
 		//multiple spawns
 			{"","militaryEast",0.60},
-			{"","trash",0.10}
-			//{"","generic",0.50}
+			{"","trash",0.80},
+			{"","generic",0.50}
 		};
 	};
 	class MilitarySpecialWest: Default {
@@ -630,9 +630,9 @@ class CfgBuildingLoot {
 			{"HC_Ruck_WDL","object",0.01},	
 
 		//multiple spawns
-			{"","militaryWest",0.02},
-			{"","trash",0.10}
-			//{"","generic",0.50}
+			{"","militaryWest",0.60},
+			{"","trash",0.80},
+			{"","generic",0.50}
 		};
 	};
 	class Hunting: Default {
