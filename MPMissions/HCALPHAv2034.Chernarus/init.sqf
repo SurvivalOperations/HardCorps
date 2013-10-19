@@ -85,7 +85,7 @@ if ((!isServer) && (player != player)) then
 	waitUntil {time > 3};
 };
 
-/-----Is the below the Combat timer???----------
+//-----Is the below the Combat timer???----------
 if (isServer) then {
 	_serverMonitor = [] execVM "\z\addons\dayz_code\system\server_monitor.sqf";
 	"PVDZ_sec_atp" addPublicVariableEventHandler { 
