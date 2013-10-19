@@ -176,7 +176,7 @@ if (!isDedicated) then {
 | BUIDLINGS SYSTEM | - Additional Buildings by Falcon
 ------------------*/
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\villages.sqf";
-[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\buildings.sqf";
+//[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\buildings.sqf";
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\raceday.sqf";   
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\fightyard.sqf";  
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\Barrage_Dan_BBC.sqf"; 
@@ -184,4 +184,4 @@ if (!isDedicated) then {
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\bois1_Dan_BBC.sqf"; 
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\LieuxditPenduAto.sqf";
 //[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\castle.sqf";
-[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\bridge.sqf"; 
+//[] ExecVM "\z\addons\dayz_code\system\mission\map_updates\bridge.sqf"; 
