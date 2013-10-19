@@ -218,36 +218,10 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		s_player_siphonfuel = -1;
 	};
 
-	// logic vars for addactions
-	_player_butcher = false;
-	_player_studybody = false;
-
-	// CURSOR TARGET NOT ALIVE
-	if (!_isAlive) then {
-
-		// Gut animal/zed
-		if((_isAnimal or (_isMan and !_isZombie)) and _hasKnife) then {
-			_isHarvested = _cursorTarget getVariable["meatHarvested",false];
-			if (!_isHarvested) then {
-				_player_butcher = true;
-			};
-		};
-
-		// Study body
-		if (_isMan and !_isZombie) then {
-			_player_studybody = true;
-		}
-	};
-
-
-	// Human Gut Human
-	if (_player_butcher) then {
+	//Harvested
+	if (!alive _cursorTarget and _isAnimal and _hasKnife and !_isHarvested and _canDo) then {
 		if (s_player_butcher < 0) then {
-			if(_isMan and !_isZombie) then {
-				s_player_butcher = player addAction ["Cut off this persons ear!", "\z\addons\dayz_code\actions\gather_hparts.sqf",_cursorTarget, 3, true, true, "", ""];
-			} else {
-				s_player_butcher = player addAction [localize "str_actions_self_04", "\z\addons\dayz_code\actions\gather_meat.sqf",_cursorTarget, 3, true, true, "", ""];
-			};
+			s_player_butcher = player addAction [localize "str_actions_self_04", "\z\addons\dayz_code\actions\gather_meat.sqf",_cursorTarget, 3, true, true, "", ""];
 		};
 	} else {
 		player removeAction s_player_butcher;
