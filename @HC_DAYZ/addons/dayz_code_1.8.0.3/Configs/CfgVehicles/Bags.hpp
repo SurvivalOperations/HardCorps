@@ -129,8 +129,8 @@ class DZ_CivilBackpack_EP1: Bag_Base_EP1
 	icon = "\ca\weapons_e\data\icons\mapIcon_backpack_CA.paa";
 	mapsize = 2;
 	model = "\ca\weapons_e\AmmoBoxes\backpack_acr.p3d";
-	transportMaxWeapons = 4;
-	transportMaxMagazines = 24;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
 	class eventHandlers
 	{
 		init="[(_this select 0),'CfgVehicles','DZ_CivilBackpack_EP1'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
@@ -151,5 +151,95 @@ class DZ_Backpack_EP1: Bag_Base_EP1
 	class eventHandlers
 	{
 		init="[(_this select 0),'CfgVehicles','DZ_Backpack_EP1'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
+	};
+};
+
+class LEN_Backpack_OD;
+class HC_Ruck_OD:LEN_Backpack_OD 
+{
+	scope = 2;
+	displayName = "Ruck 'Olive Drab'";
+	descriptionShort = "";
+	mapsize = 2;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
+	class eventHandlers
+	{
+		init="[(_this select 0),'CfgVehicles','HC_Ruck_OD'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
+	};
+};
+
+class LEN_Backpack_MAR;
+class HC_Ruck_MAR:LEN_Backpack_MAR 
+{
+	scope = 2;
+	displayName = "Ruck 'MARPAT'";
+	descriptionShort = "";
+	mapsize = 2;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
+	class eventHandlers
+	{
+		init="[(_this select 0),'CfgVehicles','HC_Ruck_MAR'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
+	};
+};
+
+class LEN_Backpack_BLK;
+class HC_Ruck_BLK:LEN_Backpack_BLK 
+{
+	scope = 2;
+	displayName = "Ruck 'Black'";
+	descriptionShort = "";
+	mapsize = 2;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
+	class eventHandlers
+	{
+		init="[(_this select 0),'CfgVehicles','HC_Ruck_BLK'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
+	};
+};
+
+class LEN_Backpack_WDL;
+class HC_Ruck_WDL:LEN_Backpack_WDL 
+{
+	scope = 2;
+	displayName = "Ruck 'M81 Woodland'";
+	descriptionShort = "";
+	mapsize = 2;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
+	class eventHandlers
+	{
+		init="[(_this select 0),'CfgVehicles','HC_Ruck_WDL'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
+	};
+};
+
+class LEN_Backpack_NVG;
+class HC_Ruck_NVG:LEN_Backpack_NVG 
+{
+	scope = 2;
+	displayName = "Ruck 'NVG'";
+	descriptionShort = "";
+	mapsize = 2;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
+	class eventHandlers
+	{
+		init="[(_this select 0),'CfgVehicles','HC_Ruck_NVG'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
+	};
+};
+
+class LEN_Backpack_MTC;
+class HC_Ruck_MTC:LEN_Backpack_MTC 
+{
+	scope = 2;
+	displayName = "Ruck 'Multicam'";
+	descriptionShort = "";
+	mapsize = 2;
+	transportMaxWeapons = 6;
+	transportMaxMagazines = 48;
+	class eventHandlers
+	{
+		init="[(_this select 0),'CfgVehicles','HC_Ruck_MTC'] execVM '\z\addons\dayz_code\init\object_BackpackAction.sqf';";
 	};
 };
