@@ -27,6 +27,7 @@ _currentWeapon = currentWeapon player;
 
 } forEach boil_tin_cans;
 
+_hasChloroform = "ItemChloroform" in magazines player;
 _hasKnife = "ItemKnife" in items player;
 _hasToolbox = "ItemToolbox" in items player;
 //_hasTent = "ItemTent" in items player;
@@ -153,6 +154,16 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		player removeAction s_player_forceSave;
 		s_player_forceSave = -1;
 	};
+
+	// CHLOROFORM
+	if (_isMan and _isAlive and !_isZombie and _hasChloroform and _canDo) then {
+		if (s_player_chloroform < 0) then {
+			s_player_chloroform = player addAction [("<t color=""#FBFF01"">" + format ["Use Chloroform"] + "</t>"), "\z\addons\dayz_code\actions\chloroform.sqf",cursorTarget, 0, false, true, "",""];
+		};
+	} else {
+		player removeAction s_player_chloroform;
+		s_player_chloroform = -1;
+	};	
 
 	//flip vehicle
 	if ((_isVehicletype) and !_canmove and _isAlive and (player distance _cursorTarget >= 2) and (count (crew _cursorTarget))== 0 and ((vectorUp _cursorTarget) select 2) < 0.5) then {
