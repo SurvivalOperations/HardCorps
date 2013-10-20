@@ -31,11 +31,12 @@ class CfgBuildingLoot {
 		//special
 		//mags special
 			{"ItemBookBible","magazine",0.03},
-			//{"8Rnd_9x18_Makarov","magazine",0.03}, //this is church! no weapons allowed :)
+			//{"8Rnd_9x18_RH_mk2","magazine",0.03}, //this is church! no weapons allowed :)
 		//bags
 		//multiple spawns	
 			{"","Church",0.50},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.60}
 		};
 	};
 	class Castle: Default {
@@ -59,7 +60,8 @@ class CfgBuildingLoot {
 			{"DZ_Patrol_Pack_EP1","object",0.01},
 		//Multiple spawns	
 			{"","Residential",0.60},
-			{"","generic",0.40}
+			{"","trash",0.30},
+			{"","generic",0.50}
 		};
 	};	
 	class Residential: Default {
@@ -73,12 +75,14 @@ class CfgBuildingLoot {
 		//tools
 			{"ItemWatch","generic",0.03},
 			{"ItemFlashlight","generic",0.05},
+			{"Skin_Functionary1_EP1_DZ","magazine",0.03},
 			//{"ItemFishingPole","generic",0.04}, //move it to boats and boatstations
 		//weapons
-			{"Makarov","weapon",0.02},
-			{"revolver_EP1","weapon",0.01},
+			{"RH_mk2","weapon",0.02},
+			{"RH_mk22","weapons",0.02},
+			{"RH_python","weapon",0.01},
 			{"MR43","weapon",0.02},
-			{"LeeEnfield","weapon",0.01},
+			{"RH_m1911","weapon",0.01},
 			{"MeleeBaseBallBat","weapon",0.02},
 		//special
 			{"WeaponHolder_ItemFuelcan","object",0.03},
@@ -90,7 +94,8 @@ class CfgBuildingLoot {
 			{"DZ_Assault_Pack_EP1","object",0.04},
 		//multiple spawns	
 			{"","Residential",0.50},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.70}
 		};
 	};
 	class Industrial: Default { //254
@@ -105,6 +110,7 @@ class CfgBuildingLoot {
 			{"ItemKnife","weapon",0.03},
 			{"ItemToolbox","weapon",0.06},
 			{"ItemFlashlight","weapon",0.02},
+			{"ACE_Earplugs","weapon",0.03},
 		//weapons
 			{"WeaponHolder_ItemCrowbar","object",0.08},
 			{"WeaponHolder_ItemHatchet","object",0.05},
@@ -123,7 +129,8 @@ class CfgBuildingLoot {
 		//bags
 		//multiple spawns	
 			{"","Industrial",0.50},
-			{"","generic",0.50}
+			{"","trash",0.30},
+			{"","generic",0.60}
 		};
 	};
 	class Farm: Default {
@@ -136,10 +143,13 @@ class CfgBuildingLoot {
 		//one spawn
 		//tools
 			{"ItemMatchbox","weapon",0.05},
+			{"ACE_YardAge450","generic",0.01},
+			{"ACE_Earplugs","weapon",0.03},
 		//weapons
 			{"WeaponHolder_ItemHatchet","object",0.05},
 			{"huntingrifle","weapon",0.02},
 			{"LeeEnfield","weapon",0.03},
+			{"ACE_SKS","weapon",0.03},
 			{"Winchester1866","weapon",0.03},
 			{"Crossbow_DZ","weapon",0.03},
 			{"MR43","weapon",0.05},
@@ -152,6 +162,7 @@ class CfgBuildingLoot {
 		//bags
 		//multiple spawns		
 			{"","Farm",0.50},
+			{"","trash",0.30},
 			{"","generic",0.50}
 		};
 	};
@@ -171,11 +182,13 @@ class CfgBuildingLoot {
 			{"ItemKnife","generic",0.02},
 			{"ItemMatchbox","generic",0.05},
 			{"Binocular","weapon",0.03},
+			{"ACE_Earplugs","weapon",0.03},
 		//weapons
-			{"Makarov","weapon",0.02},
-			//{"Colt1911","weapon",0.02}, //mil/police
+			{"RH_mk2","weapon",0.02},
+			{"RH_ar10","weapon",0.01},
+			{"RH_mk22","weapons",0.02},
 			{"LeeEnfield","weapon",0.01},
-			{"revolver_EP1","weapon",0.01},
+			{"RH_python","weapon",0.01},
 			{"Winchester1866","weapon",0.03},
 			{"Crossbow_DZ","weapon",0.01},
 			{"MR43","weapon", 0.01},			
@@ -189,7 +202,8 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
 		//multiple spawns		
 			{"","food",0.05},
-			{"","Supermarket",0.60},
+			{"","Supermarket",0.50},
+			{"","trash",1},
 			{"","generic",0.50}
 		};
 	};	
@@ -201,7 +215,9 @@ class CfgBuildingLoot {
 		//one spawn
 		//tools
 			{"ItemWatch","weapon",0.08},
-			{"ItemMap","weapon",0.06}, 
+			{"ItemMap","weapon",0.06},
+			{"Skin_RU_Policeman_DZ","magazine",0.03},
+			{"Skin_Haris_Press_EP1_DZ","magazine",0.03},
 		//weapons
 		//special
 		//mags special
@@ -209,7 +225,8 @@ class CfgBuildingLoot {
 			{"ItemPainkiller","magazine",0.04},
 		//bags
 		//multiple spawns
-			{"","generic",0.80}
+			{"","trash",0.80},
+			{"","generic",0.60}
 		};
 	};
 	class InfectedCamps: Default { //5
@@ -224,10 +241,11 @@ class CfgBuildingLoot {
 			{"ItemMatchbox","generic",0.06},
 			{"Binocular","weapon",0.06},
 		//weapons
-			{"Makarov","weapon",0.04},
-			//{"Colt1911","weapon",0.04}, //mil/police
+			{"RH_mk2","weapon",0.04},
+			{"RH_mk22","weapons",0.02},
+			//{"RH_m1911old","weapon",0.04}, //mil/police
 			{"LeeEnfield","weapon",0.03},
-			{"revolver_EP1","weapon",0.04},
+			{"RH_python","weapon",0.04},
 			{"Winchester1866","weapon",0.03},
 			{"Crossbow_DZ","weapon",0.01},
 			{"MR43","weapon",0.03},
@@ -241,9 +259,8 @@ class CfgBuildingLoot {
 			{"WeaponHolder_ItemFuelcan","object",0.03},
 			{"WeaponHolder_ItemTent","object",0.01},
 			{"WeaponHolder_ItemFuelcan","object",0.03},
-			{"MedBox0","object",0.05},
-			{"MedBox1","object",0.05},
-			{"FoodBox0","object",0.05},
+			{"MedBox0_DZ","object",0.05},
+			{"FoodBox0_DZ","object",0.05},
 		//mags special
 			{"ItemWire","magazine",0.01},
 			{"ItemTankTrap","magazine",0.04},
@@ -256,7 +273,8 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
 		//multiple spawns
 			{"","medical",0.10},
-			{"","generic",0.50}
+			{"","trash",0.80},
+			{"","generic",0.80}
 		};
 	};
 	class HeliCrashWEST: Default {
@@ -268,31 +286,33 @@ class CfgBuildingLoot {
 		lootType[] = {
 		//one spawn
 		//tools
-			{"NVGoggles","weapon",0.01},
+			{"ACE_Battery_Rangefinder","magazine",0.03}, 
+			{"ACE_Kestrel4500","weapon",0.01},
+			{"Skin_Pilot_EP1_DZ","magazine",0.03},
 		//weapons
 			{"FN_FAL","weapon",0.04},
-			{"FN_FAL_ANPVS4","weapon",0.01},
-			{"Mk_48_DZ","weapon",0.03},
-			{"M249_DZ","weapon",0.04},
-			{"BAF_L85A2_RIS_Holo","weapon",0.03},
-			{"G36C","weapon",0.03},
-			{"G36C_camo","weapon",0.03},
-			{"G36_C_SD_camo","weapon",0.01},
-			{"G36A_camo","weapon",0.03},
-			{"G36K_camo","weapon",0.03},
-			{"M9SD","weapon",0.02},
+			{"RH_Mk48mod1","weapon",0.03},
+			{"RH_M249","weapon",0.04},
+			{"RH_PDW_EOTECH","weapon",0.04},
+			{"RH_m1stacog","weapon",0.02},
+			{"RH_m21","weapon",0.01},
+			{"RH_m9sd","weapon",0.02},
+			{"RH_g19t","weapon",0.02},
+			{"RH_bull","weapon",0.01},
+			{"RH_Scarh_sd_gl_eotech","weapon",0.01},
 		//special
-			{"MedBox0","object",0.05},
+			{"MedBox0_DZ","object",0.05},
 			{"AmmoBoxSmall_556","object",0.05},
 			{"WeaponHolder_ItemCamoNet","object",0.01},
 		//mags special
 			{"Skin_Camo1_DZ","magazine",0.05},
 			{"Skin_Sniper1_DZ","magazine",0.05},
 		//bags
+			{"HC_Ruck_NVG","object",0.01},
 		//multiple spawns
 		//multiple spawns
 			{"","medical",0.25},
-			{"","militaryWEST",0.25}
+			{"","militaryWESTcrash",0.25}
 		};
 	};
 	class HeliCrashEAST: Default {
@@ -307,25 +327,31 @@ class CfgBuildingLoot {
 			{"Binocular","weapon",0.01},
 			{"ItemKnife","generic",0.03},
 			{"ItemCompass","generic",0.04},
+			{"ACE_Battery_Rangefinder","magazine",0.03},
+			{"ACE_Rangefinder_OD","weapon",0.01}, 
+			{"ACE_Kestrel4500","weapon",0.01},
 		//weapons
-			{"AK_47_M","weapon",0.03}, 
-			{"AKS_74_U","weapon",0.03}, 
+			{"RH_tt33","weapon",0.04},
+			{"RH_vz61","weapon",0.03},
+			{"RH_akm","weapon",0.03},
+			{"RH_aks47","weapon",0.03}, 
 			{"M14_EP1","weapon",0.02},
-			{"bizon_silenced","weapon",0.04},
+			{"RH_bizonsdk","weapon",0.04},
 			{"DMR_DZ","weapon",0.04},
-			{"RPK_74","weapon",0.02},
-			{"MakarovSD","weapon",0.02},
+			{"RH_rpk74","weapon",0.02},
+			{"RH_mk2sd","weapon",0.02},
 		//special
-			{"MedBox0","object",0.05},
+			{"MedBox0_DZ","object",0.05},
 			{"AmmoBoxSmall_762","object",0.3},
 			{"WeaponHolder_PartVRotor","object",0.02},
 			{"WeaponHolder_ItemCamoNet","object",0.01},
 		//mags special
 			{"100Rnd_762x54_PK","magazine",0.01},
 		//bags
+			//{"HC_Ruck_MTC","object",0.01},
 		//multiple spawns
 			{"","medical",0.25},
-			{"","militaryEAST",0.25}
+			{"","militaryEASTcrash",0.25}
 		};
 	};
 	class Hospital: Default {
@@ -340,15 +366,16 @@ class CfgBuildingLoot {
 		//tools
 		//weapons
 		//special
-			{"MedBox0","object",0.05},
-			{"MedBox1","object",0.02},
+			{"MedBox0_DZ","object",0.05},
+			{"Skin_Doctor_DZ","magazine",0.05},
 		//mags special
 		//bags
 		//multiple spawns
+			{"","trash",0.50},
 			{"","hospital",0.60}
 		};
 	};
-	class Military: Default {
+	class MilitaryEast: Default {
 		zombieChance = 0.3;
 		maxRoaming = 6;
 		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_new_worker2","z_new_worker3","z_new_worker4"};
@@ -360,42 +387,114 @@ class CfgBuildingLoot {
 			{"Binocular","weapon",0.05},
 			{"ItemFlashlightRed","generic",0.06},
 			{"ItemKnife","generic",0.06},
-			{"ItemGPS","weapon",0.01},
 			{"ItemMap","generic",0.03},
 			{"ItemEtool","weapon",0.03},
+			{"ACE_GlassesGasMask_RU","weapon",0.03},
+			{"ACE_Earplugs","weapon",0.06},
+			{"ACE_YardAge450","generic",0.01},
+			{"ACE_GlassesBalaklavaOlive","weapon",0.03},
+			
 		//weapons
-			{"Colt1911","weapon",0.05},
-			{"M9","weapon",0.05},
-			{"M16A2","weapon",0.05},
-			{"M16A2GL","weapon",0.02},
-			{"M9SD","weapon",0.01},
-			{"MakarovSD","weapon",0.01},
-			{"AK_74","weapon",0.06},
-			{"M4A1_Aim","weapon",0.03},
-			{"AKS_74_kobra","weapon",0.06},
-			{"AKS_74_U","weapon",0.04},
-			{"AK_47_M","weapon",0.04},
+			//PISTOL
+			{"RH_PDW","weapon",0.05},
+			{"RH_mk22sd","weapon",0.01},
+			{"RH_aps","weapon",0.03},
+			//SHOTGUN
 			{"M1014","weapon",0.06},
-			{"M4A1","weapon",0.04},
-			{"M14_EP1","weapon",0.03},
-			{"UZI_EP1","weapon",0.05},
-			{"Remington870_lamp","weapon",0.05},
-			{"glock17_EP1","weapon",0.08},
+			//556
+			{"RH_bizon","weapon",0.06},
+			//762
+			{"RH_oc14","weapon",0.06},
+			{"RH_oc14gl","weapon",0.02},
+			{"AK_74","weapon",0.06},
+			{"RH_aks74uptk","weapon",0.03},
+			{"RH_aks74u","weapon",0.06},
+			{"RH_ak47","weapon",0.03},
+			{"RH_ak47gl","weapon",0.03},
+			{"RH_ak103","weapon",0.03},
+			//SMG
 			{"MP5A5","weapon",0.04},
 			{"MP5SD","weapon",0.01},
-			{"M4A3_CCO_EP1","weapon",0.02},
+			//MG
+			//SNIPER
+			{"RH_asval","weapon",0.01},
 		//special
 		//mags special
 			{"ItemSandbag","magazine",0.04},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
-			{"DZ_CivilBackpack_EP1","object",0.01}, // 24			
+			{"DZ_Backpack_EP1","object",0.01}, // 24			
 		//multiple spawns
-			{"","military",0.70},
-			{"","generic",0.10}
+			{"","militaryEast",0.60},
+			{"","trash",0.90},
+			{"","generic",0.40}
 		};
 	};
-	class MilitarySpecial: Default {
+	class MilitaryWest: Default {
+		zombieChance = 0.3;
+		maxRoaming = 6;
+		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_new_worker2","z_new_worker3","z_new_worker4"};
+		lootChance = 0.2;
+		lootPos[] = {};
+		lootType[] = {
+		//one spawn
+		//tools
+			{"Binocular","weapon",0.05},
+			{"ItemFlashlightRed","generic",0.06},
+			{"ItemKnife","generic",0.06},
+			{"ItemMap","generic",0.03},
+			{"ItemEtool","weapon",0.03},
+			{"ACE_GlassesGasMask_RU","weapon",0.03},
+			{"ACE_Earplugs","weapon",0.06},
+			{"ACE_YardAge450","generic",0.01},
+			{"ACE_GlassesBalaklavaOlive","weapon",0.03},
+			
+		//weapons
+			//PISTOL
+			{"RH_g17","weapon",0.08},
+			{"RH_PDW","weapon",0.05},
+			{"RH_m9sd","weapon",0.01},
+			{"RH_m1911old","weapon",0.05},
+			{"RH_m9","weapon",0.05},			
+			//SHOTGUN
+			{"Remington870_lamp","weapon",0.05},
+			{"M1014","weapon",0.06},
+			//556
+			{"RH_m4acog","weapon",0.02},
+			{"RH_m4r","weapon",0.02},
+			{"RH_m16a2s","weapon",0.03},
+			{"RH_m16a4acog","weapon",0.03},
+			{"RH_m16a4","weapon",0.04},
+			{"RH_m16a2","weapon",0.04},
+			{"RH_m16a2gl","weapon",0.03},
+			{"RH_m4aim","weapon",0.02},
+			{"RH_m4","weapon",0.04},
+			{"RH_m4gl","weapon",0.03},
+			{"RH_m14","weapon",0.03},
+			{"RH_m27","weapon",0.02},
+			{"RH_hk416","weapon",0.01},
+			//762
+			//SMG
+			{"MP5A5","weapon",0.04},
+			{"MP5SD","weapon",0.01},
+			//MG
+			{"RH_M249","weapon",0.01},
+			//SNIPER
+			{"RH_mk12","weapon",0.03},
+					
+		//special
+		//mags special
+			{"ItemSandbag","magazine",0.04},
+		//bags
+			{"DZ_British_ACU","object",0.02}, // 18
+			{"DZ_Backpack_EP1","object",0.01}, // 24			
+		//multiple spawns
+			{"","militaryWest",0.60},
+			{"","trash",0.90},
+			{"","generic",0.40}
+		};
+	};
+	class MilitarySpecialEast: Default {
 		zombieChance = 0.8;
 		minRoaming = 2;
 		maxRoaming = 6;
@@ -411,52 +510,125 @@ class CfgBuildingLoot {
 			{"ItemGPS","weapon",0.01},
 			{"ItemMap","generic",0.03},
 			{"Binocular_Vector","generic",0.01},
+			{"ACE_Earplugs","weapon",0.06},
+			{"ACE_Battery_Rangefinder","magazine",0.03},
+			{"ACE_Rangefinder_OD","weapon",0.01}, 
+			{"ACE_Kestrel4500","weapon",0.01},
+			{"ACE_GlassesBalaklava","weapon",0.03},
+		//Pistol
+			{"RH_mk22sd","weapon",0.02},
+			{"RH_PDW","weapon",0.08},
+
 		//weapons
-			{"M16A2","weapon",0.05},
-			{"M16A2GL","weapon",0.05},
-			{"M249_DZ","weapon",0.01},
-			{"M9SD","weapon",0.02},
-			{"MakarovSD","weapon",0.02},
-			{"AK_74","weapon",0.05},
-			{"M4A1_Aim","weapon",0.02},
+			//shotgun
+			{"ACE_SPAS12","weapon",0.07},
+			{"Sa58V_RCO_EP1","weapon",0.04},
+			{"Sa58V_CCO_EP1","weapon",0.04},
 			{"AKS_74_kobra","weapon",0.05},
 			{"AKS_74_U","weapon",0.05},
 			{"AK_47_M","weapon",0.05},
-			{"M24","weapon",0.01},
-			{"SVD_CAMO_DZ","weapon",0.01},
-			{"SVD_DZ","weapon",0.02},
-			{"M1014","weapon",0.07},
-			{"DMR_DZ","weapon",0.02},
-			{"M4A1","weapon",0.05},
-			{"M14_EP1","weapon",0.03},
-			{"UZI_EP1","weapon",0.08},
-			{"Remington870_lamp","weapon",0.06},
-			{"glock17_EP1","weapon",0.07},
-			{"M240_DZ","weapon",0.01},
-			{"M4A1_AIM_SD_camo","weapon",0.04},
-			{"M16A4_ACG","weapon",0.05},
-			{"M4A1_HWS_GL_camo","weapon",0.02},
-			{"Mk_48_DZ","weapon",0.01},
-			{"M4A3_CCO_EP1","weapon",0.03},
-			{"Sa58V_RCO_EP1","weapon",0.04},
-			{"Sa58V_CCO_EP1","weapon",0.04},
-			{"G36_C_SD_camo","weapon",0.01},
-			{"M40A3","weapon",0.02},
+			{"AK_74","weapon",0.05},
 			{"Sa58P_EP1","weapon",0.02},
-			{"Sa58V_EP1","weapon",0.02},
+			{"Sa58V_EP1","weapon",0.02},	
+			{"RH_gr1","weapon",0.03},		
+			//SNIPER
+			{"RH_svdb","weapon",0.01},
+			{"RH_svd","weapon",0.02},
+			//MG
+			{"RH_rpk74","weapon",0.02},
+			{"RH_rpk47","weapon",0.01},
 		//special
-			{"AmmoBoxSmall_556","object",0.04},
 			{"AmmoBoxSmall_762","object",0.02},
 			{"WeaponHolder_ItemCamoNet","object",0.03},
 		//mags special
-			{"PipeBomb","magazine",0.01},
 			{"100Rnd_762x54_PK","magazine",0.01},
+			{"PipeBomb","magazine",0.01},
+			{"ACE_OSM4_M","magazine",0.01},
+			{"ACE_MON50_M","magazine",0.01},
+			{"BAF_ied_v1","magazine",0.01},
 		//bags
-			{"DZ_CivilBackpack_EP1","object",0.01}, // 24
-			{"DZ_Backpack_EP1","object",0.01}, // 24		
+			{"HC_Ruck_OD","object",0.01}, // 24
+			{"HC_Ruck_BLK","object",0.01}, // 24
+
 		//multiple spawns
-			{"","military",0.70},
-			{"","generic",0.10}
+			{"","militaryEast",0.60},
+			{"","trash",0.80},
+			{"","generic",0.40}
+		};
+	};
+	class MilitarySpecialWest: Default {
+		zombieChance = 0.8;
+		minRoaming = 2;
+		maxRoaming = 6;
+		zombieClass[] = {"z_soldier_heavy","z_new_worker2","z_new_worker3","z_new_worker4"};
+		lootChance = 0.1;
+		lootPos[] = {};
+		lootType[] = {
+		//one spawn
+		//tools
+			{"Binocular","weapon",0.03},
+			{"ItemFlashlightRed","generic",0.05},
+			{"ItemKnife","generic",0.05},
+			{"ItemGPS","weapon",0.01},
+			{"ItemMap","generic",0.03},
+			{"Binocular_Vector","generic",0.01},
+			{"ACE_Earplugs","weapon",0.06},
+			{"ACE_DAGR", "weapon",0.01},
+			{"ACE_Battery_Rangefinder","magazine",0.03},
+			{"ACE_Rangefinder_OD","weapon",0.01}, 
+			{"ACE_Kestrel4500","weapon",0.01},
+			{"ACE_GlassesBalaklavaGray","weapon",0.03},
+		//Pistol
+			{"RH_usp","weapon",0.04}, 
+			{"RH_g18","weapon",0.03},	
+			{"RH_m9sd","weapon",0.02},
+			{"RH_PDW","weapon",0.08},
+			{"RH_g17","weapon",0.07},
+
+		//weapons
+			//shotgun
+			{"ACE_SPAS12","weapon",0.07},
+			{"Remington870_lamp","weapon",0.06},
+			//556
+			{"RH_M4aim_wdl","weapon",0.05},
+			{"RH_M4gleotech_wdl","weapon",0.02},
+			{"RH_m16a2","weapon",0.05},
+			{"RH_m16a2gl","weapon",0.05},
+			{"RH_m4aim","weapon",0.04},
+			{"DMR_DZ","weapon",0.02},
+			{"RH_m4","weapon",0.06},
+			{"RH_m14acog","weapon",0.03},
+			{"RH_m4sbreotech","weapon",0.03},
+			{"RH_hk417","weapon",0.03},
+			{"RH_m27aim","weapon",0.03},
+			{"RH_mas","weapon",0.03},
+			{"RH_acr","weapon",0.03},
+			{"RH_ctar21","weapon",0.03},
+			//762
+			//SNIPER
+			{"RH_mk12mod1","weapon",0.02},
+			{"M24","weapon",0.02},
+			{"M40A3","weapon",0.01},
+			//Machine Gun
+			{"RH_M249","weapon",0.02},
+			{"M240_DZ","weapon",0.01},
+			{"RH_Mk48mod1","weapon",0.01},
+		//special
+			{"AmmoBoxSmall_556","object",0.04},
+			{"WeaponHolder_ItemCamoNet","object",0.03},
+		//mags special
+			{"ACE_C4_M","magazine",0.01},
+			{"ACE_BBETTY_M","magazine",0.01},
+			{"ACE_CLAYMORE_M","magazine",0.01}, 
+			{"ACE_M86PDM","magazine",0.01},
+		//bags
+			{"HC_Ruck_MAR","object",0.01},	
+			{"HC_Ruck_WDL","object",0.01},	
+
+		//multiple spawns
+			{"","militaryWest",0.60},
+			{"","trash",0.80},
+			{"","generic",0.40}
 		};
 	};
 	class Hunting: Default {
@@ -473,6 +645,7 @@ class CfgBuildingLoot {
 			{"ItemFlashlight","generic",0.06},
 			{"ItemKnife","generic",0.05},
 			{"ItemMatchbox","generic",0.07},
+			{"ACE_YardAge450","generic",0.01},
 		//weapons
 			{"Crossbow_DZ","weapon",0.04},
 			{"MeleeMachete","weapon",0.04},
@@ -486,6 +659,7 @@ class CfgBuildingLoot {
 		//bags
 		//multiple spawns
 			{"","hunter",0.10},
+			{"","trash",0.30},
 			{"","generic",0.50}
 		};
 	};

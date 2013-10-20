@@ -6,7 +6,8 @@ hospital[] = {
 	{"ItemEpinephrine",0.03},
 	{"ItemAntibacterialWipe",0.04},
 	{"ItemBloodbag",0.03},
-	{"ItemAntibiotic",0.01},
+	{"ItemAntibiotic",0.02},
+	{"ItemChloroform",0.02},
 //ammo
 //drinks
 //food

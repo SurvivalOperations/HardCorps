@@ -11,7 +11,7 @@ hunter[] = {
 	{"2Rnd_shotgun_74Pellets",0.08},
 	{"WoodenArrow",0.10},
 //drinks
-	{"ItemWaterbottleUnfilled",0.02},
+	{"ItemWaterbottleUnfilled",0.04},
 //food
 	{"FoodCanRusUnlabeled",0.02},
 	{"FoodCanRusStew",0.02},

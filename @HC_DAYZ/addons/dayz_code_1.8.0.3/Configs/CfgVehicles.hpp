@@ -136,7 +136,7 @@ class CfgVehicles {
 		scope = 2;
 		displayname = "Plant Sphere 100cm";
 		favouritezones = "(meadow) * (forest) * (1 - houses) * (1 - sea)";
-	}
+	};
 	class Dayz_Plant1: Plant_Base {
 		displayname = $STR_ITEM_NAME_comfrey;
 		output = "equip_comfreyleafs";

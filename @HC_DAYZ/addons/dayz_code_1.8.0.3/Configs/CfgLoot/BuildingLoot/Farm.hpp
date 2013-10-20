@@ -5,8 +5,10 @@ Farm[] = {
 	{"2Rnd_shotgun_74Pellets",0.08},
 	{"5x_22_LR_17_HMR",0.01},
 	{"10x_303",0.04},
+	{"ACE_10Rnd_762x39_B_SKS",0.03},
 	{"15Rnd_W1866_Slug",0.02},
 	{"WoodenArrow",0.04},
+	{"ACE_10Rnd_762x39_B_SKS",0.01},
 //drinks
 	{"ItemSodaLemonade",0.01},
 //food

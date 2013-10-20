@@ -15,6 +15,8 @@
 //"dayzVehicleInit"	addPublicVariableEventHandler {(_this select 1) call fnc_vehicleEventHandler};
 //"dayz_serverObjectMonitor"		addPublicVariableEventHandler {dayz_serverObjectMonitor = dayz_safety};
 "dayzInfectedCamps"		addPublicVariableEventHandler {(_this select 1) spawn infectedcamps};
+"dayz_chloroform"	addPublicVariableEventHandler {nul=(_this select 1) spawn player_chloroformed};	
+
 
 	"PVDZ_Server_changeOwner" addPublicVariableEventHandler {
 		//["agent","reciever"]
