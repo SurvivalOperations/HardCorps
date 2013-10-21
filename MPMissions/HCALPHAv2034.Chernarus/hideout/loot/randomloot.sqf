@@ -16,7 +16,7 @@ _randomLoot = switch (floor random(10)) do {
 	// HK416 lootspawn
 	case 7: {"hideout\loot\hk416loot.sqf"};
 	// MK48mod1elcan lootspawn
-	case 8: {"hideout\loot\mk48mod1elcan.sqf"};
+	case 8: {"hideout\loot\mk48mod1elcanloot.sqf"};
 	// MK14ebr lootspawn
 	case 9: {"hideout\loot\mk14ebrloot.sqf"};
 };
