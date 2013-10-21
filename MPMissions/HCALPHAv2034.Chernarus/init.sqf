@@ -168,6 +168,20 @@ Private["_actionIndex"];
 if (isNil "ACE_SYS_STAMINA_DEBUG") then {ACE_SYS_STAMINA_DEBUG = True};
 _actionIndex = [["Toggle Stamina Debug Display", "ACE\stamina\StaminaDebug.sqf"]] call CBA_fnc_addPlayerAction;
 
+/*----------------------
+| ACE FUNCTION DISABLE | - Disable names and weapon storing for aircraft -- MaC
+----------------------*/
+
+if (isServer) then {
+ace_sys_tracking_markers_enabled = false;
+publicVariable "ace_sys_tracking_markers_enabled"
+}; 
+
+if (isServer) then {
+ace_sys_eject_fnc_weaponcheck = false;
+publicVariable "ace_sys_eject_fnc_weaponcheck"
+}; 
+
 /*--------------
 | LIGHT SYSTEM | - Added by Falcon
 --------------*/
