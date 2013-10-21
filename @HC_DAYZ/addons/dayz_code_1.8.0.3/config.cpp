@@ -27,7 +27,7 @@ class CfgMods {
 		hidePicture = 0;
 		hideName = 0;
 		action = "http://www.survivaloperations.net";
-		version = "2.0.9";
+		version = "2.0.10";
 		hiveVersion = 0.96;
 		requiredAddons[] = {"Chernarus"};
 	};
@@ -38,7 +38,7 @@ class CfgAddons {
 	class PreloadBanks {};
 	class PreloadAddons	{
 		class dayz {
-			list[] = {"dayz_code","dayz","dayz_equip","dayz_communityassets","dayz_weapons","dayz_sfx","ST_bunnyhop","st_collision","st_evasive","hardcorps_equip"};
+			list[] = {"dayz_code","dayz","dayz_equip","dayz_communityassets","dayz_weapons","dayz_sfx","hardcorps_equip","ST_bunnyhop","st_collision","st_evasive"};
 		};
 	};
 };

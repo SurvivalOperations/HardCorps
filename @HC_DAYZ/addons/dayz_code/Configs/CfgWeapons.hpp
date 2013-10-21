@@ -65,6 +65,6 @@ class CfgWeapons {
 	//Sniper
 	#include "CfgWeapons\Weapon\Sniper\M107.hpp"
 	#include "CfgWeapons\Weapon\Sniper\DMR_DZ.hpp"
-	#include "CfgWeapons\Weapon\Sniper\SVD_DZ.hpp"
-	#include "CfgWeapons\Weapon\Sniper\SVD_CAMO_DZ.hpp"
+	//#include "CfgWeapons\Weapon\Sniper\SVD_DZ.hpp"
+	//#include "CfgWeapons\Weapon\Sniper\SVD_CAMO_DZ.hpp"
 };

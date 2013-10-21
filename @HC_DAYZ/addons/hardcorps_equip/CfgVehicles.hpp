@@ -3,6 +3,10 @@
 class CfgVehicles {
 	class NonStrategic;	// External class reference
 	
+	class BuiltItems : NonStrategic {};
+	
+	class TrapItems : NonStrategic {};
+	
 	class ReammoBox;	// External class reference
 	
 	class WeaponHolderBase : ReammoBox {

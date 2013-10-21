@@ -5,9 +5,9 @@ class CfgMagazines {
 		scope = public;
 		count = 1;
 		type = 256;
-		displayName = "Chloroform";
+		displayName = $HC_STR_EQUIP_NAME_1;
 		picture = "\hardcorps_equip\textures\equip_chloroform_CA.paa";
-		descriptionShort = "Its vapor depresses the central nervous system of a patient, allowing a doctor to perform various otherwise painful procedures.";
+		descriptionShort = $HC_STR_EQUIP_DESC_1;
 	};	
 
 	class ItemTrophyEar : CA_Magazine {

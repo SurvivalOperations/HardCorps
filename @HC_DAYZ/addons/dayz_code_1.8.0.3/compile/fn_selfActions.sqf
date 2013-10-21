@@ -56,7 +56,6 @@ if (_canPickLight and !dayz_hasLight) then {
 	s_player_removeflare = -1;
 };
 
-
 if (dayz_onBack != "" && !dayz_onBackActive && !_inVehicle && !_onLadder && !r_player_unconscious) then {
 	if (s_player_equip_carry < 0) then {
 		_text = getText (configFile >> "CfgWeapons" >> dayz_onBack >> "displayName");
@@ -156,7 +155,6 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		s_player_forceSave = -1;
 	};
 
-
 	// CHLOROFORM
 	if (_isMan and _isAlive and !_isZombie and _hasChloroform and _canDo) then {
 		if (s_player_chloroform < 0) then {
@@ -166,7 +164,6 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		player removeAction s_player_chloroform;
 		s_player_chloroform = -1;
 	};	
-
 
 	//flip vehicle
 	if ((_isVehicletype) and !_canmove and _isAlive and (player distance _cursorTarget >= 2) and (count (crew _cursorTarget))== 0 and ((vectorUp _cursorTarget) select 2) < 0.5) then {
@@ -227,7 +224,6 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		player removeAction s_player_butcher;
 		s_player_butcher = -1;
 	};
-
 
 	//Fireplace Actions check
 	if (inflamed _cursorTarget and _hasRawMeat and _canDo and !a_player_cooking) then {
@@ -291,6 +287,16 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		};
 	};
 	
+	/*
+	if (_isMan and !_isAlive) then {
+		if (s_player_dragbody < 0) then {
+			s_player_dragbody = player addAction [localize "str_action_studybody", "\z\addons\dayz_code\actions\drag_body.sqf",_cursorTarget, 0, false, true, "",""];
+		};
+		} else {
+		player removeAction s_player_dragbody;
+		s_player_dragbody = -1;
+	};
+	*/
 	if (_isMan and !_isAlive and !_isZombie) then {
 		if (s_player_studybody < 0) then {
 			s_player_studybody = player addAction [localize "str_action_studybody", "\z\addons\dayz_code\actions\study_body.sqf",_cursorTarget, 0, false, true, "",""];
@@ -299,7 +305,6 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		player removeAction s_player_studybody;
 		s_player_studybody = -1;
 	};
-
 } else {
 	//Engineering
 	{dayz_myCursorTarget removeAction _x} forEach s_player_repairActions;s_player_repairActions = [];
@@ -327,8 +332,6 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	s_player_packtent = -1;
 	player removeAction s_player_fillfuel;
 	s_player_fillfuel = -1;
-	player removeAction s_player_chloroform;
-	s_player_chloroform = -1;
 	player removeAction s_player_studybody;
 	s_player_studybody = -1;
 	/*

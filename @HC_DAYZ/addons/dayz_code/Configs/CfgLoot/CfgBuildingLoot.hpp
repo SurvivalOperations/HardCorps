@@ -273,7 +273,7 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
 		//multiple spawns
 			{"","medical",0.10},
-			{"","trash",0.50},
+			{"","trash",0.80},
 			{"","generic",0.80}
 		};
 	};
@@ -426,7 +426,7 @@ class CfgBuildingLoot {
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
 		//multiple spawns
 			{"","militaryEast",0.60},
-			{"","trash",0.40},
+			{"","trash",0.90},
 			{"","generic",0.40}
 		};
 	};
@@ -490,7 +490,7 @@ class CfgBuildingLoot {
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
 		//multiple spawns
 			{"","militaryWest",0.60},
-			{"","trash",0.40},
+			{"","trash",0.90},
 			{"","generic",0.40}
 		};
 	};
@@ -552,7 +552,7 @@ class CfgBuildingLoot {
 
 		//multiple spawns
 			{"","militaryEast",0.60},
-			{"","trash",0.40},
+			{"","trash",0.80},
 			{"","generic",0.40}
 		};
 	};
@@ -627,7 +627,7 @@ class CfgBuildingLoot {
 
 		//multiple spawns
 			{"","militaryWest",0.60},
-			{"","trash",0.40},
+			{"","trash",0.80},
 			{"","generic",0.40}
 		};
 	};
