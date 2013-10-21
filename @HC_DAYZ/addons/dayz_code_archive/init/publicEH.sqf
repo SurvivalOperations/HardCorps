@@ -9,6 +9,7 @@
 "PVDZ_veh_SF"		addPublicVariableEventHandler {(_this select 1) call fnc_veh_handleRepair}; // repair a part from a vehicle
 "PVCDZ_obj_HideBody"		addPublicVariableEventHandler {hideBody (_this select 1)};
 "PVCDZ_obj_GutBody"		addPublicVariableEventHandler {(_this select 1) spawn local_gutObject};
+"dayzGutBodyH"		addPublicVariableEventHandler {(_this select 1) spawn local_gutObjectH};
 //Moved from isserver
 "PVCDZ_veh_SetFuel"		addPublicVariableEventHandler {(_this select 1) spawn local_setFuel};
 //"dayzDelLocal"		addPublicVariableEventHandler {(_this select 1) call object_delLocal};
@@ -16,7 +17,6 @@
 //"dayz_serverObjectMonitor"		addPublicVariableEventHandler {dayz_serverObjectMonitor = dayz_safety};
 "dayzInfectedCamps"		addPublicVariableEventHandler {(_this select 1) spawn infectedcamps};
 "dayz_chloroform"	addPublicVariableEventHandler {nul=(_this select 1) spawn player_chloroformed};	
-
 
 	"PVDZ_Server_changeOwner" addPublicVariableEventHandler {
 		//["agent","reciever"]
@@ -144,6 +144,7 @@ if (isServer) then {
 //Client only
 if (!isDedicated) then {
 	"dayzSetDate"		addPublicVariableEventHandler {setDate (_this select 1)};
+	"dayz_chloroform"	addPublicVariableEventHandler {nul=(_this select 1) spawn player_chloroformed};
 	"PVDZ_obj_RoadFlare"		addPublicVariableEventHandler {(_this select 1) spawn object_roadFlare};
 	"PVDZ_drg_RaDrag"   	addPublicVariableEventHandler {(_this select 1) execVM "\z\addons\dayz_code\medical\publicEH\animDrag.sqf"};
 	"PVDZ_obj_Fire"			addPublicVariableEventHandler {nul=(_this select 1) spawn BIS_Effects_Burn};

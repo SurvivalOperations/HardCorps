@@ -88,7 +88,5 @@ class CfgMagazines {
 	
 	//crafting
 	#include "CfgCrafting\Mats.hpp"
-
-
 	
 };

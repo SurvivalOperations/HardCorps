@@ -189,7 +189,7 @@ class RscDisplayGameOptions
 class RscShortcutButton;
 class RscShortcutButtonMain;
 
-/*class RscDisplayMain : RscStandardDisplay
+class RscDisplayMain : RscStandardDisplay
 {
 	class controlsBackground
 	{
@@ -258,7 +258,7 @@ class RscShortcutButtonMain;
 			y = "SafeZoneY + 0.75";
 		};
 	};
-};*/
+};
 
 //Remove Diary
 class RscDisplayDiary {
@@ -361,7 +361,7 @@ class RscDisplayMPInterrupt : RscStandardDisplay {
 			text = $str_disp_revert;
 			default = 0;
 		};
-/*
+
 		class CA_B_Respawn : CA_B_SAVE {
 			idc = 1010;
 			//onButtonClick = "hint str (_this select 0);";
@@ -370,7 +370,7 @@ class RscDisplayMPInterrupt : RscStandardDisplay {
 			text = $STR_DISP_INT_RESPAWN;
 			default = 0;
 		};
-*/
+
 		class CA_B_Options : CA_B_SAVE {
 			idc = 101;
 			y = 0.2537 + 0.101903 * 3;

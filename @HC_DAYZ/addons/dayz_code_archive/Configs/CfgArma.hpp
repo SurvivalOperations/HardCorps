@@ -234,7 +234,6 @@ class CfgSurvival {
 			rawfoodtype = "FoodrabbitRaw";
 		};
 	};
-	//hardcorps
 	class Skins {
 		class Default {
 			sex = "male";
