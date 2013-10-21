@@ -153,8 +153,8 @@ nul = ["GuerillaCacheBox_EP1",["mkr1", "mkr2", "mkr3", "mkr4", "mkr5", "mkr6"]] 
 /*-------
 | B T K | - BTK Gas Masks added by OG
 -------*/
+//INIT WILL BE RAN VIA TRIGGER AFTER PLAYER HAS SPAWNED
 //[] execVM "BTK\Gasmask\Start.sqf";
-[] execVM "radiationinit.sqf";
 
 /*---------
 | STAMINA | - Stamina Debug & Modifier scripts added by OG

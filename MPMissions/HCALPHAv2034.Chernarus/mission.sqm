@@ -73,7 +73,7 @@ class Mission
 	randomSeed=11171215;
 	class Intel
 	{
-		briefingName="DayZHardCorps_v2.033 GUPv0.8";
+		briefingName="DayZHardCorps_v2.034 GUPv0.8";
 		briefingDescription="DayZ";
 		resistanceWest=0;
 		startWeather=0.067362607;
@@ -17008,28 +17008,8 @@ class Mission
 	};
 	class Sensors
 	{
-		items=4;
+		items=2;
 		class Item0
-		{
-			position[]={4397.4424,339,10487.014};
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="radio = [thislist] execVM ""noaction.sqf"";";
-			class Effects
-			{
-			};
-		};
-		class Item1
-		{
-			position[]={4205.4976,339,10828.499};
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="radio = [thislist] execVM ""noaction.sqf"";";
-			class Effects
-			{
-			};
-		};
-		class Item2
 		{
 			position[]={-1029.8004,250.4453,7948.4404};
 			a=10000;
@@ -17043,17 +17023,14 @@ class Mission
 				soundDet="Engine_factory3_EP1";
 			};
 		};
-		class Item3
+		class Item1
 		{
-			position[]={4791.603,339,9821.9639};
-			a=400;
-			b=400;
-			activationBy="ANY";
-			repeating=1;
+			position[]={2930.8936,234.1591,5615.0161};
+			a=600;
+			b=600;
 			interruptable=1;
 			age="UNKNOWN";
-			expCond="!(player in thislist)";
-			expActiv="radi = execVM ""checking.sqf""";
+			expActiv="0 = this execVM ""BTK\Gasmask\Start.sqf"";";
 			class Effects
 			{
 			};
