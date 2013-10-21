@@ -188,7 +188,7 @@ class RscDisplayGameOptions
 };
 class RscShortcutButton;
 class RscShortcutButtonMain;
-
+/*
 class RscDisplayMain : RscStandardDisplay
 {
 	class controlsBackground
@@ -259,7 +259,7 @@ class RscDisplayMain : RscStandardDisplay
 		};
 	};
 };
-
+*/
 //Remove Diary
 class RscDisplayDiary {
 	idd = 129;
