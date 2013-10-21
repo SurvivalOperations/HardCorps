@@ -54,4 +54,4 @@ _mkrRay = ["small_1", "small_2", "small_3", "small_4", "small_5", "small_6", "sm
 			};
 		};
 	};
-} forEach _mkrRay;;
+} forEach _mkrRay;
