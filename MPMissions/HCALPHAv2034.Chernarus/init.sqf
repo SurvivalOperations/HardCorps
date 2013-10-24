@@ -172,15 +172,20 @@ _actionIndex = [["Toggle Stamina Debug Display", "ACE\stamina\StaminaDebug.sqf"]
 | ACE FUNCTION DISABLE | - Disable names and weapon storing for aircraft -- MaC
 ----------------------*/
 
-if (isPlayer) then {
+if (isServer) then {
 ace_sys_tracking_markers_enabled = false;
 publicVariable "ace_sys_tracking_markers_enabled"
 }; 
 
-if (isPlayer) then {
+if (isServer) then {
 ace_sys_eject_fnc_weaponcheck = false;
 publicVariable "ace_sys_eject_fnc_weaponcheck"
 }; 
+
+if (isServer) then {
+ACE_NO_RECOGNIZE = true; 
+publicVariable "ACE_NO_RECOGNIZE"
+};
 
 /*--------------
 | LIGHT SYSTEM | - Added by Falcon
