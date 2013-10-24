@@ -197,7 +197,7 @@ boil_tin_cans = [
 ];
 
 dayz_combatLog = "";
-canRoll = true;
+//canRoll = true;
 canPickup = false;
 pickupInit = false;
 dayz_chloroform = [];
