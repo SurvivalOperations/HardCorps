@@ -162,11 +162,13 @@ if (dayzPlayerLogin2 select 2) then
 /*---------
 | STAMINA | - Stamina Debug & Modifier scripts added by OG
 ---------*/
+/*
 waitUntil {(!isNull player)};
 	script = [] execVM "ACE\stamina\stamina.sqf";
 Private["_actionIndex"];
 if (isNil "ACE_SYS_STAMINA_DEBUG") then {ACE_SYS_STAMINA_DEBUG = True};
 _actionIndex = [["Toggle Stamina Debug Display", "ACE\stamina\StaminaDebug.sqf"]] call CBA_fnc_addPlayerAction;
+*/
 
 /*----------------------
 | ACE FUNCTION DISABLE | - Disable names and weapon storing for aircraft -- MaC
