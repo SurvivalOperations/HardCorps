@@ -14,7 +14,7 @@ onPauseScript = "onPause.sqf";
 briefing = 0;
 debriefing = 0;
  
-loadScreen = "\z\addons\dayz_code\gui\loadingscreen.paa";
+loadScreen = "\z\addons\dayz_code\gui\loadingscreen.jpg";
  
 class Header
 {
