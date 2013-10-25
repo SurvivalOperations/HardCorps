@@ -187,6 +187,11 @@ ACE_NO_RECOGNIZE = true;
 publicVariable "ACE_NO_RECOGNIZE"
 };
 
+if (isServer) then {
+ace_sys_wind_deflection_force_drift_on = true;
+publicVariable "ace_sys_wind_deflection_force_drift_on"
+};
+
 /*--------------
 | LIGHT SYSTEM | - Added by Falcon
 --------------*/
