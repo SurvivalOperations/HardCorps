@@ -18114,7 +18114,7 @@ class Mission
 			azimut=151.06;
 			id=1872;
 			side="EMPTY";
-			vehicle="MAP_Mil_Barracks_i";
+			vehicle="Land_Mil_Barracks_i";
 			skill=1;
 		};
 		class Item1766
@@ -18831,7 +18831,7 @@ class Mission
 			azimut=-158.605;
 			id=1952;
 			side="EMPTY";
-			vehicle="MAP_Mil_Barracks_i";
+			vehicle="Land_Mil_Barracks_i";
 			skill=1;
 		};
 		class Item1846
