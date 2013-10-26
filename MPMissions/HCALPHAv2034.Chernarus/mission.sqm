@@ -1320,7 +1320,7 @@ class Mission
 					leader=1;
 					skill=1;
 					text="lootSpawn";
-					init="lootSpawn = [] execVM ""hideout\loot\randomloot.sqf""; ACE_NO_RECOGNIZE = true; publicVariable ""ACE_NO_RECOGNIZE"";";
+					init="ACE_NO_RECOGNIZE = true; publicVariable ""ACE_NO_RECOGNIZE"";";
 				};
 			};
 		};
@@ -16895,15 +16895,13 @@ class Mission
 		{
 			position[]={5009.835,213.88838,3885.811};
 			name="medium_1";
-			type="Depot";
-			colorName="ColorWhite";
+			type="Empty";
 		};
 		class Item13
 		{
 			position[]={6765.5049,342.94681,5589.7075};
 			name="medium_2";
-			type="Depot";
-			colorName="ColorWhite";
+			type="Empty";
 		};
 		class Item14
 		{
@@ -16921,8 +16919,7 @@ class Mission
 		{
 			position[]={10622.895,228.92059,8488.2666};
 			name="medium_3";
-			type="Depot";
-			colorName="ColorWhite";
+			type="Empty";
 		};
 		class Item17
 		{
@@ -16934,8 +16931,7 @@ class Mission
 		{
 			position[]={1208.5011,346.95319,10057.921};
 			name="medium_4";
-			type="Depot";
-			colorName="ColorWhite";
+			type="Empty";
 		};
 		class Item19
 		{

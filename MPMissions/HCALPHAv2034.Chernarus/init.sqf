@@ -73,6 +73,11 @@ progressLoadingScreen 1.0;
 	};
 };
 
+if (isDedicated) then
+{
+lootSpawn = [] execVM "hideout\loot\randomloot.sqf";
+};
+
 if ((!isServer) && (isNull player) ) then
 {
 	waitUntil {!isNull player};

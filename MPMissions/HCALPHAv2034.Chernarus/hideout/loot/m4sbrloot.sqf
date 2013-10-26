@@ -1,2 +1,2 @@
-[weaponTable, 3000.8, 239, "RH_m4sbraim", "20Rnd_762x51_DMR", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
-[ammoTable, 3000.8, 329, "RH_m4sbracog", "100Rnd_556x45_BetaCMag", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
+[weaponTable, 3000.8, 239, "RH_m4sbraim", "30Rnd_556x45_Stanag", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
+[ammoTable, 3000.8, 329, "RH_m4sbracog", "30Rnd_556x45_Stanag", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
