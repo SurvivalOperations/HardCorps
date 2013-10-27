@@ -1332,7 +1332,7 @@ class Mission
 					leader=1;
 					skill=1;
 					text="lootSpawn";
-					init="ACE_NO_RECOGNIZE = true; publicVariable ""ACE_NO_RECOGNIZE"";";
+					init="ACE_NO_RECOGNIZE = true; publicVariable ""ACE_NO_RECOGNIZE""; null= [] execVM ""randommilbases.sqf"";";
 				};
 			};
 		};
@@ -18114,7 +18114,7 @@ class Mission
 			azimut=151.06;
 			id=1872;
 			side="EMPTY";
-			vehicle="Land_Mil_Barracks_i";
+			vehicle="MAP_Mil_Barracks_i";
 			skill=1;
 		};
 		class Item1766
@@ -18831,7 +18831,7 @@ class Mission
 			azimut=-158.605;
 			id=1952;
 			side="EMPTY";
-			vehicle="Land_Mil_Barracks_i";
+			vehicle="MAP_Mil_Barracks_i";
 			skill=1;
 		};
 		class Item1846
@@ -18966,123 +18966,123 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={11742.021,51,6506.6406};
-			name="small_1";
-			type="Empty";
-		};
-		class Item8
-		{
-			position[]={10097.762,69.782578,4137.0049};
-			name="small_2";
-			type="Empty";
-		};
-		class Item9
-		{
-			position[]={3925.5825,308.8251,6987.105};
-			name="small_3";
-			type="Empty";
-		};
-		class Item10
-		{
-			position[]={13468.186,68.144073,12200.382};
-			name="small_4";
-			type="Empty";
-		};
-		class Item11
-		{
-			position[]={8420.3223,351.22253,6778.7808};
-			name="small_5";
-			type="Empty";
-		};
-		class Item12
-		{
 			position[]={5009.835,213.88838,3885.811};
 			name="medium_1";
-			type="Empty";
+			type="Depot";
 		};
-		class Item13
-		{
-			position[]={6765.5049,342.94681,5589.7075};
-			name="medium_2";
-			type="Empty";
-		};
-		class Item14
-		{
-			position[]={8171.5581,468.54956,9024.9482};
-			name="high_1";
-			type="Empty";
-		};
-		class Item15
-		{
-			position[]={8339.832,321.13913,10540.687};
-			name="high_2";
-			type="Empty";
-		};
-		class Item16
-		{
-			position[]={10622.895,228.92059,8488.2666};
-			name="medium_3";
-			type="Empty";
-		};
-		class Item17
-		{
-			position[]={4962.0796,338.48001,7574.0313};
-			name="high_3";
-			type="Empty";
-		};
-		class Item18
-		{
-			position[]={1208.5011,346.95319,10057.921};
-			name="medium_4";
-			type="Empty";
-		};
-		class Item19
-		{
-			position[]={13497.988,5.71,4610.8623};
-			name="small_6";
-			type="Empty";
-		};
-		class Item20
-		{
-			position[]={3729.0205,239.42216,4833.7324};
-			name="small_7";
-			type="Empty";
-		};
-		class Item21
+		class Item8
 		{
 			position[]={2443.1208,340.9382,8088.2646};
 			name="mkr1";
 			type="Empty";
 		};
-		class Item22
+		class Item9
 		{
 			position[]={9018.5332,323.70181,4362.4775};
 			name="mkr4";
 			type="Empty";
 		};
-		class Item23
+		class Item10
 		{
 			position[]={9680.0986,287.89023,9346.3135};
 			name="mkr6";
 			type="Empty";
 		};
-		class Item24
+		class Item11
 		{
 			position[]={5287.5479,305.74265,5510.0708};
 			name="mkr3";
 			type="Empty";
 		};
-		class Item25
+		class Item12
 		{
 			position[]={12570.753,52.75779,5738.3003};
 			name="mkr5";
 			type="Empty";
 		};
-		class Item26
+		class Item13
 		{
 			position[]={2798.4158,134.5506,3132.6487};
 			name="mkr2";
 			type="Empty";
+		};
+		class Item14
+		{
+			position[]={11768.186,50.675106,6493.9468};
+			name="small_1";
+			type="Strongpoint";
+		};
+		class Item15
+		{
+			position[]={10097.365,69.750206,4137.8691};
+			name="small_2";
+			type="Strongpoint";
+		};
+		class Item16
+		{
+			position[]={3925.4514,308.83643,6987.0767};
+			name="small_3";
+			type="Strongpoint";
+		};
+		class Item17
+		{
+			position[]={13467.789,68.234276,12201.246};
+			name="small_4";
+			type="Strongpoint";
+		};
+		class Item18
+		{
+			position[]={8419.9258,351.23242,6779.645};
+			name="small_5";
+			type="Strongpoint";
+		};
+		class Item19
+		{
+			position[]={6765.106,342.94238,5590.5718};
+			name="medium_2";
+			type="Depot";
+		};
+		class Item20
+		{
+			position[]={8171.1592,468.56921,9025.8125};
+			name="high_1";
+			type="City";
+		};
+		class Item21
+		{
+			position[]={8339.4355,321.13699,10541.551};
+			name="high_2";
+			type="City";
+		};
+		class Item22
+		{
+			position[]={10622.498,228.94902,8489.1309};
+			name="medium_3_1";
+			type="Depot";
+		};
+		class Item23
+		{
+			position[]={4961.7773,338.48001,7574.0776};
+			name="high_3";
+			type="City";
+		};
+		class Item24
+		{
+			position[]={1208.4143,346.95645,10057.953};
+			name="medium_4";
+			type="Depot";
+		};
+		class Item25
+		{
+			position[]={13497.592,5.71,4611.7266};
+			name="small_6";
+			type="Strongpoint";
+		};
+		class Item26
+		{
+			position[]={3728.6216,239.43591,4833.9072};
+			name="small_7";
+			type="Strongpoint";
 		};
 	};
 	class Sensors
