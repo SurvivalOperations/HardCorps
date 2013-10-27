@@ -44,7 +44,8 @@ class Mission
 		"castructures_e_misc_misc_construction",
 		"cadata",
 		"camp_armory_misc_loudspeakers",
-		"ace_c_weapon"
+		"ace_c_weapon",
+		"usec_rig_a"
 	};
 	addOnsAuto[]=
 	{
@@ -80,6 +81,7 @@ class Mission
 		"cadata",
 		"camp_armory_misc_loudspeakers",
 		"ace_c_weapon",
+		"usec_rig_a",
 		"chernarus"
 	};
 	randomSeed=11171215;
@@ -1332,14 +1334,14 @@ class Mission
 					leader=1;
 					skill=1;
 					text="lootSpawn";
-					init="ACE_NO_RECOGNIZE = true; publicVariable ""ACE_NO_RECOGNIZE""; null= [] execVM ""randommilbases.sqf"";";
+					init="ACE_NO_RECOGNIZE = true; publicVariable ""ACE_NO_RECOGNIZE"";";
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=1855;
+		items=1856;
 		class Item0
 		{
 			position[]={4391.3838,339,10487.896};
@@ -18910,6 +18912,16 @@ class Mission
 			id=1961;
 			side="EMPTY";
 			vehicle="MAP_Mil_Barracks";
+			skill=1;
+		};
+		class Item1855
+		{
+			position[]={8005.0566,0.42718813,-26.445923};
+			azimut=-31.948099;
+			id=1962;
+			side="EMPTY";
+			vehicle="oilrig_base";
+			leader=1;
 			skill=1;
 		};
 	};

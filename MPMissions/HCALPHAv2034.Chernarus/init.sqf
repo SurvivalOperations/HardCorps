@@ -29,7 +29,7 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";	
 progressLoadingScreen 0.2;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";	//Functions used by CLIENT for medical
 progressLoadingScreen 0.4;
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";					//Compile regular functions
+call compile preprocessFileLineNumbers "compiles.sqf";					//Compile regular functions
 progressLoadingScreen 1.0;
 
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
@@ -150,6 +150,8 @@ if (dayz_REsec == 1) then {
 [] ExecVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
 
 waitUntil {player == player};
+
+null = [] execVM "randommilbases.sqf";
  
 nul = ["GuerillaCacheBox_EP1",["mkr1", "mkr2", "mkr3", "mkr4", "mkr5", "mkr6"]] execVM "rndmkr.sqf"; 
 
