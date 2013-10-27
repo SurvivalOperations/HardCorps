@@ -18916,13 +18916,13 @@ class Mission
 		};
 		class Item1855
 		{
-			position[]={8005.0566,0.42718813,-26.445923};
-			azimut=-31.948099;
+			position[]={7623.6763,0.30725852,-115.49048};
+			azimut=215.89171;
 			id=1962;
 			side="EMPTY";
 			vehicle="oilrig_base";
-			leader=1;
-			skill=1;
+			skill=0.60000002;
+			init="this setPosASL [position this select 0, position this select 1, 1];";
 		};
 	};
 	class Markers
