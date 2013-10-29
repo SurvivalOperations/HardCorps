@@ -560,7 +560,19 @@ if (!isDedicated) then {
 			_wounds,
 			[_legs,_arms],
 			_character getVariable["unconsciousTime",0],
-			_character getVariable["messing",[0,0]]
+			_character getVariable["messing",[0,0]
+			// begin ACE stamina variables
+			_character getVariable["ace_sys_stamina_concussion", 0],
+			_character getVariable["ace_sys_stamina_breathing", 0],
+			_character getVariable["ace_sys_stamina_fatigue", 0],
+			_character getVariable["ace_sys_stamina_heartBeat", [0, 1]],
+			_character getVariable["ace_sys_stamina_wounds", 0],
+			_character getVariable["ace_sys_stamina_panic", false],
+			_character getVariable["ace_sys_stamina_eh_added", false],
+			_character getVariable["ace_sys_stamina_eh", nil],
+			_character getVariable["ace_sys_stamina_multi", 1]
+			//end ACE stamina variables
+			]
 		];
 		_medical
 	};
