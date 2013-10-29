@@ -561,7 +561,9 @@ if (!isDedicated) then {
 			[_legs,_arms],
 			_character getVariable["unconsciousTime",0],
 			_character getVariable["messing",[0,0]
-			// begin ACE stamina variables
+
+			/*/ begin ACE stamina variables - these variables are private to ace_sys_stamina.. need to extract or make global function.
+
 			_character getVariable["ace_sys_stamina_concussion", 0],
 			_character getVariable["ace_sys_stamina_breathing", 0],
 			_character getVariable["ace_sys_stamina_fatigue", 0],
@@ -571,7 +573,9 @@ if (!isDedicated) then {
 			_character getVariable["ace_sys_stamina_eh_added", false],
 			_character getVariable["ace_sys_stamina_eh", nil],
 			_character getVariable["ace_sys_stamina_multi", 1]
-			//end ACE stamina variables
+
+			/*/end ACE stamina variables
+
 			]
 		];
 		_medical
