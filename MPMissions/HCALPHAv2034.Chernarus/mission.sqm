@@ -115,7 +115,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item1
 				{
@@ -127,7 +127,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item2
 				{
@@ -138,7 +138,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item3
 				{
@@ -149,7 +149,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item4
 				{
@@ -160,7 +160,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item5
 				{
@@ -171,7 +171,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item6
 				{
@@ -182,7 +182,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item7
 				{
@@ -193,7 +193,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item8
 				{
@@ -204,7 +204,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item9
 				{
@@ -215,7 +215,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item10
 				{
@@ -226,7 +226,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item11
 				{
@@ -237,7 +237,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item12
 				{
@@ -248,7 +248,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item13
 				{
@@ -259,7 +259,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item14
 				{
@@ -270,7 +270,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item15
 				{
@@ -281,7 +281,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item16
 				{
@@ -292,7 +292,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item17
 				{
@@ -303,7 +303,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item18
 				{
@@ -314,7 +314,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item19
 				{
@@ -325,7 +325,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item20
 				{
@@ -336,7 +336,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item21
 				{
@@ -347,7 +347,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item22
 				{
@@ -358,7 +358,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item23
 				{
@@ -369,7 +369,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item24
 				{
@@ -380,7 +380,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item25
 				{
@@ -391,7 +391,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item26
 				{
@@ -402,7 +402,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item27
 				{
@@ -413,7 +413,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item28
 				{
@@ -424,7 +424,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item29
 				{
@@ -435,7 +435,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item30
 				{
@@ -446,7 +446,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item31
 				{
@@ -457,7 +457,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item32
 				{
@@ -468,7 +468,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item33
 				{
@@ -479,7 +479,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item34
 				{
@@ -490,7 +490,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item35
 				{
@@ -501,7 +501,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item36
 				{
@@ -512,7 +512,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item37
 				{
@@ -523,7 +523,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item38
 				{
@@ -534,7 +534,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item39
 				{
@@ -545,7 +545,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item40
 				{
@@ -556,7 +556,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item41
 				{
@@ -567,7 +567,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item42
 				{
@@ -578,7 +578,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item43
 				{
@@ -589,7 +589,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item44
 				{
@@ -600,7 +600,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item45
 				{
@@ -611,7 +611,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item46
 				{
@@ -622,7 +622,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item47
 				{
@@ -633,7 +633,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item48
 				{
@@ -644,7 +644,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item49
 				{
@@ -655,7 +655,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item50
 				{
@@ -666,7 +666,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item51
 				{
@@ -677,7 +677,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item52
 				{
@@ -688,7 +688,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item53
 				{
@@ -699,7 +699,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item54
 				{
@@ -710,7 +710,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item55
 				{
@@ -721,7 +721,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item56
 				{
@@ -732,7 +732,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item57
 				{
@@ -743,7 +743,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item58
 				{
@@ -754,7 +754,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item59
 				{
@@ -765,7 +765,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item60
 				{
@@ -776,7 +776,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item61
 				{
@@ -787,7 +787,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item62
 				{
@@ -798,7 +798,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item63
 				{
@@ -809,7 +809,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item64
 				{
@@ -820,7 +820,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item65
 				{
@@ -831,7 +831,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item66
 				{
@@ -842,7 +842,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item67
 				{
@@ -853,7 +853,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item68
 				{
@@ -864,7 +864,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item69
 				{
@@ -875,7 +875,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item70
 				{
@@ -886,7 +886,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item71
 				{
@@ -897,7 +897,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item72
 				{
@@ -908,7 +908,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item73
 				{
@@ -919,7 +919,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item74
 				{
@@ -930,7 +930,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item75
 				{
@@ -941,7 +941,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item76
 				{
@@ -952,7 +952,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item77
 				{
@@ -963,7 +963,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item78
 				{
@@ -974,7 +974,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item79
 				{
@@ -985,7 +985,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item80
 				{
@@ -996,7 +996,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item81
 				{
@@ -1007,7 +1007,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item82
 				{
@@ -1018,7 +1018,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item83
 				{
@@ -1029,7 +1029,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item84
 				{
@@ -1040,7 +1040,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item85
 				{
@@ -1051,7 +1051,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item86
 				{
@@ -1062,7 +1062,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item87
 				{
@@ -1073,7 +1073,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item88
 				{
@@ -1084,7 +1084,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item89
 				{
@@ -1095,7 +1095,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item90
 				{
@@ -1106,7 +1106,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item91
 				{
@@ -1117,7 +1117,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item92
 				{
@@ -1128,7 +1128,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item93
 				{
@@ -1139,7 +1139,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item94
 				{
@@ -1150,7 +1150,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item95
 				{
@@ -1161,7 +1161,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item96
 				{
@@ -1172,7 +1172,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item97
 				{
@@ -1183,7 +1183,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item98
 				{
@@ -1194,7 +1194,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 				class Item99
 				{
@@ -1205,7 +1205,7 @@ class Mission
 					vehicle="Survivor1_DZ";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';this setVariable [""ACE_SYS_STAMINA_MULTI"", 0.3];";
 				};
 			};
 		};
@@ -18116,7 +18116,7 @@ class Mission
 			azimut=151.06;
 			id=1872;
 			side="EMPTY";
-			vehicle="MAP_Mil_Barracks_i";
+			vehicle="Land_Mil_Barracks_i";
 			skill=1;
 		};
 		class Item1766
@@ -18833,7 +18833,7 @@ class Mission
 			azimut=-158.605;
 			id=1952;
 			side="EMPTY";
-			vehicle="MAP_Mil_Barracks_i";
+			vehicle="Land_Mil_Barracks_i";
 			skill=1;
 		};
 		class Item1846
