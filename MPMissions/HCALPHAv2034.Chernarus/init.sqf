@@ -15,7 +15,7 @@ dayz_REsec = 0; // DayZ RE Security / 1 = enabled // 0 = disabled
 dayzHiveRequest = [];
  
 //Game Settings
-dayz_spawnselection = 1; // DayZ Spawnselection / 1 = enabled // 0 = disabled, No current spawn limits.
+dayz_spawnselection = 0; // DayZ Spawnselection / 1 = enabled // 0 = disabled, No current spawn limits.
 dayz_spawnCrashSite_clutterCutter = 0;  // Helicrash Settings / 0 =  loot hidden in grass // 1 = loot lifted // 2 = no grass around the Helicrash
 dayz_spawnInfectedSite_clutterCutter = 0; // Infected Base Settings / 0 =  loot hidden in grass // 1 = loot lifted // 2 = no grass around the infected base
  
@@ -29,6 +29,7 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";	
 progressLoadingScreen 0.2;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";	//Functions used by CLIENT for medical
 progressLoadingScreen 0.4;
+call compile preprocessFileLineNumbers "randomloot.sqf";
 call compile preprocessFileLineNumbers "randommilbases.sqf";	
 call compile preprocessFileLineNumbers "compiles.sqf";					//Compile regular functions
 progressLoadingScreen 1.0;
