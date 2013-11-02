@@ -15,7 +15,7 @@ dayz_REsec = 0; // DayZ RE Security / 1 = enabled // 0 = disabled
 dayzHiveRequest = [];
  
 //Game Settings
-dayz_spawnselection = 0; // DayZ Spawnselection / 1 = enabled // 0 = disabled, No current spawn limits.
+dayz_spawnselection = 1; // DayZ Spawnselection / 1 = enabled // 0 = disabled, No current spawn limits.
 dayz_spawnCrashSite_clutterCutter = 0;  // Helicrash Settings / 0 =  loot hidden in grass // 1 = loot lifted // 2 = no grass around the Helicrash
 dayz_spawnInfectedSite_clutterCutter = 0; // Infected Base Settings / 0 =  loot hidden in grass // 1 = loot lifted // 2 = no grass around the infected base
  
