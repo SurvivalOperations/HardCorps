@@ -50,4 +50,12 @@ class CfgSounds
                 sound[] = {"Gasmask\Geiger.ogg",1.23,1.0};
                 titles[] = {};
         };
+		class lift
+        {
+                // how the sound is referred to in the editor (e.g. trigger effects)
+                name = "lift";
+                // filename, volume, pitch
+                sound[] = {"fx\lift.ogg", 2, 1};
+                titles[] = {};
+        };
 };
