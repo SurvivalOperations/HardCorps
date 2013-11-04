@@ -1,10 +1,10 @@
 titleCut ["", "BLACK OUT", 0.5];
 sleep 3;
-//player setPos (getPos debug);
+player setPos (getPos debug);
 disableUserInput true;
 playsound "lift";
 sleep 9;
 disableUserInput false;
-player setPos (getPos e);
+player setPos (getPos s2);
 titleCut ["", "BLACK IN", 0.5];
 };
