@@ -5,17 +5,17 @@ class CfgMagazines {
 		scope = public;
 		count = 1;
 		type = 256;
-		displayName = $HC_STR_EQUIP_NAME_1;
+		displayName = "Chloroform";
 		picture = "\hardcorps_equip\textures\equip_chloroform_CA.paa";
-		descriptionShort = $HC_STR_EQUIP_DESC_1;
-	};	
+		descriptionShort = "Its vapor depresses the central nervous system of a patient, allowing a doctor to perform various otherwise painful procedures.";
+	};
 
 	class ItemTrophyEar : CA_Magazine {
 		scope = public;
 		count = 1;
 		type = 256;
 		picture = "\hardcorps_equip\textures\equip_eartrophy_CA.paa";
-		displayName = $HC_STR_EQUIP_NAME_2;
-		descriptionShort = $HC_STR_EQUIP_DESC_2;
+		displayName = "Ear Trophy";
+		descriptionShort = "A trophy of your struggles and a glimpse into your brutal past. 'To the victor and champion of survival, your victims ear!'";
 	};
 };
