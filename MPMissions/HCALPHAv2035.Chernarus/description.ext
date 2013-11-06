@@ -1,0 +1,53 @@
+
+//defines is commented out due to the dayz_code description having it defined.
+//#include "defines.hpp"
+respawn = "BASE";
+respawndelay = 5;
+onLoadMission= "DayZ: Hard Corps";
+OnLoadIntro = "Welcome to Hell!";
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+disabledAI = true;
+disableChannels[] = {0,1,2,6};
+enableItemsDropping = 0;
+onPauseScript = "onPause.sqf"; 
+briefing = 0;
+debriefing = 0;
+ 
+loadScreen = "\z\addons\dayz_code\gui\loadingscreen.paa";
+ 
+class Header
+{
+        gameType = COOP;                        //DM, Team, Coop, ...
+        minPlayers = 1;                         //Min # of players the mission supports
+        maxPlayers = 100;                       //Max # of players the mission supports
+};
+ 
+#include "\z\addons\dayz_code\system\mission\description.sqf"
+
+class CfgSounds
+{
+        sounds[] = {};
+        class door
+        {
+                // how the sound is referred to in the editor (e.g. trigger effects)
+                name = "door";
+                // filename, volume, pitch
+                sound[] = {"Complexes\Sound\Door.ogg", 0.7, 1};
+                titles[] = {};
+        };
+        class outdoor
+        {
+                // how the sound is referred to in the editor (e.g. trigger effects)
+                name = "outdoor";
+                // filename, volume, pitch
+                sound[] = {"Complexes\Sound\outdoor.ogg", 1, 1};
+                titles[] = {};
+        };
+        class BTK_Gasmask_Geiger
+        {
+                name = "BTK_Gasmask_Geiger";
+                sound[] = {"Gasmask\Geiger.ogg",1.23,1.0};
+                titles[] = {};
+        };
+};
