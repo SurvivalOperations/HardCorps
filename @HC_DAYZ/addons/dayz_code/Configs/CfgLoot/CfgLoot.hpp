@@ -15,6 +15,7 @@ class CfgLoot {
 	//med
 		{"ItemBandage",0.10},
 	//ammo
+		{"RH_5Rnd_B_Beneli_Pellets",0.03},
 		{"RH_8Rnd_45cal_m1911",0.03},
 		{"RH_6Rnd_357_Mag",0.03},
 		{"15Rnd_W1866_Slug",0.03},
@@ -49,6 +50,7 @@ class CfgLoot {
 	//med
 		{"ItemBandage",0.02},
 	//ammo
+		{"RH_5Rnd_B_Beneli_Pellets",0.03},
 		{"RH_8Rnd_9x19_Mk",0.04},
 		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
 		{"RH_6Rnd_357_Mag",0.04},
@@ -80,6 +82,7 @@ class CfgLoot {
 		{"ItemAntibacterialWipe",0.03},
 		{"ItemHeatPack",0.04},
 	//ammo
+		{"RH_30Rnd_6x35_PDW",0.04},
 		{"RH_8Rnd_9x19_Mk",0.09},
 		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
 		{"RH_6Rnd_357_Mag",0.04},
@@ -153,7 +156,7 @@ class CfgLoot {
 		{"ItemPainkiller",0.02},
 		{"ItemMorphine",0.01},
 		{"ItemHeatPack",0.04},
-	//ammo\
+	//ammo
 		{"RH_20Rnd_9x39_SP6_mag",0.03},
 		{"RH_20Rnd_9x39_val_mag",0.01},
 		{"RH_20Rnd_9x18_aps",0.02},
@@ -164,6 +167,7 @@ class CfgLoot {
 		{"RH_8Rnd_9x19_Mksd",0.01},
 		{"30Rnd_762x39_AK47",0.02},
 		{"30Rnd_545x39_AK",0.02},
+		{"30Rnd_556x45_Aug",0.03},
 		{"8Rnd_B_Beneli_74Slug",0.04},
 		{"HandGrenade_east",0.01},
 		{"SmokeShell",0.04},
@@ -196,8 +200,10 @@ class CfgLoot {
 		{"FoodCanRusCorn",0.01},
 		{"FoodMRE",0.03},
 	//special
+		{"ACE_PG7VL_PGO7",0.02},
 		{"ACE_RDG2",0.03},
 		{"ACE_ANM14",0.01},
+		{"AT13",0.01},
 	//trash
 		{"ItemSodaCokeEmpty",0.05},
 		{"ItemSodaPepsiEmpty",0.03},
@@ -222,11 +228,13 @@ class CfgLoot {
 		{"ItemMorphine",0.01},
 		{"ItemHeatPack",0.04},
 	//ammo
+		{"RH_5Rnd_B_Beneli_Pellets",0.03},
 		{"RH_8Rnd_45cal_m1911",0.04},
 		{"RH_20Rnd_762x51_hk417",0.02},
+		{"RH_30Rnd_6x35_PDW",0.02},
 		{"30Rnd_556x45_Stanag",0.02},
 		{"20Rnd_762x51_DMR",0.02},
-		{"RH_20Rnd_762x51_SD_SCAR",0.02},
+		{"ACE_30Rnd_556x45_S_Stanag",0.02},
 		{"RH_17Rnd_9x19_g17",0.05},
 		{"15Rnd_9x19_M9SD",0.01},
 		{"15Rnd_9x19_M9",0.03},
@@ -248,8 +256,7 @@ class CfgLoot {
 		{"100Rnd_762x51_M240",0.01},
 		{"HandChemGreen",0.04},
 		{"HandChemBlue",0.04},
-		{"HandChemRed",0.04},
-		{"RH_30Rnd_6x35_PDW",0.02},
+		{"HandChemRed",0.04},		
 	//drinks
 		{"ItemSodaEmpty",0.06},
 		{"ItemSodaCoke",0.01},

@@ -17,8 +17,11 @@ militaryEASTcrash[] = {
 	{"SmokeShellGreen",0.02},
 	{"RH_8Rnd_762_tt33",0.05},
 	{"RH_20Rnd_32cal_vz61",0.05},
-		
+	{"RH_PDW",0.05},
+	{"RH_PDW_AIM",0.05},
+			
 //drinks
+	{"ItemWaterbottle",0.10},
 //food
 	{"FoodCanRusStew",0.08},
 	{"FoodCanRusPork",0.08}

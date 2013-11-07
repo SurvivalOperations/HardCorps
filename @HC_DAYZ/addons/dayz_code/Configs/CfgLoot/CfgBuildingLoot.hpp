@@ -397,6 +397,8 @@ class CfgBuildingLoot {
 		//weapons
 			//PISTOL
 			{"RH_PDW","weapon",0.05},
+			{"RH_PDW_AIM","weapon",0.05},
+			{"RH_PDW_ACOG","weapon",0.04},
 			{"RH_mk22sd","weapon",0.01},
 			{"RH_aps","weapon",0.03},
 			//SHOTGUN
@@ -414,13 +416,18 @@ class CfgBuildingLoot {
 			{"RH_ak103","weapon",0.03},
 			//SMG
 			{"MP5A5","weapon",0.04},
-			{"MP5SD","weapon",0.01},
+			{"MP5SD","weapon",0.01},			
 			//MG
 			//SNIPER
 			{"RH_asval","weapon",0.01},
 		//special
+			{"ACE_RPG7V_PGO7","weapon",0.01},
+			{"RPG18","weapon",0.05},
+			{"MetisLauncher","weapon",0.01},
 		//mags special
 			{"ItemSandbag","magazine",0.04},
+			{"AT13","weapon",0.01},
+			{"ACE_PG7VL_PGO7","weapon",0.02},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
@@ -534,6 +541,9 @@ class CfgBuildingLoot {
 			//SNIPER
 			{"RH_svdb","weapon",0.01},
 			{"RH_svd","weapon",0.02},
+			//SMG
+			{"RH_P90","weapon",0.02},
+			{"RH_tmpsdeot","weapon",0.02},
 			//MG
 			{"RH_rpk74","weapon",0.02},
 			{"RH_rpk47","weapon",0.01},
@@ -587,9 +597,12 @@ class CfgBuildingLoot {
 
 		//weapons
 			//shotgun
+			{"RH_M4CMK","weapon",0.05},
 			{"ACE_SPAS12","weapon",0.07},
 			{"Remington870_lamp","weapon",0.06},
 			//556
+			{"MIDF_Aug_A3_acog_black","weapon",0.03},
+			["RH_SCARL_SD_GL_ACOG","weapon",0.03},
 			{"RH_M4aim_wdl","weapon",0.05},
 			{"RH_M4gleotech_wdl","weapon",0.02},
 			{"RH_m16a2","weapon",0.05},
@@ -605,7 +618,9 @@ class CfgBuildingLoot {
 			{"RH_acr","weapon",0.03},
 			{"RH_ctar21","weapon",0.03},
 			//762
+			{"RH_M60E4","weapon",0.02},
 			//SNIPER
+			{"RH_M14EBRSP","weapon",0.02},
 			{"RH_mk12mod1","weapon",0.02},
 			{"M24","weapon",0.02},
 			{"M40A3","weapon",0.01},

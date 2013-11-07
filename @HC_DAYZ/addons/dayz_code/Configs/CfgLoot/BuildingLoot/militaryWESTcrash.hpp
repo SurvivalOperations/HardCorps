@@ -26,8 +26,9 @@ militaryWESTcrash[] = {
 	{"HandChemRed",0.02},
 	{"RH_6Rnd_44_Mag",0.02},
 	{"RH_20Rnd_762x51_SD_SCAR",0.03},
+	{"RPG18",0.10},
 //drinks
-	{"ItemWaterbottleUnfilled",0.03},
+	{"ItemWaterbottle",0.10},
 //food
 	{"FoodMRE",0.01}
 //special
