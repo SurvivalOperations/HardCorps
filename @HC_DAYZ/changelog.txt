@@ -1,4 +1,14 @@
 -----------------------------------------------------------------------------------
+[Falcon91] 2.0.8
+[added] RPG items to loot due to LAV was added to DB and neded something to compensate with the new threat
+[added] RH_PWD, RH_PDW_AIM to Military EAST crashes
+[Added] RPG18 to MilitaryWEST crashes also increase waterbottle filled 
+[Added] RH_PDW_AIM, RH_PDW_ACOG,ACE_RPG7V_PGO7,RPG18,Metislancher, RH_p90, RH_tmpsdeot, MIDF_AUG_A3_acog_black, RH_SCARL_SD_GL_ACOG,RH_M60E4,RH_M14EBRSP  to miltarywest Bldg loot
+[added] RH_5Rnd_B_Beneli_Pellets to zombie policeman loot
+[added] ACE_30Rnd_556x45_S_Stanag
+[removed] RH_20Rnd_762x51_SD_SCAR
+ 
+-----------------------------------------------------------------------------------
 [Falcon911] 2.0.7
 
 :code
