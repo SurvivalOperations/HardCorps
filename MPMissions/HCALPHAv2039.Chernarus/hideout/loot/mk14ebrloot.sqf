@@ -1,0 +1,2 @@
+[weaponTable, 3000.8, 239, "RH_mk14ebr", "20Rnd_762x51_DMR", 1, 2, 0.3] exec "hideout\loot\placeweapons.sqs";
+[ammoTable, 3000.8, 329, "RH_Mk18glaim", "100Rnd_556x45_BetaCMag", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
