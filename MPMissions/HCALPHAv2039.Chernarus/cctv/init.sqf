@@ -12,7 +12,7 @@ private ["_laptop", "_camera_objs", "_player_camera", "_get_pos", "_get_dir", "_
 CCTV_pan_angle = 45; // Angle the camera moves left to right
 CCTV_tilt_angle = 15; // Angle the camera is tilted down
 CCTV_time_int = 3; // Time the camera holds
-CCTV_radius = 500; // Radius which notebooks detect cameras
+CCTV_radius = 50000; // Radius which notebooks detect cameras
 
 // END OF CONFIG
 CCTV_NEXT = true;

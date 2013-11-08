@@ -307,16 +307,15 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	};
 	  /////////////////////////////
       // CCTV Custom self actions
-        _isLaptop = _cursorTarget isKindOf "Notebook";
-        if (_isLaptop && _canDo) then {
-                if (s_player_laptop < 0) then {
-                        s_player_laptop = player addAction ["Activate Laptop", "cctv\init.sqf",_cursorTarget, 1, true, true, "", ""];
+    _isLaptop = _cursorTarget isKindOf "Notebook";
+    if (_isLaptop && _canDo) then {
+		    if (s_player_laptop < 0) then {
+                   s_player_laptop = player addAction ["Activate Laptop", "cctv\init.sqf",_cursorTarget, 1, true, true, "", ""];
                 }
         } else {
                 player removeAction s_player_laptop;
                 s_player_laptop = -1;
-        };
-        /////////////////////////////
+        }; 
 } else {
 	//Engineering
 	{dayz_myCursorTarget removeAction _x} forEach s_player_repairActions;s_player_repairActions = [];
@@ -364,4 +363,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	//Allow player o gather
 	player removeAction s_player_gather;
 	s_player_gather = -1;
+   // CCTV Custom self actions
+    player removeAction s_player_laptop;
+    s_player_laptop = -1;
 };
