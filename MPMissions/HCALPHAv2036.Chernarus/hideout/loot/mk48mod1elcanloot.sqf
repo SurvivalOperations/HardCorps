@@ -1,0 +1,2 @@
+[weaponTable, 3000.8, 239, "RH_Mk48mod1elcan", "100Rnd_762x51_M240", 1, 2, 0.3] exec "hideout\loot\placeweapons.sqs";
+[ammoTable, 3000.8, 329, "RH_mp5k", "BIS 30Rnd_9x19_MP5", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
