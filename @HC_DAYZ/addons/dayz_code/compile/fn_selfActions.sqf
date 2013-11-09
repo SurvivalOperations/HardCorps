@@ -4,8 +4,9 @@ scriptName "Functions\misc\fn_selfActions.sqf";
 	- Function
 	- [] call fnc_usec_selfActions;
 ************************************************************/
-private ["_hastinitem","_canPickLight","_text","_driver","_hasRawMeat","_isFuel","_menu","_isHarvested","_isVehicle","_isVehicletype","_isMan","_ownerID","_isAnimal","_isZombie","_isDestructable","_isTent","_isStash","_isMediumStash","_hasFuel20","_hasFuel5","_isAlive","_canmove","_isPlant","_rawmeat","_vehicle","_inVehicle","_hasFuelE20","_hasFuelE5","_cursorTarget","_hasbottleitem","_primaryWeapon","_currentWeapon","_hasKnife","_hasToolbox","_onLadder","_nearLight","_canDo"];
+private ["_handgun","_hastinitem","_canPickLight","_text","_driver","_hasRawMeat","_isFuel","_menu","_isHarvested","_isVehicle","_isVehicletype","_isMan","_ownerID","_isAnimal","_isZombie","_isDestructable","_isTent","_isStash","_isMediumStash","_hasFuel20","_hasFuel5","_isAlive","_canmove","_isPlant","_rawmeat","_vehicle","_inVehicle","_hasFuelE20","_hasFuelE5","_cursorTarget","_hasbottleitem","_primaryWeapon","_currentWeapon","_hasKnife","_hasToolbox","_onLadder","_nearLight","_canDo"];
 
+_handGun = currentWeapon player;
 _vehicle = vehicle player;
 _inVehicle = (_vehicle != player);
 //_bag = unitBackpack player;
@@ -41,6 +42,24 @@ if (!isNull _nearLight) then {
 	};
 };
 _canDo = (!r_drag_sqf and !r_player_unconscious and !_onLadder);
+
+// ---------------------------------------SUICIDE START------------------------------------
+ 
+if ((_handGun in ["glock17_EP1","M9","M9SD","Makarov","MakarovSD","revolver_EP1","UZI_EP1","Sa61_EP1","Colt1911"]) && (player ammo _handGun > 0)) then {
+    hasSecondary = true;
+} else {
+    hasSecondary = false;
+};
+if((speed player <= 1) && hasSecondary && _canDo) then {
+    if (s_player_suicide < 0) then {
+        s_player_suicide = player addaction[("<t color=""#ff0000"">" + ("Commit Suicide") +"</t>"),"\z\addons\dayz_code\actions\suicide.sqf",_handGun,0,false,true,"", ""];
+    };
+} else {
+    player removeAction s_player_suicide;
+    s_player_suicide = -1;
+};
+ 
+// ---------------------------------------SUICIDE END------------------------------------
 
 //Grab Flare
 if (_canPickLight and !dayz_hasLight) then {
@@ -111,6 +130,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	_canmove = canmove _cursorTarget;
 	_text = getText (configFile >> "CfgVehicles" >> typeOf _cursorTarget >> "displayName");
 	_isPlant = typeOf _cursorTarget in Dayz_plants;
+	_clothesTaken = cursorTarget getVariable["clothesTaken",false];
 
 	_rawmeat = meatraw;
 	_hasRawMeat = false;
@@ -119,7 +139,17 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 				_hasRawMeat = true;
 			};
 		} forEach _rawmeat;
-
+		
+ // Take clothes by Zabn @ BalotaBuddies.net
+    if (_isMan and !_isAlive and !_isZombie and !_clothesTaken) then {
+        if (s_player_clothes < 0) then {
+            s_player_clothes = player addAction [("<t color='#0096ff'>")+("Take Clothes")+("</t>"), "\z\addons\dayz_code\actions\player_takeClothes.sqf",cursorTarget, -10, false, true, "",""];
+        };
+    } else {
+        player removeAction s_player_clothes;
+        s_player_clothes = -1;
+        };
+		
 	//gather
 	if(_isPlant and _canDo) then {
 		if (s_player_gather < 0) then {
@@ -305,8 +335,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 		player removeAction s_player_studybody;
 		s_player_studybody = -1;
 	};
-	  /////////////////////////////
-      // CCTV Custom self actions
+    // CCTV Custom self actions
     _isLaptop = _cursorTarget isKindOf "Notebook";
     if (_isLaptop && _canDo) then {
 		    if (s_player_laptop < 0) then {
@@ -316,6 +345,7 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
                 player removeAction s_player_laptop;
                 s_player_laptop = -1;
         }; 
+		  _clothesTaken = cursorTarget getVariable["clothesTaken",false];
 } else {
 	//Engineering
 	{dayz_myCursorTarget removeAction _x} forEach s_player_repairActions;s_player_repairActions = [];
@@ -355,6 +385,10 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
 	s_player_fillfuel20 = -1;
 	player removeAction s_player_fillfuel5;
 	s_player_fillfuel5 = -1;
+	
+	// Take Clothes by Zabn @ Balota Buddies
+    player removeAction s_player_clothes;
+    s_player_clothes = -1;
 
 	//Allow player to spihon vehicle fuel
 	player removeAction s_player_siphonfuel;
@@ -366,23 +400,9 @@ if (!isNull _cursorTarget and !_inVehicle and (player distance _cursorTarget < 4
    // CCTV Custom self actions
     player removeAction s_player_laptop;
     s_player_laptop = -1;
+	// Take Clothes by Zabn @ Balota Buddies
+    player removeAction s_player_clothes;
+    s_player_clothes = -1;
 };
-// ---------------------------------------SUICIDE START------------------------------------
- 
-private ["_handGun"];
-_handGun = currentWeapon player;
-if ((_handGun in ["glock17_EP1","M9","M9SD","Makarov","MakarovSD","revolver_EP1","UZI_EP1","Sa61_EP1","Colt1911"]) && (player ammo _handGun > 0)) then {
-    hasSecondary = true;
-} else {
-    hasSecondary = false;
-};
-if((speed player <= 1) && hasSecondary && _canDo) then {
-    if (s_player_suicide < 0) then {
-        s_player_suicide = player addaction[("<t color=""#ff0000"">" + ("Commit Suicide") +"</t>"),"suicide.sqf",_handGun,0,false,true,"", ""];
-    };
-} else {
-    player removeAction s_player_suicide;
-    s_player_suicide = -1;
-};
- 
-// ---------------------------------------SUICIDE END------------------------------------
+
+
