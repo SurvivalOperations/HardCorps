@@ -20,7 +20,7 @@ if (isNil "custom_monitor") then {custom_monitor = true;} else {custom_monitor =
 
 while {custom_monitor} do 
 {
-	_logo = "custom_stats\stats_logo.paa";
+	_logo = "\z\addons\dayz_code\gui\stats_logo.paa";
 	_pic = (gettext (configFile >> 'CfgVehicles' >> (typeof vehicle player) >> 'picture'));
 	_nearestCity = nearestLocations [getPos player, ["NameCityCapital","NameCity","NameVillage","NameLocal"],750];
 	_textCity = "Wilderness";
@@ -48,7 +48,7 @@ while {custom_monitor} do
 	hintSilent parseText format ["
 	
 	<t size='1' 	font='Bitstream'align='center'>%1</t><br/>
-	<t size='1' 	font='Bitstream'align='center' color='#ffff00' >WEBSITE NAME</t> <br/>
+	<t size='1' 	font='Bitstream'align='center' color='#ffff00' >www.survivaloperations.net</t> <br/>
 	<br/>
 	<img size='6' image='%13'/>
 	<br/>
@@ -69,7 +69,7 @@ while {custom_monitor} do
 	<br/>
 	<t size='1'		font='Bitstream'align='center'color='#FF0000'>Restart in %14 minutes!</t>
 	<br/>
-	<t size='1' 	font='Bitstream'align='center' color='#ffff00' >TEAMSPEAK IP</t> 
+	<t size='1' 	font='Bitstream'align='center' color='#ffff00' >ts.survivaloperations.net</t> 
 	<br/>
 	<br/>
 	<img size='4' image='%16'/>
@@ -91,7 +91,7 @@ while {custom_monitor} do
 	_banditCount,												//11
 	_heroCount,													//12
 	_logo,														//13
-	(120-(round(serverTime/60))),								//14
+	(240-(round(serverTime/60))),								//14
 	_textCity,													//15
 	_pic,														//16
 	(dayz_Survived)												//17
