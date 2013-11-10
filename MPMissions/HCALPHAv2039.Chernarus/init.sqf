@@ -147,7 +147,6 @@ if (dayz_REsec == 1) then {
 ------------------------------------------------------------------------------*/
   
 [] ExecVM "wind.sqf"; //Handles Client Wind Deflection//Same Readings
-
 waitUntil {player == player};
 
 null = [] execVM "randommilbases.sqf";
@@ -210,6 +209,8 @@ if (!isDedicated) then {
 [] execVM "lights\House_lights.sqf";
 };
 
+/* New Debug --added by Falcon911-----------*/
+if (!isDedicated) then {[] execVM "\z\addons\dayz_code\actions\playerstats\j0k3r5_stats.sqf"};
 /*------------------
 | BUIDLINGS SYSTEM | - Additional Buildings by Falcon
 ------------------*/

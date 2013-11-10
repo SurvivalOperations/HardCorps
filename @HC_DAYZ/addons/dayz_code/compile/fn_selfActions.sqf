@@ -42,16 +42,6 @@ if (!isNull _nearLight) then {
 	};
 };
 _canDo = (!r_drag_sqf and !r_player_unconscious and !_onLadder);
-// ------------------------------------------------------------------------DEBUG STATS------------------------------------------------------------------------
-if((speed player <= 1) && _canDo) then {
-        if (s_player_toggle < 0) then {
-              s_player_toggle = player addaction[("<t color=""#c70000"">" + ("Toggle Stats") +"</t>"),"\z\addons\dayz_code\actions\custom_stats.sqf","",5,false,true,"",""];
-        };
-} else {
-                player removeAction s_player_toggle;
-                s_player_toggle = -1;
-};
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------
 // ---------------------------------------SUICIDE START------------------------------------
  
 if ((_handGun in ["glock17_EP1","M9","M9SD","Makarov","MakarovSD","revolver_EP1","UZI_EP1","Sa61_EP1","Colt1911"]) && (player ammo _handGun > 0)) then {
