@@ -25,7 +25,7 @@ fnc_debug = {
     j0k3r5_stats = true;
     while {j0k3r5_stats} do
 	{
-		_logo = "\z\addons\dayz_code\actions\stats_logo.paa";
+		_logo = "\z\addons\dayz_code\gui\stats_logo.paa";
 		_pic = (gettext (configFile >> 'CfgVehicles' >> (typeof vehicle player) >> 'picture'));
 		
 		_nearestCity = nearestLocations [getPos player, ["NameCityCapital","NameCity","NameVillage","NameLocal"],750];

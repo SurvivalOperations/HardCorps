@@ -10,7 +10,7 @@ military[] = {
 		{"20Rnd_762x51_DMR",0.02},
 		//{"20Rnd_762x51_FNFAL",0.04},
 		{"RH_17Rnd_9x19_g17",0.05},
-		{"RH_20Rnd_762x51_SD_SCAR",0.01},
+		{"ACE_30Rnd_556x45_S_Stanag",0.01},
 		{"15Rnd_9x19_M9SD",0.01},
 		{"RH_8Rnd_9x19_Mksd",0.01},
 		{"15Rnd_9x19_M9",0.03},

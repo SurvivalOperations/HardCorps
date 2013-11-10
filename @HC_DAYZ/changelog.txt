@@ -1,5 +1,12 @@
 -----------------------------------------------------------------------------------
-[Falcon91] 2.0.8
+[Falon911] 2.0.9
+[Added] J0K3r5 stats panel 
+[Added] suscide script - Only way this will work is if you have a glock17_EP1,M9,M9SD,Makarov,MakarovSD,revolver_EP1,UZI_EP1,Sa61_EP1,Colt1911, and it is in your current weapon and 1 bullet. 
+[Added] New Study body 
+[Added] Take clothes except for proper group approved clothing
+
+-----------------------------------------------------------------------------------
+[Falcon911] 2.0.8
 [added] RPG items to loot due to LAV was added to DB and neded something to compensate with the new threat
 [added] RH_PWD, RH_PDW_AIM to Military EAST crashes
 [Added] RPG18 to MilitaryWEST crashes also increase waterbottle filled 
