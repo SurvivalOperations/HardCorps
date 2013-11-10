@@ -1,8 +1,8 @@
 -----------------------------------------------------------------------------------
 [Falon911] 2.0.9
 [Added] J0K3r5 stats panel 
-[Added] suscide script - Only way this will work is if you have a glock17_EP1,M9,M9SD,Makarov,MakarovSD,revolver_EP1,UZI_EP1,Sa61_EP1,Colt1911, and it is in your current weapon and 1 bullet. 
-[Added] New Study body 
+[Added] suicide script - Only way this will work is if you have a glock17_EP1,M9,M9SD,Makarov,MakarovSD,revolver_EP1,UZI_EP1,Sa61_EP1,Colt1911, and it is in your current weapon and 1 bullet. 
+[Added] New Study body -When you choose "Study Body" on a dead player's corpse, you will receive text on the screen saying "You have found a journal on the survivor's corpse." and then the dead's player's statistics, from that life, will be displayed in the upper right corner of your screen. 
 [Added] Take clothes except for proper group approved clothing
 
 -----------------------------------------------------------------------------------

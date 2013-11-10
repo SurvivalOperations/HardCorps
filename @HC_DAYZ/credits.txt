@@ -44,9 +44,6 @@ Ingasmeeg - https://github.com/Ingasmeeg
 caleywoods - https://github.com/caleywoods
 LordGoF - https://github.com/LordGoF
 Hangender - https://github.com/hangender
-kaysio - Jok3r5 stats panel- http://opendayz.net/threads/j0k3r5-stats-panel-very-easy-install-stats-panel.15090/
-Grafazahl -Suicide script http://opendayz.net/threads/release-headshot-suicide.12062/
-Zabn - Take Clothes -http://opendayz.net/threads/release-zabns-take-clothes-1-0.13199/
 Aj (Leadz)
 Shaueh
 Ander
@@ -63,3 +60,9 @@ You are missing? Contact Skaronator via eMail! Credits@Skaronator.com
 
 Want to contribute?
 Please contact R4Z0R49 on http://dayzmod.com/forums/
+
+**Added for Hard Corp
+kaysio - Jok3r5 stats panel- http://opendayz.net/threads/j0k3r5-stats-panel-very-easy-install-stats-panel.15090/
+Grafazahl -Suicide script http://opendayz.net/threads/release-headshot-suicide.12062/
+Zabn - Take Clothes -http://opendayz.net/threads/release-zabns-take-clothes-1-0.13199/
+Freaking Fred- Dead player journal -http://opendayz.net/threads/release-freds-dead-player-journal-study-body-replacement.12438/
