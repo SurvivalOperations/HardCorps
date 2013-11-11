@@ -602,7 +602,7 @@ class CfgBuildingLoot {
 			{"Remington870_lamp","weapon",0.06},
 			//556
 			{"MIDF_Aug_A3_acog_black","weapon",0.03},
-			["RH_SCARL_SD_GL_ACOG","weapon",0.03},
+			{"ACE_30Rnd_556x45_S_Stanag",0.03},
 			{"RH_M4aim_wdl","weapon",0.05},
 			{"RH_M4gleotech_wdl","weapon",0.02},
 			{"RH_m16a2","weapon",0.05},
