@@ -49,11 +49,12 @@ class CfgBuildingLoot {
 			{"ItemKnife","weapon",0.01},
 			{"ItemMap","generic",0.01},
 			{"ItemCompass","weapon",0.01},
-			{"ItemFlashlight","weapon",0.01},
+			{"ItemFlashlight","weapon",0.01},			
 		//weapons
 			{"WeaponHolder_ItemHatchet","object",0.01},
 		//special
 			{"WeaponHolder_ItemTent","object",0.01},
+			{"ItemSandbag","magazine",0.04},
 		//mags special
 			{"PartWoodPile","magazine",0.04},
 		//bags
@@ -126,6 +127,7 @@ class CfgBuildingLoot {
 		//mags special
 			{"ItemWire","magazine",0.01},
 			{"ItemTankTrap","magazine",0.04},
+			{"ItemSandbag","magazine",0.04},
 		//bags
 		//multiple spawns	
 			{"","Industrial",0.50},
@@ -156,6 +158,7 @@ class CfgBuildingLoot {
 			{"MeleeMachete","weapon",0.04},
 		//special
 			{"WeaponHolder_ItemJerrycan","object",0.03},
+			{"ItemSandbag","magazine",0.04},
 		//mags special
 			{"TrapBear","magazine",0.01},
 			{"PartWoodPile","magazine",0.08},
@@ -223,6 +226,7 @@ class CfgBuildingLoot {
 		//mags special
 			{"ItemAntibacterialWipe","magazine",0.04},
 			{"ItemPainkiller","magazine",0.04},
+			{"ItemSandbag","magazine",0.04},
 		//bags
 		//multiple spawns
 			{"","trash",0.40},
