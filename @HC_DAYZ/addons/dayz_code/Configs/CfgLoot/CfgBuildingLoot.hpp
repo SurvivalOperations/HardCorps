@@ -292,7 +292,7 @@ class CfgBuildingLoot {
 		//tools
 			{"ACE_Battery_Rangefinder","magazine",0.03}, 
 			{"ACE_Kestrel4500","weapon",0.01},
-			{"Skin_Pilot_EP1_DZ","magazine",0.03},
+			{"Skin_Pilot_EP1_DZ","magazine",0.03},			
 		//weapons
 			{"FN_FAL","weapon",0.04},
 			{"RH_Mk48mod1","weapon",0.03},
@@ -303,7 +303,7 @@ class CfgBuildingLoot {
 			{"RH_m9sd","weapon",0.02},
 			{"RH_g19t","weapon",0.02},
 			{"RH_bull","weapon",0.01},
-			{"RH_Scarh_sd_gl_eotech","weapon",0.01},
+			{"RH_Scarh_sd_gl_eotech","weapon",0.01},			
 		//special
 			{"MedBox0_DZ","object",0.05},
 			{"AmmoBoxSmall_556","object",0.05},
@@ -349,8 +349,10 @@ class CfgBuildingLoot {
 			{"AmmoBoxSmall_762","object",0.3},
 			{"WeaponHolder_PartVRotor","object",0.02},
 			{"WeaponHolder_ItemCamoNet","object",0.01},
+			{"Strela","weapon",0.01},
 		//mags special
 			{"100Rnd_762x54_PK","magazine",0.01},
+			{"M_Strela_AA","magazine",0.03},
 		//bags
 			//{"HC_Ruck_MTC","object",0.01},
 		//multiple spawns
@@ -485,6 +487,7 @@ class CfgBuildingLoot {
 			{"RH_m27","weapon",0.02},
 			{"RH_hk416","weapon",0.01},
 			//762
+			{"ACE_DM25",0.02},
 			//SMG
 			{"MP5A5","weapon",0.04},
 			{"MP5SD","weapon",0.01},
