@@ -272,6 +272,7 @@ class CfgBuildingLoot {
 			{"PartWoodPile","magazine",0.06},
 			{"Skin_Camo1_DZ","magazine",0.01},
 			{"ItemBookBible","magazine",0.02},
+			{"RH_30Rnd_6x35_PDW","magazine",0.02},
 		//bags
 			{"DZ_ALICE_Pack_EP1","object",0.01}, // 16
 			{"DZ_TK_Assault_Pack_EP1","object",0.02}, // 16
@@ -311,6 +312,7 @@ class CfgBuildingLoot {
 		//mags special
 			{"Skin_Camo1_DZ","magazine",0.05},
 			{"Skin_Sniper1_DZ","magazine",0.05},
+			{"RH_30Rnd_6x35_PDW","magazine",0.02},
 		//bags
 			{"HC_Ruck_NVG","object",0.01},
 		//multiple spawns
@@ -430,10 +432,13 @@ class CfgBuildingLoot {
 			{"ACE_RPG7V_PGO7","weapon",0.01},
 			{"RPG18","weapon",0.05},
 			{"MetisLauncher","weapon",0.01},
+			{"Strela","weapon",0.01},			
+			{"ACE_PG7VL_PGO7","weapon",0.02},
 		//mags special
 			{"ItemSandbag","magazine",0.04},
-			{"AT13","weapon",0.01},
-			{"ACE_PG7VL_PGO7","weapon",0.02},
+			{"M_Strela_AA","magazine",0.01},
+			{"R_PG7VR_AT","magazine",0.01},
+			{"AT13","magazine",0.01},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
@@ -643,6 +648,7 @@ class CfgBuildingLoot {
 			{"ACE_BBETTY_M","magazine",0.01},
 			{"ACE_CLAYMORE_M","magazine",0.01}, 
 			{"ACE_M86PDM","magazine",0.01},
+			{"ACE_M4SLAM_M","magazine",0.01},
 		//bags
 			{"HC_Ruck_MAR","object",0.01},	
 			{"HC_Ruck_WDL","object",0.01},	

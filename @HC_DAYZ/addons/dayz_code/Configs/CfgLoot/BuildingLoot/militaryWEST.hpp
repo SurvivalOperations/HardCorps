@@ -6,6 +6,7 @@ militaryWEST[] = {
 	{"ItemHeatPack",0.02},
 //ammo
 	{"30Rnd_556x45_Stanag",0.04},
+	{"ACE_30Rnd_556x45_S_Stanag",0.03},
 	{"17Rnd_9x19_glock17",0.05},
 	{"7Rnd_45ACP_1911",0.05},
 	{"15Rnd_9x19_M9",0.02},

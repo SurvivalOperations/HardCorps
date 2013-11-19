@@ -8,6 +8,7 @@ militaryEAST[] = {
 	{"HandGrenade_east",0.01},
 	{"75Rnd_545x39_RPK",0.03},
 	{"30Rnd_762x39_AK47",0.04},
+	{"RH_30Rnd_6x35_PDW",0.04},
 	{"30Rnd_545x39_AK",0.04},
 	{"8Rnd_B_Beneli_74Slug",0.08},
 	{"ItemHeatPack",0.02},
@@ -17,6 +18,7 @@ militaryEAST[] = {
 	{"SmokeShellGreen",0.02},
 	{"100Rnd_762x54_PK",0.02},
 	{"M_Strela_AA",0.01},
+	{"R_PG7VR_AT",0.01},
 //drinks
 //food
 	{"FoodCanRusStew",0.08},
