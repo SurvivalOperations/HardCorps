@@ -248,21 +248,3 @@ class ItemTrapTripwireSmoke : CA_Magazine {
 		};
 	};
 };
-class Item2mancammo : CA_Magazine {
-	scope = public;
-	count = 1;
-	type = 256;
-	displayName = $STR_ITEM_NAME_2MAN_CAMMO;
-	model = "z\addons\pook_camonets\pook_camonet_small_west.p3d";
-	picture = "\z\addons\pook_camonets\data\west\atacs.paa";
-	descriptionShort = $STR_ITEM_DESC_2MAN_CAMMO;
-
-	class ItemActions {
-		class Build {
-			text = $STR_ACTION_BUILD;
-			script = "spawn player_build; r_action_count = r_action_count + 1;";
-			require = "";
-			create = "pook_camonet_small_west_drop3";
-		};
-	};
-};
