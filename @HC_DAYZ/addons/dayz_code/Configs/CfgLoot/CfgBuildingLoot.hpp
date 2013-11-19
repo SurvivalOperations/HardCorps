@@ -668,7 +668,9 @@ class CfgBuildingLoot {
 			{"ItemKnife","generic",0.05},
 			{"ItemMatchbox","generic",0.07},
 			{"ACE_YardAge450","generic",0.01},
-		//weapons
+			{"Item2Mancammo","magazine",0.5},
+			{"Item2Mancammo","magazine",0.5},
+			//weapons
 			{"Crossbow_DZ","weapon",0.04},
 			{"MeleeMachete","weapon",0.04},
 			{"huntingrifle","weapon",0.05},

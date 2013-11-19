@@ -261,7 +261,7 @@ class Item2mancammo : CA_Magazine {
 		class Build {
 			text = $STR_ACTION_BUILD;
 			script = "spawn player_build; r_action_count = r_action_count + 1;";
-			require = "ItemToolbox";
+			require = "";
 			create = "pook_camonet_small_west_drop3";
 		};
 	};
