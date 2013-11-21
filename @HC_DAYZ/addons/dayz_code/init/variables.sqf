@@ -2,7 +2,7 @@ disableSerialization;
 
 // Enable
 // 0=False/off, 1=True/on
-dayz_Trash = 1;
+dayz_Trash = 0;
 
 //
 fps_safty_check = diag_fpsmin;
@@ -25,7 +25,7 @@ AllPlayers = ["Survivor2_DZ","SurvivorWcombat_DZ","SurvivorWdesert_DZ","Survivor
 MeleeWeapons = ["MeleeHatchet","MeleeCrowbar","MeleeMachete","MeleeBaseball","MeleeBaseBallBat","MeleeBaseBallBatBarbed","MeleeBaseBallBatNails","MeleeFishingPole"];
 MeleeMagazines = ["hatchet_swing","crowbar_swing","Machete_swing","Bat_Swing","BatBarbed_Swing","BatNails_Swing","Fishing_Swing"];
 Dayz_fishingItems = ["MeleeFishingPole"];
-Dayz_plants = ["Dayz_Plant1","Dayz_Plant2"];
+Dayz_plants = ["Dayz_Plant1","Dayz_Plant2","Dayz_Plant3"];
 
 //New Zeds
 DayZ_ViralZeds = ["z_new_villager2","z_new_villager3","z_new_villager4","z_new_worker2","z_new_worker3","z_new_worker4"];
@@ -411,10 +411,10 @@ dayz_zSpawnDistance = 1000;
 
 dayz_maxMaxModels = 80; // max quantity of Man models (player or Z, dead or alive) around players. Below this limit we can spawn Z // max quantity of loot piles around players. Below this limit we can spawn some loot
 dayz_spawnArea = 200; // radius around player where we can spawn loot & Z
-dayz_cantseeDist = 150; // distance from which we can spawn a Z in front of any player without ray-tracing and angle checks
+dayz_cantseeDist = 125; // distance from which we can spawn a Z in front of any player without ray-tracing and angle checks
 dayz_cantseefov = 70; // half player field-of-view. Visible Z won't be spawned in front of any near players
 dayz_canDelete = 300; // Z, further than this distance from its "owner", will be deleted
-dayz_localswarmSpawned = 10;  // how many zeds will spawn around you during a combat scenario. (NOT USED)
+dayz_localswarmSpawned = 3;  // how many zeds will spawn around you during a combat scenario. (NOT USED)
 dayz_wildzeds = 1 //Enable(1) - disable(0) wild spawning zeds.
 
 //init global arrays for Loot Chances
@@ -470,7 +470,7 @@ if(!isDedicated) then {
 	dayZ_everyonesTents = [];
 	dayz_hunger = 0;
 	dayz_thirst = 0;
-	dayz_preloadFinished = false;
+	dayz_preloadFinished = true;
 	dayz_statusArray = [1,1];
 	dayz_disAudial = 0;
 	dayz_disVisual = 0;
@@ -508,11 +508,11 @@ if(!isDedicated) then {
 	dayz_spawnZombies = 0;
 	dayz_swarmSpawnZombies = 0;
 //Max local
-	dayz_maxLocalZombies = 30; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
+	dayz_maxLocalZombies = 20; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 //Current NearBy
 	dayz_CurrentNearByZombies = 0;
 //Max NearBy
-	dayz_maxNearByZombies = 60; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
+	dayz_maxNearByZombies = 30; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 //Current total
 	dayz_currentGlobalZombies = 0;
 //Max global zeds.
@@ -524,6 +524,7 @@ if(!isDedicated) then {
 	dayz_currentGlobalPlants = 0;
 	dayz_maxGlobalPlants = 100;
 //Loot
+	dayz_tickTimeOffset = 0;
 	dayz_currentWeaponHolders = 0;
 	dayz_maxMaxWeaponHolders = 80;	
 	dayz_inVehicle = false;
