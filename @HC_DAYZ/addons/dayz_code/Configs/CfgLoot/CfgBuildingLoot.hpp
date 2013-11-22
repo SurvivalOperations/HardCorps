@@ -262,8 +262,7 @@ class CfgBuildingLoot {
 			{"WeaponHolder_PartEngine","object",0.02},
 			{"WeaponHolder_ItemFuelcan","object",0.03},
 			{"WeaponHolder_ItemTent","object",0.01},
-			{"WeaponHolder_ItemFuelcan","object",0.03},
-			{"MedBox0_DZ","object",0.05},
+			m{"MedBox0_DZ","object",0.05},
 			{"FoodBox0_DZ","object",0.05},
 		//mags special
 			{"ItemWire","magazine",0.01},
@@ -304,15 +303,18 @@ class CfgBuildingLoot {
 			{"RH_m9sd","weapon",0.02},
 			{"RH_g19t","weapon",0.02},
 			{"RH_bull","weapon",0.01},
-			{"RH_Scarh_sd_gl_eotech","weapon",0.01},			
+			{"RH_Scarh_sd_gl_eotech","weapon",0.01},
+			{"RH_MK21A5","weapon",0.01},		
 		//special
 			{"MedBox0_DZ","object",0.05},
 			{"AmmoBoxSmall_556","object",0.05},
 			{"WeaponHolder_ItemCamoNet","object",0.01},
+			{"WeaponHolder_PartVRotor","object",0.02},
 		//mags special
 			{"Skin_Camo1_DZ","magazine",0.05},
 			{"Skin_Sniper1_DZ","magazine",0.05},
 			{"RH_30Rnd_6x35_PDW","magazine",0.02},
+
 		//bags
 			{"HC_Ruck_NVG","object",0.01},
 		//multiple spawns
@@ -424,20 +426,19 @@ class CfgBuildingLoot {
 			{"RH_ak103","weapon",0.03},
 			//SMG
 			{"MP5A5","weapon",0.04},
-			{"MP5SD","weapon",0.01},			
+			{"MP5SD","weapon",0.01},
+			{"RH_krisssd","weapon",0.01},			
 			//MG
 			//SNIPER
 			{"RH_asval","weapon",0.01},
 		//special
-			{"ACE_RPG7V_PGO7","weapon",0.01},
 			{"RPG18","weapon",0.05},
 			{"MetisLauncher","weapon",0.01},
-			{"Strela","weapon",0.01},			
-			{"ACE_PG7VL_PGO7","weapon",0.02},
+			{"Strela","weapon",0.01},
+			{"MineE","weapon",0.02},			
 		//mags special
 			{"ItemSandbag","magazine",0.04},
 			{"M_Strela_AA","magazine",0.01},
-			{"R_PG7VR_AT","magazine",0.01},
 			{"AT13","magazine",0.01},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
@@ -491,11 +492,14 @@ class CfgBuildingLoot {
 			{"RH_m14","weapon",0.03},
 			{"RH_m27","weapon",0.02},
 			{"RH_hk416","weapon",0.01},
+			{"RH_sc2acog","weapon",0.02},
+			{"RH_SCARL_EOTECH","weapon",0.01},
 			//762
 			{"ACE_DM25",0.02},
 			//SMG
 			{"MP5A5","weapon",0.04},
 			{"MP5SD","weapon",0.01},
+			{"RH_krisssd","weapon",0.01},
 			//MG
 			{"RH_M249","weapon",0.01},
 			//SNIPER
@@ -504,6 +508,7 @@ class CfgBuildingLoot {
 		//special
 		//mags special
 			{"ItemSandbag","magazine",0.04},
+			{"MineE","weapon",0.02},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
 			{"DZ_Backpack_EP1","object",0.01}, // 24			
@@ -629,8 +634,10 @@ class CfgBuildingLoot {
 			{"RH_mas","weapon",0.03},
 			{"RH_acr","weapon",0.03},
 			{"RH_ctar21","weapon",0.03},
+
 			//762
 			{"RH_M60E4","weapon",0.02},
+			{"RH_sc2acog","weapon",0.02},
 			//SNIPER
 			{"RH_M14EBRSP","weapon",0.02},
 			{"RH_mk12mod1","weapon",0.02},
@@ -649,6 +656,7 @@ class CfgBuildingLoot {
 			{"ACE_CLAYMORE_M","magazine",0.01}, 
 			{"ACE_M86PDM","magazine",0.01},
 			{"ACE_M4SLAM_M","magazine",0.01},
+			{"ACE_1Rnd_CS_M203",}
 		//bags
 			{"HC_Ruck_MAR","object",0.01},	
 			{"HC_Ruck_WDL","object",0.01},	

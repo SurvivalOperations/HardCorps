@@ -24,6 +24,7 @@ militaryWEST[] = {
 	{"HandChemGreen",0.02},
 	{"HandChemBlue",0.02},
 	{"HandChemRed",0.02},
+	{"RH_45ACP_30RND_SD_Mag",0.01},
 //drinks
 	{"ItemWaterbottleUnfilled",0.02},
 //food
