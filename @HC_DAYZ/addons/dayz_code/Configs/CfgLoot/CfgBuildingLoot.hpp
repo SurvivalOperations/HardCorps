@@ -655,8 +655,7 @@ class CfgBuildingLoot {
 			{"ACE_BBETTY_M","magazine",0.01},
 			{"ACE_CLAYMORE_M","magazine",0.01}, 
 			{"ACE_M86PDM","magazine",0.01},
-			{"ACE_M4SLAM_M","magazine",0.01},
-			{"ACE_1Rnd_CS_M203",}
+			{"ACE_M4SLAM_M","magazine",0.01},			
 		//bags
 			{"HC_Ruck_MAR","object",0.01},	
 			{"HC_Ruck_WDL","object",0.01},	
