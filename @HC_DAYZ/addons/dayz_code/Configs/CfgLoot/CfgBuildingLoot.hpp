@@ -262,7 +262,7 @@ class CfgBuildingLoot {
 			{"WeaponHolder_PartEngine","object",0.02},
 			{"WeaponHolder_ItemFuelcan","object",0.03},
 			{"WeaponHolder_ItemTent","object",0.01},
-			m{"MedBox0_DZ","object",0.05},
+			{"MedBox0_DZ","object",0.05},
 			{"FoodBox0_DZ","object",0.05},
 		//mags special
 			{"ItemWire","magazine",0.01},
