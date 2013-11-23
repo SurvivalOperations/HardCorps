@@ -1,4 +1,4 @@
-private ["_updates","_charID","_humanity","_worldspace","_model","_fractures","_old","_medical","_zombieKills","_headShots","_humanKills","_banditKills","_wpnType","_ismelee","_staminaVals"];
+private ["_updates","_charID","_humanity","_worldspace","_model","_fractures","_old","_medical","_zombieKills","_headShots","_humanKills","_banditKills","_wpnType","_ismelee"];
 //_playerUID = _this select 0;
 _charID = _this select 1;
 _model = _this select 2;
@@ -23,7 +23,6 @@ _zombieKills = player getVariable ["zombieKills",0];
 _headShots = player getVariable ["headShots",0];
 _humanKills = player getVariable ["humanKills",0];
 _banditKills = player getVariable ["banditKills",0];
-_staminaVals = player getVariable ["ace_sys_stamina_fatigue",0];
 
 //Switch
 	_model call player_switchModel;
@@ -72,8 +71,10 @@ player setVariable["headShots",_headShots,true];
 player setVariable["humanKills",_humanKills,true];
 player setVariable["banditKills",_banditKills,true];
 player setVariable["characterID",_charID,true];
-player setVariable["staminaVals",_staminaVals,true];
 player setVariable["worldspace",_worldspace];
+
+//code for this on the server is missing
+//["dayzPlayerMorph",[_charID,player,_playerUID,[_zombieKills,_headShots,_humanKills,_banditKills],_humanity]] call callRpcProcedure;
 
 call dayz_resetSelfActions;
 
