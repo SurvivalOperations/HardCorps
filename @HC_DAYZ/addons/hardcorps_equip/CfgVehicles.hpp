@@ -8,7 +8,71 @@ class CfgVehicles {
 	class TrapItems : NonStrategic {};
 	
 	class ReammoBox;	// External class reference
-	
+	class TKBasicWeapons_EP1; //ext
+	class TKBasicAmmunitionBox_EP1;
+	class UNBasicWeapons_EP1;
+	class UNBasicAmmunitionBox_EP1;
+
+	class RUAmmoHolder : TKBasicAmmunitionBox_EP1 {
+		scope = private;
+		accuracy = 1000;	// accuracy needed to recognize type of this target
+		vehicleClass = "HardCorps";
+		displayName = "Weapon";
+		memoryPointSupply = "collect";
+		supplyRadius = 3;
+		transportMaxWeapons = 0;
+		transportMaxMagazines = 0;
+		transportMaxBackpacks = 0;
+		transportAmmo = 0;
+		transportRepair = 0;
+		transportFuel = 0;
+	};
+
+	class RUWeaponHolder : TKBasicAmmunitionBox_EP1 {
+		scope = private;
+		accuracy = 1000;	// accuracy needed to recognize type of this target
+		vehicleClass = "HardCorps";
+		displayName = "Weapon";
+		memoryPointSupply = "collect";
+		supplyRadius = 3;
+		transportMaxWeapons = 0;
+		transportMaxMagazines = 0;
+		transportMaxBackpacks = 0;
+		transportAmmo = 0;
+		transportRepair = 0;
+		transportFuel = 0;
+	};
+
+	class UNAmmoHolder : UNBasicAmmunitionBox_EP1 {
+		scope = private;
+		accuracy = 1000;	// accuracy needed to recognize type of this target
+		vehicleClass = "HardCorps";
+		displayName = "Weapon";
+		memoryPointSupply = "collect";
+		supplyRadius = 3;
+		transportMaxWeapons = 0;
+		transportMaxMagazines = 0;
+		transportMaxBackpacks = 0;
+		transportAmmo = 0;
+		transportRepair = 0;
+		transportFuel = 0;
+	};
+
+	class UNWeaponHolder : UNBasicWeapons_EP1 {
+		scope = private;
+		accuracy = 1000;	// accuracy needed to recognize type of this target
+		vehicleClass = "HardCorps";
+		displayName = "Weapon";
+		memoryPointSupply = "collect";
+		supplyRadius = 3;
+		transportMaxWeapons = 0;
+		transportMaxMagazines = 0;
+		transportMaxBackpacks = 0;
+		transportAmmo = 0;
+		transportRepair = 0;
+		transportFuel = 0;
+	};
+
 	class WeaponHolderBase : ReammoBox {
 		scope = private;
 		accuracy = 1000;	// accuracy needed to recognize type of this target
@@ -32,7 +96,7 @@ class CfgVehicles {
 	
 	class FoodBox0_DZ : CardboardBox_DZ {
 		scope = public;
-		displayName = $HC_STR_OBJ_NAME_1;
+		displayName = "Food Box";
 		model = "\dayz_equip\models\cardboard_box.p3d";
 		
 		class TransportWeapons {
@@ -77,7 +141,7 @@ class CfgVehicles {
 	
 	class MedBox0_DZ : CardboardBox_DZ {
 		scope = public;
-		displayName = $HC_STR_OBJ_NAME_2;
+		displayName = "Medical Box";
 		model = "\dayz_equip\models\cardboard_box_med.p3d";
 		
 		class transportmagazines {
@@ -111,4 +175,9 @@ class CfgVehicles {
 			};
 		};
 	};
+
+	#include "crates\unweapons.hpp"
+	#include "crates\ruweapons.hpp"
+	#include "crates\unammo.hpp"
+	#include "crates\ruammo.hpp"
 };
