@@ -1849,25 +1849,25 @@ class CfgVehicles {
 	class Man;	// External class reference
 	
 	class CAManBase : Man {
-		ACE_Stamina = 0.9;
+		ACE_Stamina = 0.8;
 		ACE_DefaultWeight = 12;
 	};
 	
 	class Civilian : CAManBase {
-		ACE_Stamina = 0.9;
+		ACE_Stamina = 0.8;
 		ACE_DefaultWeight = 5;
 	};
 	
 	class SoldierWB : CAManBase {
-		ACE_Stamina = 0.9;
+		ACE_Stamina = 0.8;
 	};
 	
 	class SoldierEB : CAManBase {
-		ACE_Stamina = 0.9;
+		ACE_Stamina = 0.8;
 	};
 	
 	class SoldierGB : CAManBase {
-		ACE_Stamina = 0.9;
+		ACE_Stamina = 0.8;
 	};
 	
 	class Animal : Man {
