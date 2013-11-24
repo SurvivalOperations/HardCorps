@@ -5523,7 +5523,7 @@ class Mission
 			azimut=66.514793;
 			id=514;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item414
@@ -5532,7 +5532,7 @@ class Mission
 			azimut=141.54221;
 			id=515;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item415
@@ -5541,7 +5541,7 @@ class Mission
 			azimut=198.28999;
 			id=516;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item416
@@ -5586,7 +5586,7 @@ class Mission
 			azimut=-5.1522951;
 			id=521;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item421
@@ -5604,7 +5604,7 @@ class Mission
 			azimut=-86.967712;
 			id=523;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item423
@@ -6703,7 +6703,7 @@ class Mission
 			azimut=55.640869;
 			id=647;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item547
@@ -6712,7 +6712,7 @@ class Mission
 			azimut=130.6684;
 			id=648;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item548
@@ -6721,7 +6721,7 @@ class Mission
 			azimut=187.4166;
 			id=649;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item549
@@ -6766,7 +6766,7 @@ class Mission
 			azimut=-28.33716;
 			id=654;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item554
@@ -6784,7 +6784,7 @@ class Mission
 			azimut=-97.841591;
 			id=656;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item556
@@ -7027,7 +7027,7 @@ class Mission
 			azimut=123.4402;
 			id=683;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item583
@@ -7036,7 +7036,7 @@ class Mission
 			azimut=34.159962;
 			id=684;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item584
@@ -7045,7 +7045,7 @@ class Mission
 			azimut=216.065;
 			id=685;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item585
@@ -7063,7 +7063,7 @@ class Mission
 			azimut=99.143089;
 			id=687;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item587
@@ -7072,7 +7072,7 @@ class Mission
 			azimut=24.11562;
 			id=688;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item588
@@ -7297,7 +7297,7 @@ class Mission
 			azimut=-200.32291;
 			id=713;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item613
@@ -7306,7 +7306,7 @@ class Mission
 			azimut=-95.931793;
 			id=714;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item614
@@ -7576,7 +7576,7 @@ class Mission
 			azimut=-38.185719;
 			id=744;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item644
@@ -7585,7 +7585,7 @@ class Mission
 			azimut=-8.154665;
 			id=745;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item645
@@ -7594,7 +7594,7 @@ class Mission
 			azimut=50.310181;
 			id=746;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item646
@@ -7648,7 +7648,7 @@ class Mission
 			azimut=-137.5891;
 			id=752;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item652
@@ -7657,7 +7657,7 @@ class Mission
 			azimut=-158.6611;
 			id=753;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item653
@@ -7666,7 +7666,7 @@ class Mission
 			azimut=-168.12801;
 			id=754;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item654
@@ -7675,7 +7675,7 @@ class Mission
 			azimut=-219.0589;
 			id=755;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item655
@@ -7684,7 +7684,7 @@ class Mission
 			azimut=25.82369;
 			id=756;
 			side="EMPTY";
-			vehicle="Camp";
+			vehicle="CampEast";
 			skill=1;
 		};
 		class Item656
@@ -7931,7 +7931,7 @@ class Mission
 			azimut=-125.0205;
 			id=785;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item685
@@ -7940,7 +7940,7 @@ class Mission
 			azimut=-89.649101;
 			id=786;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item686
@@ -7949,7 +7949,7 @@ class Mission
 			azimut=-37.359482;
 			id=787;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item687
@@ -8309,7 +8309,7 @@ class Mission
 			azimut=153.0705;
 			id=827;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item727
@@ -8425,7 +8425,7 @@ class Mission
 			azimut=-196.0721;
 			id=840;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item740
@@ -8434,7 +8434,7 @@ class Mission
 			azimut=-236.50929;
 			id=841;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item741
@@ -8443,7 +8443,7 @@ class Mission
 			azimut=-148.2939;
 			id=842;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item742
@@ -8497,7 +8497,7 @@ class Mission
 			azimut=-234.6051;
 			id=848;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item748
@@ -8506,7 +8506,7 @@ class Mission
 			azimut=-285.91071;
 			id=849;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item749
@@ -8515,7 +8515,7 @@ class Mission
 			azimut=-387.65781;
 			id=850;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item750
@@ -8524,7 +8524,7 @@ class Mission
 			azimut=-447.461;
 			id=851;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item751
@@ -14889,7 +14889,7 @@ class Mission
 			azimut=-38.30555;
 			id=1511;
 			side="EMPTY";
-			vehicle="CAMP_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item1406
@@ -15590,7 +15590,7 @@ class Mission
 			azimut=-38.30555;
 			id=1590;
 			side="EMPTY";
-			vehicle="Camp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item1485
@@ -16130,7 +16130,7 @@ class Mission
 			azimut=139.10651;
 			id=1651;
 			side="EMPTY";
-			vehicle="ACamp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item1546
@@ -16139,7 +16139,7 @@ class Mission
 			azimut=140.6377;
 			id=1652;
 			side="EMPTY";
-			vehicle="ACamp_EP1";
+			vehicle="CampEast_EP1";
 			skill=1;
 		};
 		class Item1547
