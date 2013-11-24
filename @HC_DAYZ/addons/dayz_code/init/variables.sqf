@@ -2,7 +2,7 @@ disableSerialization;
 
 // Enable
 // 0=False/off, 1=True/on
-dayz_Trash = 0;
+dayz_Trash = 1;
 
 //
 fps_safty_check = diag_fpsmin;
