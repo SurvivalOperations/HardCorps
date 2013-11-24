@@ -3518,7 +3518,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_1";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_1] execVM ""crates\BunBox_1.sqf"";    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_1] execVM ""crates\BunBox_1.sqf"";";
 		};
 		class Item210
 		{

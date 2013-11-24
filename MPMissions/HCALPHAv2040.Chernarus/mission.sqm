@@ -3554,7 +3554,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_1";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_1] execVM ""crates\BunBox_1.sqf"";    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; null = this execVM ""crates\BunBox_1.sqf"";    ";
 		};
 		class Item209
 		{
@@ -3565,7 +3565,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_3";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_3] execVM ""crates\BunBox_3.sqf"";";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; null = this execVM ""crates\BunBox_3.sqf"";";
 		};
 		class Item210
 		{
@@ -3576,7 +3576,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_2";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_2] execVM ""crates\BunBox_2.sqf"";";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; null = this execVM ""crates\BunBox_2.sqf"";";
 		};
 		class Item211
 		{
@@ -4066,7 +4066,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="hidebox_2";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [hidebox_2] execVM ""crates\hidebox_2.sqf"";    ";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; null = this execVM ""crates\hidebox_2.sqf"";    ";
 		};
 		class Item258
 		{
@@ -4490,7 +4490,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="hidebox_1";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [hidebox_1] execVM ""crates\hidebox_1.sqf"";";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; null = this execVM ""crates\hidebox_1.sqf"";";
 		};
 		class Item299
 		{

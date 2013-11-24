@@ -29,5 +29,5 @@ _ammo addweaponcargo ["ACE_GlassesGasMask2_US", 2];
 //BACKPACKS ONLY
 _ammo addweaponcargo ["ACE_AssaultPack_BAF",1];
 _ammo addweaponcargo ["ACE_Backpack_Multicam",2];
-sleep 150000;
+sleep 1500000;
 };

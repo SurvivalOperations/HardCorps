@@ -150,8 +150,6 @@ if (dayz_REsec == 1) then {
 waitUntil {player == player};
 
 null = [] execVM "randommilbases.sqf";
- 
-nul = ["GuerillaCacheBox_EP1",["mkr1", "mkr2", "mkr3", "mkr4", "mkr5", "mkr6"]] execVM "rndmkr.sqf"; 
 
 /*-------
 | B T K | - BTK Gas Masks added by OG
