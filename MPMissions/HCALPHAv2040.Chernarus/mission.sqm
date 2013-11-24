@@ -1351,7 +1351,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2846;
+		items=2844;
 		class Item0
 		{
 			position[]={4391.3838,339,10487.896};
@@ -28144,33 +28144,12 @@ class Mission
 			side="EMPTY";
 			vehicle="oilrig_base";
 			skill=0.60000002;
-			init="this setPosASL [position this select 0, position this select 1, 0];";
-		};
-		class Item2844
-		{
-			position[]={12773.007,0.28243083,-5.6703839};
-			azimut=270.62399;
-			id=2951;
-			side="EMPTY";
-			vehicle="Land_ladder_half_EP1";
-			skill=0.60000002;
-			init="this setPosASL [position this select 0, position this select 1, -1];";
-		};
-		class Item2845
-		{
-			position[]={12732.741,0.35872039,-7.3791504};
-			azimut=270;
-			id=2952;
-			side="EMPTY";
-			vehicle="Land_ladderEP1";
-			leader=1;
-			skill=0.60000002;
-			init="this setPosASL [position this select 0, position this select 1, 1];";
+			init="this setPosASL [position this select 0, position this select 1, 4];";
 		};
 	};
 	class Markers
 	{
-		items=27;
+		items=26;
 		class Item0
 		{
 			position[]={7839.6055,381.33774,8414.7324};
@@ -28209,131 +28188,119 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={2944.3577,236.40303,5631.0098};
-			name="rad1";
-			text="Radiation Zone";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorRed";
-			fillName="Horizontal";
-			a=400;
-			b=400;
-		};
-		class Item7
-		{
 			position[]={5009.835,213.88838,3885.811};
 			name="medium_1";
 			type="Depot";
 		};
-		class Item8
+		class Item7
 		{
 			position[]={2443.1208,340.9382,8088.2646};
 			name="mkr1";
 			type="Empty";
 		};
-		class Item9
+		class Item8
 		{
 			position[]={9018.5332,323.70181,4362.4775};
 			name="mkr4";
 			type="Empty";
 		};
-		class Item10
+		class Item9
 		{
 			position[]={9680.0986,287.89023,9346.3135};
 			name="mkr6";
 			type="Empty";
 		};
-		class Item11
+		class Item10
 		{
 			position[]={5287.5479,305.74265,5510.0708};
 			name="mkr3";
 			type="Empty";
 		};
-		class Item12
+		class Item11
 		{
 			position[]={12570.753,52.75779,5738.3003};
 			name="mkr5";
 			type="Empty";
 		};
-		class Item13
+		class Item12
 		{
 			position[]={2798.4158,134.5506,3132.6487};
 			name="mkr2";
 			type="Empty";
 		};
-		class Item14
+		class Item13
 		{
 			position[]={11768.186,50.675106,6493.9468};
 			name="small_1";
 			type="Strongpoint";
 		};
-		class Item15
+		class Item14
 		{
 			position[]={10097.365,69.750206,4137.8691};
 			name="small_2";
 			type="Strongpoint";
 		};
-		class Item16
+		class Item15
 		{
 			position[]={3925.4514,308.83643,6987.0767};
 			name="small_3";
 			type="Strongpoint";
 		};
-		class Item17
+		class Item16
 		{
 			position[]={13467.789,68.234276,12201.246};
 			name="small_4";
 			type="Strongpoint";
 		};
-		class Item18
+		class Item17
 		{
 			position[]={8419.9258,351.23242,6779.645};
 			name="small_5";
 			type="Strongpoint";
 		};
-		class Item19
+		class Item18
 		{
 			position[]={6765.106,342.94238,5590.5718};
 			name="medium_2";
 			type="Depot";
 		};
-		class Item20
+		class Item19
 		{
 			position[]={8171.1592,468.56921,9025.8125};
 			name="high_1";
 			type="City";
 		};
-		class Item21
+		class Item20
 		{
 			position[]={8339.4355,321.13699,10541.551};
 			name="high_2";
 			type="City";
 		};
-		class Item22
+		class Item21
 		{
 			position[]={10622.498,228.94902,8489.1309};
 			name="medium_3_1";
 			type="Depot";
 		};
-		class Item23
+		class Item22
 		{
 			position[]={4961.7773,338.48001,7574.0776};
 			name="high_3";
 			type="City";
 		};
-		class Item24
+		class Item23
 		{
 			position[]={1208.4143,346.95645,10057.953};
 			name="medium_4";
 			type="Depot";
 		};
-		class Item25
+		class Item24
 		{
 			position[]={13497.592,5.71,4611.7266};
 			name="small_6";
 			type="Strongpoint";
 		};
-		class Item26
+		class Item25
 		{
 			position[]={3728.6216,239.43591,4833.9072};
 			name="small_7";
@@ -28342,7 +28309,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=2;
+		items=1;
 		class Item0
 		{
 			position[]={-1029.8004,250.4453,7948.4404};
@@ -28355,18 +28322,6 @@ class Mission
 			class Effects
 			{
 				soundDet="Engine_factory3_EP1";
-			};
-		};
-		class Item1
-		{
-			position[]={2930.8936,234.1591,5615.0161};
-			a=600;
-			b=600;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="0 = this execVM ""BTK\Gasmask\Start.sqf"";";
-			class Effects
-			{
 			};
 		};
 	};
