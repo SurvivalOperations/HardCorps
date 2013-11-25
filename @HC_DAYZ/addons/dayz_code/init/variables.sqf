@@ -516,7 +516,7 @@ if(!isDedicated) then {
 //Current total
 	dayz_currentGlobalZombies = 0;
 //Max global zeds.
-	dayz_maxGlobalZeds = 500;
+	dayz_maxGlobalZeds = 300;
 //Animals
 	dayz_currentGlobalAnimals =	0;
 	dayz_maxGlobalAnimals =		100;
