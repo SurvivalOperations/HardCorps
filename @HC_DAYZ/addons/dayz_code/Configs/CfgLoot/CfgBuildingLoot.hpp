@@ -178,10 +178,12 @@ class CfgBuildingLoot {
 		lootType[] = {
 		//one spawn
 		//tools
+			{"ACE_SSVZ","weapon",0.03},
 			{"ItemWatch","generic",0.05},
 			{"ItemCompass","generic",0.01},
 			{"ItemMap","generic",0.06},
-			{"ItemFlashlight","generic",0.05},
+			{"ItemFlashlight","generic",0.04},
+			{"ACE_MugLite","weapon",0.02},
 			{"ItemKnife","generic",0.02},
 			{"ItemMatchbox","generic",0.05},
 			{"Binocular","weapon",0.03},
@@ -219,6 +221,7 @@ class CfgBuildingLoot {
 		//tools
 			{"ItemWatch","weapon",0.08},
 			{"ItemMap","weapon",0.06},
+			{"ACE_MugLite","weapon",0.05},			
 			{"Skin_RU_Policeman_DZ","magazine",0.03},
 			{"Skin_Haris_Press_EP1_DZ","magazine",0.03},
 		//weapons
@@ -290,7 +293,7 @@ class CfgBuildingLoot {
 		lootType[] = {
 		//one spawn
 		//tools
-			//{"ACE_Battery_Rangefinder","magazine",0.03}, 
+			{"ACE_Battery_Rangefinder","magazine",0.03}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 			{"Skin_Pilot_EP1_DZ","magazine",0.03},			
 		//weapons
@@ -335,7 +338,7 @@ class CfgBuildingLoot {
 			{"Binocular","weapon",0.01},
 			{"ItemKnife","generic",0.03},
 			{"ItemCompass","generic",0.04},
-			//{"ACE_Battery_Rangefinder","magazine",0.03},
+			{"ACE_Battery_Rangefinder","magazine",0.03},
 			{"ACE_Rangefinder_OD","weapon",0.01}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 		//weapons
@@ -358,7 +361,7 @@ class CfgBuildingLoot {
 			{"100Rnd_762x54_PK","magazine",0.01},
 			{"M_Strela_AA","magazine",0.03},
 		//bags
-			//{"HC_Ruck_MTC","object",0.01},
+			{"HC_Ruck_MTC","object",0.01},
 		//multiple spawns
 			{"","medical",0.25},
 			{"","militaryEASTcrash",0.25}
@@ -376,13 +379,13 @@ class CfgBuildingLoot {
 		//tools
 		//weapons
 		//special
-			{"MedBox0_DZ","object",0.05},
+			{"MedBox0_DZ","object",0.08},
 			{"Skin_Doctor_DZ","magazine",0.05},
 		//mags special
 		//bags
 		//multiple spawns
-			{"","trash",0.40},
-			{"","hospital",0.60}
+			{"","trash",0.30},
+			{"","hospital",0.50}
 		};
 	};
 	class MilitaryEast: Default {
@@ -393,7 +396,12 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
+			{"AK47basicBox","weapon",0.05},
+			{"AmmoBox_GrenadeEast","weapon",0.02},
+			{"AmmoBox_545_300rnds","weapon",0.02},
+
 		//tools
+			{"ACE_SSVZ","weapon",0.02},
 			{"Binocular","weapon",0.05},
 			{"ItemFlashlightRed","generic",0.06},
 			{"ItemKnife","generic",0.06},
@@ -418,7 +426,7 @@ class CfgBuildingLoot {
 			//762
 			{"RH_oc14","weapon",0.06},
 			{"RH_oc14gl","weapon",0.02},
-			{"AK_74","weapon",0.06},
+			//{"AK_74","weapon",0.06},
 			{"RH_aks74uptk","weapon",0.03},
 			{"RH_aks74u","weapon",0.05},
 			{"RH_ak47","weapon",0.05},
@@ -442,7 +450,9 @@ class CfgBuildingLoot {
 			{"AT13","magazine",0.01},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
-			{"DZ_Backpack_EP1","object",0.01}, // 24			
+			{"DZ_Backpack_EP1","object",0.01}, // 24
+			{"ACE_TacticalLadder_Pack","object",0.01},
+						
 		//multiple spawns
 			{"","militaryEast",0.60},
 			{"","trash",0.50},
@@ -457,9 +467,21 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
-			{"M16basicBox","object",0.02},
-
+			{"M16basicBox","object",0.04},
+			{"AmmoBox_GrenadeWest","object",0.02},
+			{"AmmoBox_203_Flare","object",0.01},
+			{"AmmoBox_203_HE","object",0.01},
+			{"AmmoBox_203_Smoke","object",0.01},
+			{"AmmoBox_BBeneli","object",0.02},
+			{"AmmoBox_DMR","object",0.01},
+			{"AmmoBox_556_300rnd","object",0.02},
+			{"AmmoBox_9mm_15rnd","object",0.02},
+			{"AmmoBox_45cal_8rnd","object",0.02},
+			{"PistolBasicBox","object",0.03},
+			{"M249basicBox","object",0.01},
+			
 		//tools
+			{"ACE_SSVZ","weapon",0.02},
 			{"Binocular","weapon",0.05},
 			{"ItemFlashlightRed","generic",0.06},
 			{"ItemKnife","generic",0.06},
@@ -472,14 +494,14 @@ class CfgBuildingLoot {
 			
 		//weapons
 			//PISTOL
-			{"RH_g17","weapon",0.07},
+			{"RH_g17","weapon",0.05},
 			{"RH_PDW","weapon",0.05},
 			{"RH_m9sd","weapon",0.01},
 			//{"RH_m1911old","weapon",0.05},
 			//{"RH_m9","weapon",0.05},			
 			//SHOTGUN
 			{"Remington870_lamp","weapon",0.05},
-			{"M1014","weapon",0.06},
+			{"M1014","weapon",0.05},
 			//556
 			{"RH_m4acog","weapon",0.02},
 			{"RH_m4r","weapon",0.02},
@@ -513,7 +535,8 @@ class CfgBuildingLoot {
 			{"MineE","weapon",0.02},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
-			{"DZ_Backpack_EP1","object",0.01}, // 24			
+			{"DZ_Backpack_EP1","object",0.01}, // 24
+			{"ACE_TacticalLadder_Pack","object",0.01},			
 		//multiple spawns
 			{"","militaryWest",0.60},
 			{"","trash",0.50},
@@ -529,6 +552,11 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
+			{"AK47basicBox","weapon",0.05},
+			{"AmmoBox_GrenadeEast","weapon",0.03},
+			{"AmmoBox_545_300rnds","weapon",0.03},
+			{"AmmoBox_545_900rnds","weapon",0.01},
+			
 		//tools
 			{"Binocular","weapon",0.03},
 			{"ItemFlashlightRed","generic",0.05},
@@ -576,8 +604,8 @@ class CfgBuildingLoot {
 			{"ACE_MON50_M","magazine",0.01},
 			{"BAF_ied_v1","magazine",0.01},
 		//bags
-			{"HC_Ruck_OD","object",0.01}, // 24
-			{"HC_Ruck_BLK","object",0.01}, // 24
+			{"HC_Ruck_OD","object",0.02}, // 24
+			{"HC_Ruck_BLK","object",0.02}, // 24
 
 		//multiple spawns
 			{"","militaryEast",0.60},
@@ -594,8 +622,23 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
-			{"M4basicBox","object",0.02},
-			{"M249basicBox","object",0.01},
+			{"M16basicBox","object",0.01},
+			{"AmmoBox_GrenadeWest","object",0.01},
+			{"AmmoBox_203_Flare","object",0.01},
+			{"AmmoBox_203_HE","object",0.01},
+			{"AmmoBox_203_Smoke","object",0.01},
+			{"AmmoBox_BBeneli","object",0.01},
+			{"AmmoBox_556_belted","object",0.01},
+			{"AmmoBox_762_belted","object",0.01},
+			{"AmmoBox_DMR","object",0.01},
+			{"AmmoBox_556_900rnd","object",0.01},
+			{"AmmoBox_556_300rnd","object",0.01},
+			{"AmmoBox_9mm_15rnd","object",0.01},
+			{"AmmoBox_45cal_8rnd","object",0.01},
+			{"PistolBasicBox","object",0.01},
+			{"M249basicBox","object",0.02},
+			{"M4basicBox","object",0.01},
+
 		//tools
 			{"Binocular","weapon",0.03},
 			{"ItemFlashlightRed","generic",0.05},
@@ -648,11 +691,11 @@ class CfgBuildingLoot {
 			{"M24","weapon",0.02},
 			{"M40A3","weapon",0.01},
 			//Machine Gun
-			{"RH_M249","weapon",0.02},
+			//{"RH_M249","weapon",0.02},
 			{"M240_DZ","weapon",0.01},
 			{"RH_Mk48mod1","weapon",0.01},
 		//special
-			{"AmmoBoxSmall_556","object",0.04},
+			//{"AmmoBoxSmall_556","object",0.04},
 			{"WeaponHolder_ItemCamoNet","object",0.03},
 		//mags special
 			{"ACE_C4_M","magazine",0.01},
@@ -661,8 +704,8 @@ class CfgBuildingLoot {
 			{"ACE_M86PDM","magazine",0.01},
 			{"ACE_M4SLAM_M","magazine",0.01},			
 		//bags
-			{"HC_Ruck_MAR","object",0.01},	
-			{"HC_Ruck_WDL","object",0.01},	
+			{"HC_Ruck_MAR","object",0.02},	
+			{"HC_Ruck_WDL","object",0.02},	
 
 		//multiple spawns
 			{"","militaryWest",0.60},

@@ -1,4 +1,4 @@
-class AKbasicBox : UNWeaponHolder {
+class AK47basicBox : UNWeaponHolder {
 	scope = public;
 	displayName = "AK 74 Crate";
 
