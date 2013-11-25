@@ -414,8 +414,8 @@ dayz_spawnArea = 200; // radius around player where we can spawn loot & Z
 dayz_cantseeDist = 125; // distance from which we can spawn a Z in front of any player without ray-tracing and angle checks
 dayz_cantseefov = 70; // half player field-of-view. Visible Z won't be spawned in front of any near players
 dayz_canDelete = 300; // Z, further than this distance from its "owner", will be deleted
-dayz_localswarmSpawned = 3;  // how many zeds will spawn around you during a combat scenario. (NOT USED)
-dayz_wildzeds = 1 //Enable(1) - disable(0) wild spawning zeds.
+dayz_localswarmSpawned = 0;  // how many zeds will spawn around you during a combat scenario. (NOT USED)
+dayz_wildzeds = 0 //Enable(1) - disable(0) wild spawning zeds.
 
 //init global arrays for Loot Chances
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\loot_init.sqf";
@@ -508,7 +508,7 @@ if(!isDedicated) then {
 	dayz_spawnZombies = 0;
 	dayz_swarmSpawnZombies = 0;
 //Max local
-	dayz_maxLocalZombies = 20; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
+	dayz_maxLocalZombies = 10; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 //Current NearBy
 	dayz_CurrentNearByZombies = 0;
 //Max NearBy
@@ -516,7 +516,7 @@ if(!isDedicated) then {
 //Current total
 	dayz_currentGlobalZombies = 0;
 //Max global zeds.
-	dayz_maxGlobalZeds = 3000;
+	dayz_maxGlobalZeds = 500;
 //Animals
 	dayz_currentGlobalAnimals =	0;
 	dayz_maxGlobalAnimals =		100;
