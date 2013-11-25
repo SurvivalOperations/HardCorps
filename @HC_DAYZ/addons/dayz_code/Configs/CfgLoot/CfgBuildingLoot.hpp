@@ -457,6 +457,8 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
+			{"M16basicBox","object",0.02},
+
 		//tools
 			{"Binocular","weapon",0.05},
 			{"ItemFlashlightRed","generic",0.06},
@@ -592,7 +594,8 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
-			{"M4basicBox","object",0.01},
+			{"M4basicBox","object",0.02},
+			{"M249basicBox","object",0.01},
 		//tools
 			{"Binocular","weapon",0.03},
 			{"ItemFlashlightRed","generic",0.05},
