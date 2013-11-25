@@ -80,7 +80,7 @@ class CfgBuildingLoot {
 			//{"ItemFishingPole","generic",0.04}, //move it to boats and boatstations
 		//weapons
 			{"RH_mk2","weapon",0.02},
-			{"RH_mk22","weapons",0.02},
+			{"RH_mk22","weapon",0.02},
 			{"RH_python","weapon",0.01},
 			{"MR43","weapon",0.02},
 			{"RH_m1911","weapon",0.01},
@@ -189,7 +189,7 @@ class CfgBuildingLoot {
 		//weapons
 			{"RH_mk2","weapon",0.02},
 			{"RH_ar10","weapon",0.01},
-			{"RH_mk22","weapons",0.02},
+			{"RH_mk22","weapon",0.02},
 			{"LeeEnfield","weapon",0.01},
 			{"RH_python","weapon",0.01},
 			{"Winchester1866","weapon",0.03},
@@ -246,7 +246,7 @@ class CfgBuildingLoot {
 			{"Binocular","weapon",0.06},
 		//weapons
 			{"RH_mk2","weapon",0.04},
-			{"RH_mk22","weapons",0.02},
+			{"RH_mk22","weapon",0.02},
 			//{"RH_m1911old","weapon",0.04}, //mil/police
 			{"LeeEnfield","weapon",0.03},
 			{"RH_python","weapon",0.04},
@@ -290,7 +290,7 @@ class CfgBuildingLoot {
 		lootType[] = {
 		//one spawn
 		//tools
-			{"ACE_Battery_Rangefinder","magazine",0.03}, 
+			//{"ACE_Battery_Rangefinder","magazine",0.03}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 			{"Skin_Pilot_EP1_DZ","magazine",0.03},			
 		//weapons
@@ -335,7 +335,7 @@ class CfgBuildingLoot {
 			{"Binocular","weapon",0.01},
 			{"ItemKnife","generic",0.03},
 			{"ItemCompass","generic",0.04},
-			{"ACE_Battery_Rangefinder","magazine",0.03},
+			//{"ACE_Battery_Rangefinder","magazine",0.03},
 			{"ACE_Rangefinder_OD","weapon",0.01}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 		//weapons
@@ -407,8 +407,8 @@ class CfgBuildingLoot {
 		//weapons
 			//PISTOL
 			{"RH_PDW","weapon",0.05},
-			{"RH_PDW_AIM","weapon",0.05},
-			{"RH_PDW_ACOG","weapon",0.04},
+			{"RH_PDW_AIM","weapon",0.03},
+			{"RH_PDW_ACOG","weapon",0.01},
 			{"RH_mk22sd","weapon",0.01},
 			{"RH_aps","weapon",0.03},
 			//SHOTGUN
@@ -420,8 +420,8 @@ class CfgBuildingLoot {
 			{"RH_oc14gl","weapon",0.02},
 			{"AK_74","weapon",0.06},
 			{"RH_aks74uptk","weapon",0.03},
-			{"RH_aks74u","weapon",0.06},
-			{"RH_ak47","weapon",0.03},
+			{"RH_aks74u","weapon",0.05},
+			{"RH_ak47","weapon",0.05},
 			{"RH_ak47gl","weapon",0.03},
 			{"RH_ak103","weapon",0.03},
 			//SMG
@@ -432,12 +432,12 @@ class CfgBuildingLoot {
 			//SNIPER
 			{"RH_asval","weapon",0.01},
 		//special
-			{"RPG18","weapon",0.05},
+			{"RPG18","weapon",0.02},
 			{"MetisLauncher","weapon",0.01},
 			{"Strela","weapon",0.01},
 			{"MineE","weapon",0.02},			
 		//mags special
-			{"ItemSandbag","magazine",0.04},
+			{"ItemSandbag","magazine",0.05},
 			{"M_Strela_AA","magazine",0.01},
 			{"AT13","magazine",0.01},
 		//bags
@@ -470,11 +470,11 @@ class CfgBuildingLoot {
 			
 		//weapons
 			//PISTOL
-			{"RH_g17","weapon",0.08},
+			{"RH_g17","weapon",0.07},
 			{"RH_PDW","weapon",0.05},
 			{"RH_m9sd","weapon",0.01},
-			{"RH_m1911old","weapon",0.05},
-			{"RH_m9","weapon",0.05},			
+			//{"RH_m1911old","weapon",0.05},
+			//{"RH_m9","weapon",0.05},			
 			//SHOTGUN
 			{"Remington870_lamp","weapon",0.05},
 			{"M1014","weapon",0.06},
@@ -483,12 +483,12 @@ class CfgBuildingLoot {
 			{"RH_m4r","weapon",0.02},
 			{"RH_m16a2s","weapon",0.03},
 			{"RH_m16a4acog","weapon",0.03},
-			{"RH_m16a4","weapon",0.04},
-			{"RH_m16a2","weapon",0.04},
-			{"RH_m16a2gl","weapon",0.03},
-			{"RH_m4aim","weapon",0.02},
-			{"RH_m4","weapon",0.04},
-			{"RH_m4gl","weapon",0.03},
+			//{"RH_m16a4","weapon",0.04},
+			//{"RH_m16a2","weapon",0.04},
+			//{"RH_m16a2gl","weapon",0.03},
+			//{"RH_m4aim","weapon",0.02},
+			//{"RH_m4","weapon",0.04},
+			//{"RH_m4gl","weapon",0.03},
 			{"RH_m14","weapon",0.03},
 			{"RH_m27","weapon",0.02},
 			{"RH_hk416","weapon",0.01},
@@ -507,7 +507,7 @@ class CfgBuildingLoot {
 					
 		//special
 		//mags special
-			{"ItemSandbag","magazine",0.04},
+			{"ItemSandbag","magazine",0.05},
 			{"MineE","weapon",0.02},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
@@ -534,19 +534,19 @@ class CfgBuildingLoot {
 			{"ItemGPS","weapon",0.01},
 			{"ItemMap","generic",0.03},
 			{"Binocular_Vector","generic",0.01},
-			{"ACE_Earplugs","weapon",0.06},
-			{"ACE_Battery_Rangefinder","magazine",0.03},
+			{"ACE_Earplugs","weapon",0.05},
+			//{"ACE_Battery_Rangefinder","magazine",0.03},
 			{"ACE_Rangefinder_OD","weapon",0.01}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 			{"ACE_GlassesBalaklava","weapon",0.03},
 		//Pistol
 			{"RH_mk22sd","weapon",0.02},
-			{"RH_PDW","weapon",0.08},
+			{"RH_PDW","weapon",0.06},
 
 		//weapons
 			//shotgun
 			{"ACE_SPAS12","weapon",0.07},
-			{"Sa58V_RCO_EP1","weapon",0.04},
+			{"Sa58V_RCO_EP1","weapon",0.03},
 			{"Sa58V_CCO_EP1","weapon",0.04},
 			{"AKS_74_kobra","weapon",0.05},
 			{"AKS_74_U","weapon",0.05},
@@ -592,6 +592,7 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		lootType[] = {
 		//one spawn
+			{"M4basicBox","object",0.01},
 		//tools
 			{"Binocular","weapon",0.03},
 			{"ItemFlashlightRed","generic",0.05},
@@ -601,7 +602,7 @@ class CfgBuildingLoot {
 			{"Binocular_Vector","generic",0.01},
 			{"ACE_Earplugs","weapon",0.06},
 			{"ACE_DAGR", "weapon",0.01},
-			{"ACE_Battery_Rangefinder","magazine",0.03},
+			//{"ACE_Battery_Rangefinder","magazine",0.03},
 			{"ACE_Rangefinder_OD","weapon",0.01}, 
 			{"ACE_Kestrel4500","weapon",0.01},
 			{"ACE_GlassesBalaklavaGray","weapon",0.03},

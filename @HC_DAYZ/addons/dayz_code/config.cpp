@@ -27,7 +27,7 @@ class CfgMods {
 		hidePicture = 0;
 		hideName = 0;
 		action = "http://www.survivaloperations.net";
-		version = "2.0.10";
+		version = "2.0.11";
 		hiveVersion = 0.96;
 		requiredAddons[] = {"Chernarus"};
 	};

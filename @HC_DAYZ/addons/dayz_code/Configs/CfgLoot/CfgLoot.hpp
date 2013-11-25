@@ -230,10 +230,10 @@ class CfgLoot {
 		{"ItemHeatPack",0.04},
 	//ammo
 		{"RH_5Rnd_B_Beneli_Pellets",0.03},
-		{"RH_8Rnd_45cal_m1911",0.04},
+		//{"RH_8Rnd_45cal_m1911",0.04},
 		{"RH_20Rnd_762x51_hk417",0.02},
 		{"RH_30Rnd_6x35_PDW",0.02},
-		{"30Rnd_556x45_Stanag",0.02},
+		//{"30Rnd_556x45_Stanag",0.02},
 		{"20Rnd_762x51_DMR",0.03},
 		{"ACE_30Rnd_556x45_S_Stanag",0.02},
 		{"100Rnd_556x45_BetaCMag",0.02},
