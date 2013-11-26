@@ -576,8 +576,6 @@ if (!isDedicated) then {
 			_character getVariable["ace_sys_stamina_multi", 1]
 
 			/*/end ACE stamina variables
-
-			]
 		];
 		_medical
 	};
