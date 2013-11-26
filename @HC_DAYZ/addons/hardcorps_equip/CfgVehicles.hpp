@@ -15,94 +15,40 @@ class CfgVehicles {
 
 	class SmallAmmoHolder : ReammoBox {
 		scope = private;
-		accuracy = 1000;	// accuracy needed to recognize type of this target
 		vehicleClass = "HardCorps";
 		displayName = "Weapon";
-		memoryPointSupply = "collect";
-		supplyRadius = 3;
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 0;
-		transportMaxBackpacks = 0;
-		transportAmmo = 0;
-		transportRepair = 0;
-		transportFuel = 0;		
 		model = "\ca\weapons\AmmoBoxes\Proxy_UsBasicAmmoBox.p3d";
 
 	};
 
 	class RUAmmoHolder : TKBasicAmmunitionBox_EP1 {
 		scope = private;
-		accuracy = 1000;	// accuracy needed to recognize type of this target
 		vehicleClass = "HardCorps";
 		displayName = "Weapon";
-		memoryPointSupply = "collect";
-		supplyRadius = 3;
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 0;
-		transportMaxBackpacks = 0;
-		transportAmmo = 0;
-		transportRepair = 0;
-		transportFuel = 0;
 	};
 
 	class RUWeaponHolder : TKBasicAmmunitionBox_EP1 {
 		scope = private;
-		accuracy = 1000;	// accuracy needed to recognize type of this target
 		vehicleClass = "HardCorps";
 		displayName = "Weapon";
-		memoryPointSupply = "collect";
-		supplyRadius = 3;
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 0;
-		transportMaxBackpacks = 0;
-		transportAmmo = 0;
-		transportRepair = 0;
-		transportFuel = 0;
 	};
 
 	class UNAmmoHolder : UNBasicAmmunitionBox_EP1 {
 		scope = private;
-		accuracy = 1000;	// accuracy needed to recognize type of this target
 		vehicleClass = "HardCorps";
 		displayName = "Weapon";
-		memoryPointSupply = "collect";
-		supplyRadius = 3;
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 0;
-		transportMaxBackpacks = 0;
-		transportAmmo = 0;
-		transportRepair = 0;
-		transportFuel = 0;
 	};
 
 	class UNWeaponHolder : UNBasicWeapons_EP1 {
 		scope = private;
-		accuracy = 1000;	// accuracy needed to recognize type of this target
 		vehicleClass = "HardCorps";
 		displayName = "Weapon";
-		memoryPointSupply = "collect";
-		supplyRadius = 3;
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 0;
-		transportMaxBackpacks = 0;
-		transportAmmo = 0;
-		transportRepair = 0;
-		transportFuel = 0;
 	};
 
 	class WeaponHolderBase : ReammoBox {
 		scope = private;
-		accuracy = 1000;	// accuracy needed to recognize type of this target
 		vehicleClass = "HardCorps";
 		displayName = "Weapon";
-		memoryPointSupply = "collect";
-		supplyRadius = 3;
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 0;
-		transportMaxBackpacks = 0;
-		transportAmmo = 0;
-		transportRepair = 0;
-		transportFuel = 0;
 	};
 	
 	
