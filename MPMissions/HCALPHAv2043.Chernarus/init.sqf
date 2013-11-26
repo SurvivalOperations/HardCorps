@@ -31,7 +31,7 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functi
 progressLoadingScreen 0.4;
 call compile preprocessFileLineNumbers "randomloot.sqf";
 call compile preprocessFileLineNumbers "randommilbases.sqf";	
-call compile preprocessFileLineNumbers "compiles.sqf";					//Compile regular functions
+call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";					//Compile regular functions
 progressLoadingScreen 1.0;
 
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
@@ -150,15 +150,6 @@ if (dayz_REsec == 1) then {
 waitUntil {player == player};
 
 null = [] execVM "randommilbases.sqf";
-
-/*-------
-| B T K | - BTK Gas Masks added by OG
--------*/
-waitUntil {!isNil ("PVDZ_plr_LoginRecord")};
-if (dayzPlayerLogin2 select 2) then
-{
-    execVM "BTK\Gasmask\Start.sqf";
-};
 
 /*---------
 | STAMINA | - Stamina Debug & Modifier scripts added by OG
