@@ -9842,7 +9842,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Bunker2";
-			init="openDoor2 = Bunker addAction [""Enter Bunker"", ""Complexes\movepos7.sqf""];";
+			init="openDoor2 = Bunker2 addAction [""Enter Bunker"", ""Complexes\movepos7.sqf""];";
 		};
 		class Item898
 		{
