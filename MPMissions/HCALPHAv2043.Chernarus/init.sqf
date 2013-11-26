@@ -151,8 +151,6 @@ waitUntil {player == player};
 
 null = [] execVM "randommilbases.sqf";
 
-init="[this, 10000, 10000, 7, 19] exec ""fogs.sqs""";
-
 /*-------
 | B T K | - BTK Gas Masks added by OG
 -------*/
