@@ -30,6 +30,6 @@ _ammo addweaponcargo ["ACE_SpottingScope", 1];
 
 
 //BACKPACKS ONLY
-_ammo addweaponcargo ["ACE_BackPack",1];
+_ammo addweaponcargo ["DZ_Backpack_EP1",1];
 sleep 150000;
 };

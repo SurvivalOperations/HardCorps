@@ -3576,7 +3576,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_2";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_2] ""crates\BunBox_2.sqf"";";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_2] execVM ""crates\BunBox_2.sqf"";";
 		};
 		class Item211
 		{
@@ -9842,6 +9842,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Bunker2";
+			init="openDoor1 = Bunker addAction [""Enter Bunker"", ""Complexes\movepos7.sqf""];";
 		};
 		class Item898
 		{
@@ -12831,7 +12832,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_4";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_4] ""crates\BunBox_4.sqf"";";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_4] execVM ""crates\BunBox_4.sqf"";";
 		};
 		class Item1196
 		{
@@ -12842,7 +12843,7 @@ class Mission
 			vehicle="USBasicWeaponsBox";
 			skill=0.60000002;
 			text="BunBox_5";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_5] ""crates\BunBox_5.sqf"";";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +3000.5]; _refill = [BunBox_5] execVM ""crates\BunBox_5.sqf"";";
 		};
 		class Item1197
 		{
