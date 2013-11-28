@@ -25,11 +25,6 @@ _humanKills = player getVariable ["humanKills",0];
 _banditKills = player getVariable ["banditKills",0];
 
 //Change Clothes animation to prevent stamina exploit.
-cutText [format[localize "You are changing your clothes, hold still."], "PLAIN DOWN"];
-player playMove AinvPknlMstpSnonWrflDr_medic1;
-sleep 5;
-player playMove AinvPknlMstpSnonWrflDr_medic1;
-sleep 5;
 
 //Switch
 	_model call player_switchModel;
