@@ -19,11 +19,11 @@ militaryEAST[] = {
 	{"100Rnd_762x54_PK",0.02},
 	{"M_Strela_AA",0.01},
 	{"RH_45ACP_30RND_SD_Mag",0.02},
-	{"ACE_1Rnd_CS_M203",0.01},
+	{"ACE_1Rnd_CS_M203",0.01}
 //drinks
 //food
-	{"FoodCanRusStew",0.08},
-	{"FoodCanRusPork",0.08}
+	//{"FoodCanRusStew",0.08},
+	//{"FoodCanRusPork",0.08}
 //special
 //trash
 };

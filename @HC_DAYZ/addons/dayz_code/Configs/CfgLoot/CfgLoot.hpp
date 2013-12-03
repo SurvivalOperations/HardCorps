@@ -41,8 +41,8 @@ class CfgLoot {
 		{"ItemSodaCoke",0.02},
 		{"ItemSodaPepsi",0.02},
 	//food
-		{"FoodCanBakedBeans",0.03},
-		{"FoodCanPasta",0.03}
+		{"FoodCanBakedBeans",0.02},
+		{"FoodCanPasta",0.02}
 	//special
 	//trash
 	};
@@ -60,9 +60,9 @@ class CfgLoot {
 	//drinks
 		{"ItemSodaPepsi",0.02},
 	//food
-		{"FoodCanFrankBeans",0.05},
-		{"FoodCanPasta",0.05},
-		{"FoodCanSardines",0.05}
+		{"FoodCanFrankBeans",0.01},
+		{"FoodCanPasta",0.01},
+		{"FoodCanSardines",0.02}
 	//special
 	//trash
 	};
@@ -78,45 +78,45 @@ class CfgLoot {
 	};
 	generic[] = {
 	//med
-		{"ItemBandage",0.03},
-		{"ItemAntibacterialWipe",0.03},
+		{"ItemBandage",0.05},
+		{"ItemAntibacterialWipe",0.05},
 		{"ItemHeatPack",0.04},
 	//ammo
-		{"RH_30Rnd_6x35_PDW",0.04},
-		{"RH_8Rnd_9x19_Mk",0.09},
+		{"RH_30Rnd_6x35_PDW",0.03},
+		{"RH_8Rnd_9x19_Mk",0.03},
 		//{"RH_8Rnd_45cal_m1911",0.04}, //mil/police
 		{"RH_6Rnd_357_Mag",0.04},
 		//{"2Rnd_shotgun_74Slug",0.04}, //pellets preferred for m43
 		{"2Rnd_shotgun_74Pellets",0.08},
-		{"5x_22_LR_17_HMR",0.01},
-		{"10x_303",0.04},
+		{"5x_22_LR_17_HMR",0.02},
+		{"10x_303",0.02},
 		{"15Rnd_W1866_Slug",0.06},
 		//{"20Rnd_762x51_FNFAL",0.02}, //really (one of the best ammo)?
-		{"WoodenArrow",0.04},
+		{"WoodenArrow",0.05},
 		{"HandRoadFlare",0.07},
 		{"ItemPainkiller",0.02},
 		{"HandChemGreen",0.01},
 		{"HandChemBlue",0.03},
 		{"HandChemRed",0.03},
 	//drinks
-		{"ItemWaterbottleUnfilled",0.06},
+		{"ItemWaterbottleUnfilled",0.04},
 		{"ItemWaterbottle",0.02},
-		{"ItemSodaCoke",0.01},
-		{"ItemSodaPepsi",0.01},	
+		{"ItemSodaCoke",0.02},
+		{"ItemSodaPepsi",0.02},	
 	//food
-		{"FoodCanBakedBeans",0.05},
-		{"FoodCanSardines",0.05},
-		{"FoodCanFrankBeans",0.05},
-		{"FoodCanPasta",0.05},
-		{"FoodCanUnlabeled",0.04},
-		{"FoodCanRusUnlabeled",0.05},
-		{"FoodCanRusStew",0.05},
-		{"FoodCanRusPork",0.05},
-		{"FoodCanRusPeas",0.05},
-		{"FoodCanRusMilk",0.04},
-		{"FoodCanRusCorn",0.05},
-		{"FoodPistachio",0.03},
-		{"FoodNutmix",0.04},
+		{"FoodCanBakedBeans",0.01},
+		{"FoodCanSardines",0.01},
+		{"FoodCanFrankBeans",0.01},
+		{"FoodCanPasta",0.01},
+		{"FoodCanUnlabeled",0.01},
+		{"FoodCanRusUnlabeled",0.01},
+		{"FoodCanRusStew",0.01},
+		{"FoodCanRusPork",0.01},
+		{"FoodCanRusPeas",0.01},
+		{"FoodCanRusMilk",0.01},
+		{"FoodCanRusCorn",0.01},
+		{"FoodPistachio",0.01},
+		{"FoodNutmix",0.01},
 	//special
 	//trash
 		{"ItemSodaCokeEmpty",0.05},

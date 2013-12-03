@@ -442,11 +442,9 @@ class CfgBuildingLoot {
 		//special
 			{"RPG18","weapon",0.02},
 			{"MetisLauncher","weapon",0.01},
-			{"Strela","weapon",0.01},
 			{"MineE","weapon",0.02},			
 		//mags special
 			{"ItemSandbag","magazine",0.05},
-			{"M_Strela_AA","magazine",0.01},
 			{"AT13","magazine",0.01},
 		//bags
 			{"DZ_British_ACU","object",0.02}, // 18
@@ -455,7 +453,7 @@ class CfgBuildingLoot {
 						
 		//multiple spawns
 			{"","militaryEast",0.60},
-			{"","trash",0.50},
+			{"","trash",0.80},
 			{"","generic",0.40}
 		};
 	};
@@ -539,7 +537,7 @@ class CfgBuildingLoot {
 			{"ACE_TacticalLadder_Pack","object",0.01},			
 		//multiple spawns
 			{"","militaryWest",0.60},
-			{"","trash",0.50},
+			{"","trash",0.80},
 			{"","generic",0.40}
 		};
 	};
@@ -597,19 +595,21 @@ class CfgBuildingLoot {
 		//special
 			{"AmmoBoxSmall_762","object",0.02},
 			{"WeaponHolder_ItemCamoNet","object",0.03},
-		//mags special
+			{"Strela","weapon",0.01},
+			//mags special
 			{"100Rnd_762x54_PK","magazine",0.01},
 			{"PipeBomb","magazine",0.01},
 			{"ACE_OSM4_M","magazine",0.01},
 			{"ACE_MON50_M","magazine",0.01},
 			{"BAF_ied_v1","magazine",0.01},
+			{"M_Strela_AA","magazine",0.01},
 		//bags
 			{"HC_Ruck_OD","object",0.02}, // 24
 			{"HC_Ruck_BLK","object",0.02}, // 24
 
 		//multiple spawns
 			{"","militaryEast",0.60},
-			{"","trash",0.50},
+			{"","trash",0.80},
 			{"","generic",0.40}
 		};
 	};
@@ -709,7 +709,7 @@ class CfgBuildingLoot {
 
 		//multiple spawns
 			{"","militaryWest",0.60},
-			{"","trash",0.50},
+			{"","trash",0.80},
 			{"","generic",0.40}
 		};
 	};

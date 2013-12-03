@@ -37,7 +37,7 @@ military[] = {
 		{"HandChemBlue",0.04},
 		{"HandChemRed",0.04},
 		{"ItemHeatPack",0.04},
-		{"FoodMRE",0.03}
+		{"FoodMRE",0.02}
 		//Attachments
 		//{"Attachment_AIM",0.03},
 		//{"Attachment_GL",0.03},
