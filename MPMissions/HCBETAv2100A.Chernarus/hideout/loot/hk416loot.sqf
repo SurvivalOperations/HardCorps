@@ -1,0 +1,2 @@
+[weaponTable, 3000.8, 239, "RH_hk416aim", "30Rnd_556x45_Stanag", 1, 2, 0.3] exec "hideout\loot\placeweapons.sqs";
+[ammoTable, 3000.8, 329, "RH_hk416sdeotech", "30Rnd_556x45_StanagSD", 1, 1, 0.3] exec "hideout\loot\placeweapons.sqs";
