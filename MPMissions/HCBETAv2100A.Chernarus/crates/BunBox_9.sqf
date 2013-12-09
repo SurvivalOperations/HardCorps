@@ -12,14 +12,16 @@ clearweaponcargo _ammo;
 
 //WEAPONS ONLY
 _ammo addweaponcargo ["RH_asvalk",1];
-_ammo addweaponcargo ["VIL_G3ZF",2];
+_ammo addweaponcargo ["RH_mk18dcsdeot",1];
+_ammo addweaponcargo ["RH_ScarAkacog",1];
 _ammo addweaponcargo ["ACE_P8",1];
 
 //AMMO ONLY
 _ammo addmagazinecargo ["RH_20Rnd_9x39_val_mag", 3];
-_ammo addmagazinecargo ["VIL_20Rnd_762x51_G3", 6];
-_ammo addmagazinecargo ["ACE_15Rnd_9x19_P8", 4];
-_ammo addmagazinecargo ["SmokeShell",4];
+_ammo addmagazinecargo ["30Rnd_762x39_AK47", 3];
+_ammo addmagazinecargo ["30Rnd_556x45_Stanag", 3];
+_ammo addmagazinecargo ["ACE_15Rnd_9x19_P8", 3];
+_ammo addmagazinecargo ["SmokeShell",2];
 _ammo addmagazinecargo ["ACE_Flashbang",2];
 
 //ITEMS ONLY
@@ -30,6 +32,5 @@ _ammo addweaponcargo ["ACE_SpottingScope", 1];
 
 
 //BACKPACKS ONLY
-_ammo addBackpackCargo ["DZ_Backpack_EP1",1];
 sleep 150000;
 };

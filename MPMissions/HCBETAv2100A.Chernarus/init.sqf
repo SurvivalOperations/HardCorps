@@ -24,14 +24,11 @@ dayz_spawnInfectedSite_clutterCutter = 0; // Infected Base Settings / 0 =  loot 
 
 //Load in compiled functions
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
-call compile preprocessFileLineNumbers "dayz_code\init\variables.sqf";//Initilize the Variables (IMPORTANT: Must happen very early)
 progressLoadingScreen 0.1;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";					//Initilize the publicVariable event handlers
 progressLoadingScreen 0.2;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";	//Functions used by CLIENT for medical
 progressLoadingScreen 0.4;
-call compile preprocessFileLineNumbers "dayz_code\init\compiles.sqf"; //Compile custom compiles
-call compile preprocessFileLineNumbers "dayz_code\init\settings.sqf"; //Initialize custom clientside settings
 call compile preprocessFileLineNumbers "randomloot.sqf";
 call compile preprocessFileLineNumbers "randommilbases.sqf";	
 call compile preprocessFileLineNumbers "compiles.sqf";					//Compile regular functions
@@ -153,6 +150,10 @@ if (dayz_REsec == 1) then {
 waitUntil {player == player};
 
 null = [] execVM "randommilbases.sqf";
+
+/*SET BULLET WIND CONDITIONS*/
+waitUntil {(!isNull player)};
+	script = [] execVM "ACE\bwind.sqf";
 
 /*---------
 | STAMINA | - Stamina Debug & Modifier scripts added by OG
