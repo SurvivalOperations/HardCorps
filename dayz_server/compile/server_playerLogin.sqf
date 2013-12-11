@@ -82,7 +82,7 @@ _randomSpot = false;
 
 //diag_log ("LOGIN RESULT: " + str(_primary));
 
-_key = format["CHILD:999:SELECT default_model FROM profile WHERE unique_id=%1:[]:",_playerID];
+_key = format["CHILD:999:SELECT default_model FROM profile WHERE unique_id='%1':[]:",_playerID];
 _secondary = _key call server_hiveReadWrite;
 
 //if ((_secondary select 0) == "CustomStreamStart") then {
