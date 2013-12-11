@@ -1,0 +1,10 @@
+titleCut ["", "BLACK OUT", 0.5];
+sleep 3;
+player setPos (getPos debug);
+disableUserInput true;
+player setpos (getpos hideoutE);
+sleep 5;
+disableUserInput false;
+soundE attachTo [player,[0,0,0]]; 
+titleCut ["", "BLACK IN", 0.5];
+};
