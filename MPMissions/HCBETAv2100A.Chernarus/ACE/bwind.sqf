@@ -1,0 +1,1 @@
+player setWind [15, 0, true];

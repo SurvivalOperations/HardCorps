@@ -12,10 +12,10 @@ Farm[] = {
 //drinks
 	{"ItemSodaLemonade",0.01},
 //food
-	{"FoodNutmix",0.03},
-	{"FoodCanBoneboy",0.01},
-	{"FoodCanRusStew",0.05},
-	{"FoodCanRusPork",0.05},
+	{"FoodNutmix",0.02},
+	{"FoodCanBoneboy",0.02},
+	{"FoodCanRusStew",0.02},
+	{"FoodCanRusPork",0.02},
 //special
 	{"equip_nails",0.06},
 //trash

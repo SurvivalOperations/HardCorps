@@ -1,0 +1,55 @@
+//defines is commented out due to the dayz_code description having it defined.
+#include "defines.hpp"
+#include "defines2.hpp"
+#include "build_recipe_dialog.hpp"
+#include "build_recipe_list_dialog.hpp"
+respawn = "BASE";
+respawndelay = 5;
+onLoadMission= "DayZ: Hard Corps";
+OnLoadIntro = "Welcome to Hell!";
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+disabledAI = true;
+disableChannels[] = {0,1,2,3,6};
+enableItemsDropping = 0;
+onPauseScript = "onPause.sqf"; 
+briefing = 0;
+debriefing = 0;
+ 
+loadScreen = "\z\addons\dayz_code\gui\loadingscreen.paa";
+ 
+class Header
+{
+        gameType = COOP;                        //DM, Team, Coop, ...
+        minPlayers = 1;                         //Min # of players the mission supports
+        maxPlayers = 99;                       //Max # of players the mission supports
+};
+
+class CfgSounds
+{
+        sounds[] = {};
+        class door
+        {
+                // how the sound is referred to in the editor (e.g. trigger effects)
+                name = "door";
+                // filename, volume, pitch
+                sound[] = {"Complexes\Sound\Door.ogg", 0.7, 1};
+                titles[] = {};
+        };
+        class outdoor
+        {
+                // how the sound is referred to in the editor (e.g. trigger effects)
+                name = "outdoor";
+                // filename, volume, pitch
+                sound[] = {"Complexes\Sound\outdoor.ogg", 1, 1};
+                titles[] = {};
+        };
+		class lift
+        {
+                // how the sound is referred to in the editor (e.g. trigger effects)
+                name = "lift";
+                // filename, volume, pitch
+                sound[] = {"fx\lift.ogg", 1, 1};
+                titles[] = {};
+        };        
+};
